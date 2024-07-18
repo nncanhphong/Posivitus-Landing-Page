@@ -1,1 +1,16 @@
-$Font : 'Space Grotesk';
+.landingPage
+{
+    navigationBar
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 100px;
+        gap: 206px;
+
+        width: 1440px;
+        height: 68px;
+
+    }
+}
