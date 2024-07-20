@@ -1,0 +1,30 @@
+.landingPage div.NavigationBar {
+  /*Auto layout*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 100px;
+  gap: 206px;
+  width: 1440px;
+  height: 68px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.landingPage div.NavigationBar div.Frame9 {
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px 0px;
+  gap: 10px;
+  margin: 0 auto;
+  width: 219.54px;
+  height: 56px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}/*# sourceMappingURL=header.css.map */
