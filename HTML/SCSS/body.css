@@ -9,7 +9,7 @@
   padding: 0px;
   background: #B9FF66;
   border-radius: 7px;
-  width: 265px;
+  width: 227px;
   height: 51px;
   flex: none;
   order: 0;
@@ -23,6 +23,10 @@
   padding: 0px 7px 0px 7px;
   gap: 10px;
   border-radius: 7px 0px 0px 0px;
+  opacity: 0px;
+  width: 251px;
+  height: 51px;
+  gap: 0px;
   opacity: 0px;
   font-family: Space Grotesk;
   font-size: 40px;
@@ -53,7 +57,8 @@
   align-items: flex-start;
   padding: 70px 60px;
   gap: 64px;
-  width: 1234px;
+  margin-top: 50px;
+  width: 1, 234px;
   height: 326px;
   /* Dark */
   background: #191A23;
@@ -82,6 +87,16 @@
   order: 0;
   flex-grow: 0;
   color: white;
+  /* Line 3 */
+  border: 1px solid #FFFFFF;
+  border-left-color: transparent;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  transform: rotate(0deg);
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 .caseStudiesBlock .caseStudy p {
   font-family: Space Grotesk;
@@ -104,4 +119,172 @@
   flex: none;
   order: 1;
   flex-grow: 0;
+}
+
+.Content2 {
+  border-style: solid;
+  border-color: transparent;
+}
+.Content2 .Heading {
+  /* Heading */
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  background-color: #B9FF66;
+  border-radius: 7px;
+  width: 362px;
+  height: 51px;
+  margin-top: 50px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.Content2 .Heading h2 {
+  position: absolute;
+  margin: 0%;
+  width: 412ppx;
+  height: 51px;
+  padding: 0px 7px 0px 7px;
+  gap: 10px;
+  border-radius: 7px 0px 0px 0px;
+  opacity: 0px;
+  width: 398px;
+  height: 51px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Space Grotesk;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 51.04px;
+  text-align: left;
+}
+.Content2 p {
+  position: absolute;
+  left: 30%;
+  top: 85%;
+  width: 292px;
+  height: 46px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Space Grotesk;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22.97px;
+  text-align: left;
+}
+
+.processBlock {
+  margin-top: 50px;
+}
+.processBlock .Card {
+  /* Card */
+  box-sizing: border-box;
+  /* Auto layout */
+  width: 1, 234px;
+  height: 279px;
+  padding: 41px 60px 41px 60px;
+  gap: 30px;
+  border-radius: 45px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px;
+  /* Green */
+  background: #B9FF66;
+  border: 1px solid #191A23;
+  box-shadow: 0px 5px 0px #191A23;
+  border-radius: 45px;
+}
+.processBlock .Card .Content {
+  position: absolute;
+  margin-top: -3%;
+  width: 702px;
+  height: 77px;
+  gap: 25px;
+  opacity: 0px;
+}
+.processBlock .Card .Content .Label p#number {
+  position: absolute;
+  margin-top: 5%;
+  font-family: Space Grotesk;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 76.56px;
+  text-align: left;
+}
+.processBlock .Card .Content .Label p#text {
+  position: absolute;
+  margin-top: 8%;
+  left: 10%;
+  font-family: Space Grotesk;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 38.28px;
+  text-align: left;
+}
+.processBlock .Card .Content .plusIcon {
+  /* Plus icon */
+  width: 58px;
+  height: 58px;
+  margin-left: 200%;
+  margin-top: 5%;
+}
+.processBlock .Card .Content .plusIcon button#Plus {
+  /* + */
+  position: absolute;
+  left: 187.78%;
+  right: 29.17%;
+  top: 82%;
+  bottom: 29.17%;
+  border: none;
+  background-color: transparent;
+  z-index: -1;
+}
+.processBlock .Card .Content .plusIcon button#Subtraction {
+  /* - */
+  position: absolute;
+  left: 188.22%;
+  right: 29.17%;
+  top: 87%;
+  bottom: 29.17%;
+  border: none;
+  background-color: transparent;
+  z-index: 1;
+}
+.processBlock .Card .Content .plusIcon button#Frame {
+  /* o */
+  position: absolute;
+  left: 185.38%;
+  right: 29.17%;
+  top: 60%;
+  bottom: 29.17%;
+  border: none;
+  background-color: transparent;
+  z-index: 0;
+}
+.processBlock .Card .Content hr {
+  color: black;
+  background: black;
+  border: 0;
+  height: 1px;
+  size: 1%;
+  margin: 5% 0 0 0;
+  width: 1114px;
+}
+.processBlock .Card .Content p#information {
+  width: 1114px;
+  height: 60px;
+  margin-top: 5%;
+  /* p */
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
 }/*# sourceMappingURL=body.css.map */
