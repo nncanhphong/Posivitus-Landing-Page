@@ -1,6 +1,10 @@
 .content4 {
-  border-style: solid;
+  border-style: none;
   border-color: transparent;
+  position: absolute;
+  left: 100px;
+  width: 1440px;
+  height: 51px;
 }
 .content4 .heading {
   display: flex;
@@ -41,94 +45,91 @@
 }
 
 .testimonialsBlock {
-  /* Testimonials block */
   width: 1240px;
   height: 625px;
+  position: absolute;
   left: 100px;
-  top: 6033px;
-  /* Dark */
+  top: 80px;
   background: #191A23;
   border-radius: 45px;
 }
 .testimonialsBlock .Testimonials {
-  /* Auto layout */
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0px;
   gap: 124px;
+  background-color: #F3F3F3;
   position: absolute;
   width: 1918px;
   height: 473px;
   left: -346px;
-  top: 84px;
+  top: 130px;
+  mix-blend-mode: screen;
 }
 .testimonialsBlock .Testimonials .Cards {
-  /* Cards */
-  /* Auto layout */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
   padding: 0px;
-  gap: 50px;
-  width: 1918px;
-  height: 335px;
-  /* Inside auto layout */
+  width: Hug 200px px;
+  height: Hug 266px px;
+  gap: 20px;
+  opacity: 0px;
   flex: none;
   order: 0;
   flex-grow: 0;
 }
-.testimonialsBlock .Testimonials .Cards .Card {
-  /* Card */
-  /* Auto layout */
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  padding: 0px;
-  gap: 20px;
-  margin: 0 auto;
-  width: 606px;
-  height: 335px;
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  /* Polygon 1 */
+.testimonialsBlock .Testimonials .Cards .Card .Bubble {
   box-sizing: border-box;
-  width: 606px;
-  height: 266px;
-  gap: 0px;
-  border: 1px 0px 0px 0px;
-  opacity: 0px;
-  left: 115px;
-  top: 266px;
   background: #21241D;
-  border: 1px solid #FFFFFF;
-  transform: rotate(-360dg);
+  transform: rotate(0deg);
   /* Rectangle 55 */
-  box-sizing: border-box;
   width: 606px;
   height: 237.95px;
   left: 0px;
   top: 0px;
   background: #21241D;
-  border: 2px solid #FFFFFF;
+  border: 2px solid rgb(185, 255, 102);
   border-radius: 45px;
 }
+.testimonialsBlock .Testimonials .Cards .Card .Bubble p {
+  position: relative;
+  width: 502px;
+  height: 138px;
+  left: 52px;
+  top: 25px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22.97px;
+  text-align: left;
+  color: white;
+}
+.testimonialsBlock .Testimonials .Cards .Card .Text h4 {
+  width: 526px;
+  height: 49px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Space Grotesk;
+  font-size: 20px;
+  font-weight: 500px;
+  line-height: 25.52px;
+  text-align: left;
+  color: #B9FF66;
+}
 .testimonialsBlock .Testimonials .Cards .Card p {
-  /* Bubble */
-  width: 606px;
-  height: 266px;
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  font-family: Space Grotesk;
+  font-size: 18px;
+  font-weight: 400ps;
+  line-height: 22.97px;
+  text-align: left;
+  position: absolute;
+  top: 300px;
 }
 .testimonialsBlock .Testimonials .Navigation {
-  /* Navigation */
-  /* Auto layout */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -141,4 +142,446 @@
   flex: none;
   order: 1;
   flex-grow: 0;
+}
+.testimonialsBlock .Testimonials .Navigation button {
+  background: rgb(25, 26, 35);
+  border: none;
+}
+
+.content5 {
+  border-style: none;
+  border-color: transparent;
+  position: absolute;
+  left: 100px;
+  height: 51px;
+  top: 750px;
+  width: 1440px;
+  background-color: blue;
+}
+.content5 .heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 7px;
+  gap: 10px;
+  width: 255px;
+  height: 51px;
+  background: #B9FF66;
+  border-radius: 7px;
+}
+.content5 .heading h2 {
+  width: Hug 255px px;
+  height: Hug 51px px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 51px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.content5 p {
+  font-family: Space Grotesk;
+  font-size: 18px;
+  line-height: 22.97px;
+  width: 410px;
+  height: 46px;
+  gap: 0px;
+  opacity: 0px;
+  position: absolute;
+  top: 5px;
+  left: 300px;
+}
+
+.contactBlock {
+  position: absolute;
+  background-color: #ca1ad3;
+  width: 1240px;
+  position: absolute;
+  top: 850px;
+  left: 100px;
+}
+.contactBlock .blockWithIllustration {
+  border: solid;
+  background: rgb(243, 243, 243);
+  width: 1, 240px;
+  height: 773px;
+  padding: 60px 100px 80px 100px;
+  gap: 10px;
+  border-radius: 45px;
+  opacity: 0px;
+}
+.contactBlock .blockWithIllustration .Form {
+  border: solid;
+  width: 556px;
+  height: 633px;
+}
+.contactBlock .blockWithIllustration .Form .radioButtons {
+  border: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  gap: 40px;
+  width: 400px;
+  height: 30px;
+}
+.contactBlock .blockWithIllustration .Form .radioButtons .sayHi {
+  border: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+  width: 150px;
+  height: 28px;
+}
+.contactBlock .blockWithIllustration .Form .radioButtons .getAQuote {
+  border: transparent;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  width: 150px;
+  height: 28px;
+}
+.contactBlock .blockWithIllustration .Form input[type=radio] {
+  width: 28px;
+  height: 28px;
+  gap: 0px;
+  border-radius: 29px;
+  cursor: pointer;
+  opacity: 0px;
+  color: #B9FF66;
+  vertical-align: middle;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/check_radio_sheet.png) -38px top no-repeat;
+}
+.contactBlock .blockWithIllustration .Fields {
+  position: absolute;
+  border: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 25px;
+  width: 556px;
+  height: 457px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.contactBlock .blockWithIllustration .Fields .Field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 5px;
+  width: 556px;
+  height: 92px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.contactBlock .blockWithIllustration .Fields .Field p {
+  position: relative;
+  top: 20px;
+  width: 44px;
+  height: 28px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Space Grotesk;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+}
+.contactBlock .blockWithIllustration .Fields .Field input[id=Name], .contactBlock .blockWithIllustration .Fields .Field input[id=Email] {
+  width: 556px;
+  height: 59px;
+  padding: 18px 30px 18px 30px;
+  gap: 0px;
+  border-radius: 14px;
+  opacity: 0px;
+}
+.contactBlock .blockWithIllustration .Fields .Field input[id=Message] {
+  position: absolute;
+  top: 280px;
+  width: 556px;
+  height: 190px;
+  padding: 18px 30px 18px 30px;
+  gap: 10px;
+  border-radius: 14px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+.contactBlock .blockWithIllustration .Fields .Field ::-moz-placeholder {
+  position: absolute;
+  top: 17px;
+  width: 100px;
+  height: 23px;
+  font-family: Space Grotesk;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22.97px;
+  text-align: left;
+  color: rgb(137, 137, 137);
+}
+.contactBlock .blockWithIllustration .Fields .Field ::placeholder {
+  position: absolute;
+  top: 17px;
+  width: 100px;
+  height: 23px;
+  font-family: Space Grotesk;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22.97px;
+  text-align: left;
+  color: rgb(137, 137, 137);
+}
+.contactBlock .blockWithIllustration .Button input[type=button] {
+  position: absolute;
+  top: 625px;
+  width: 556px;
+  height: 68px;
+  padding: 20px 35px 20px 35px;
+  gap: 10px;
+  border-radius: 14px;
+  opacity: 0px;
+  background: rgb(25, 26, 35);
+  text-align: center;
+  color: white;
+}
+.contactBlock .Illustration {
+  border: solid;
+  position: absolute;
+  width: 649.86px;
+  height: 635px;
+  top: 70px;
+  left: 870px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.footerBlock {
+  width: Hug 1, 441px px;
+  height: Hug 514px px;
+  background-color: #B9FF66;
+  padding: 0px 100px 0px 100px;
+  gap: 10px;
+  opacity: 0px;
+  position: absolute;
+  top: 1700px;
+  width: 1440px;
+}
+.footerBlock .Footer {
+  width: 1, 241px;
+  height: 514px;
+  padding: 55px 60px 50px 60px;
+  gap: 50px;
+  border-radius: 45px 45px 0px 0px;
+  opacity: 0px;
+  background: rgb(25, 26, 35);
+}
+.footerBlock .Footer .navigationAndContacts {
+  position: relative;
+  color: white;
+  top: 0px;
+}
+.footerBlock .Footer .navigationAndContacts .Elements .Logo img {
+  position: absolute;
+  width: 180px;
+  height: 29px;
+  gap: 0px;
+  opacity: 0px;
+}
+.footerBlock .Footer .navigationAndContacts .Elements .Navigation {
+  width: 501px;
+  height: 23px;
+  position: absolute;
+  left: 400px;
+  top: 0;
+  /* Navigation */
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.footerBlock .Footer .navigationAndContacts .Elements .Navigation u {
+  font-family: Space Grotesk;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22.97px;
+  text-align: left;
+  color: white;
+}
+.footerBlock .Footer .navigationAndContacts .Elements .socialIcons .socialIcon_linkedin {
+  width: 40px;
+  position: absolute;
+  left: 1000px;
+  top: 0;
+}
+.footerBlock .Footer .navigationAndContacts .Elements .socialIcons .socialIcon_facebook {
+  width: 40px;
+  position: absolute;
+  left: 1045px;
+  top: 0;
+}
+.footerBlock .Footer .navigationAndContacts .Elements .socialIcons .socialIcon_twitter {
+  width: 40px;
+  position: absolute;
+  left: 1090px;
+  top: 0;
+}
+.footerBlock .Footer .navigationAndContacts .Frame26 {
+  position: relative;
+  top: 80px;
+  width: 1, 120px;
+  height: 185px;
+  gap: 154px;
+  opacity: 0px;
+}
+.footerBlock .Footer .navigationAndContacts .Frame26 .contactUs .Heading {
+  width: 126px;
+  height: 26px;
+  padding: 0px 7px 0px 7px;
+  gap: 10px;
+  border-radius: 7px;
+  opacity: 0px;
+  background: rgb(185, 255, 102);
+}
+.footerBlock .Footer .navigationAndContacts .Frame26 .contactUs .Heading h4 {
+  font-family: Space Grotesk;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25.52px;
+  text-align: left;
+  color: #191A23;
+}
+.footerBlock .Footer .navigationAndContacts .Frame26 .contactUs .Info {
+  border: transparent;
+  width: 332px;
+  height: 132px;
+  gap: 20px;
+  opacity: 0px;
+  position: relative;
+  top: 15px;
+}
+.footerBlock .Footer .navigationAndContacts .Frame26 .contactUs .Info p {
+  font-family: Space Grotesk;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22.97px;
+  text-align: left;
+}
+.footerBlock .Footer .navigationAndContacts .Frame26 .subscriptionBlock {
+  position: absolute;
+  left: 485px;
+  top: 0;
+  /* Subscription block */
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 58px 40px;
+  gap: 20px;
+  width: 634px;
+  height: 184px;
+  background: #292A32;
+  border-radius: 14px;
+}
+.footerBlock .Footer .navigationAndContacts .Frame26 .subscriptionBlock input[type=text], .footerBlock .Footer .navigationAndContacts .Frame26 .subscriptionBlock select {
+  width: 285px;
+  height: 67px;
+  padding: 22px, 35px, 22px, 35px;
+  margin: 8px 0;
+  display: inline-block;
+  border-radius: 14px;
+  box-sizing: border-box;
+}
+.footerBlock .Footer .navigationAndContacts .Frame26 .subscriptionBlock ::-moz-placeholder {
+  position: absolute;
+  width: 45px;
+  height: 23px;
+  gap: 0px;
+  opacity: 0px;
+  opacity: 1;
+  left: 40px;
+  font-family: Space Grotesk;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22.97px;
+  text-align: left;
+}
+.footerBlock .Footer .navigationAndContacts .Frame26 .subscriptionBlock ::placeholder {
+  position: absolute;
+  width: 45px;
+  height: 23px;
+  gap: 0px;
+  opacity: 0px;
+  opacity: 1;
+  left: 40px;
+  font-family: Space Grotesk;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22.97px;
+  text-align: left;
+}
+.footerBlock .Footer .navigationAndContacts .Frame26 .subscriptionBlock input[type=button] {
+  position: absolute;
+  width: 249px;
+  height: 68px;
+  padding: 20px 35px 20px 35px;
+  gap: 10px;
+  border-radius: 14px;
+  opacity: 0px;
+  left: 350px;
+  top: 65px;
+  background-color: #B9FF66;
+  text-align: center;
+}
+.footerBlock .Footer .lineAndText {
+  border-top: solid white;
+  position: relative;
+  width: 1, 120px;
+  height: 78px;
+  gap: 50px;
+  opacity: 0px;
+  top: 150px;
+}
+.footerBlock .Footer .lineAndText .Text {
+  position: absolute;
+  color: white;
+}
+.footerBlock .Footer .lineAndText .Text .text1 {
+  position: absolute;
+  top: 30px;
+  width: 324px;
+  height: 28px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Space Grotesk;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+}
+.footerBlock .Footer .lineAndText .Text .text2 {
+  position: absolute;
+  font-family: Space Grotesk;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  width: 121px;
+  height: 28px;
+  gap: 0px;
+  opacity: 0px;
+  top: 30px;
+  left: 350px;
 }/*# sourceMappingURL=footer.css.map */
