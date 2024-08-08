@@ -1,164 +1,140 @@
 div.landingPage {
   width: 100%;
+  height: 100%;
 }
-div.landingPage .navigationBar {
-  /*Item Size*/
-  width: inherit;
-  width: 1440px;
-  height: 68px;
+div.landingPage div.navigationBar {
+  width: 100%;
+  height: 20%;
   /*Item Configuration*/
   align-items: center;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  gap: 206px;
-  padding: 0px 100px;
+  gap: 10%;
+  padding: 2% 5% 2% 0%;
   /*Display for test*/
+  background-color: red;
   flex: none;
   order: 0;
   flex-grow: 0;
 }
-div.landingPage .navigationBar div.Frame9 {
+div.landingPage div.navigationBar div.Frame9 {
+  background-color: yellow;
   /*Size*/
-  width: 219.54px;
-  height: 56px;
+  width: 20%;
+  height: 100%;
   /*Display*/
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  margin: 0 auto;
-  padding: 10px 0px;
-  gap: 10px;
+  padding: 0% 0% 0% 5%;
   flex: none;
   order: 0;
   flex-grow: 0;
 }
-div.landingPage .navigationBar div.Frame9 .Icon {
-  position: absolute;
-  left: 0%;
-  right: 83.6%;
-  top: 0%;
-  bottom: 0%;
+div.landingPage div.navigationBar div.Frame9 .Logo img {
+  width: 100%;
+  height: 100%;
+  fill: none;
 }
-div.landingPage .navigationBar div.Frame9 .Vector {
-  position: absolute;
-  left: 0.97%;
-  right: 1.11%;
-  top: 0.97%;
-  bottom: 1.11%;
-  background: #000000;
-}
-div.landingPage .navigationBar div.Frame9 .Positivus {
-  position: absolute;
-  left: 22.28%;
-  right: 0%;
-  top: 8.33%;
-  bottom: 12.33%;
-  background: #000000;
-}
-div.landingPage .navigationBar div.Frame10 {
+div.landingPage div.navigationBar div.Frame10 {
+  background-color: green;
   /*Size*/
-  margin: 0 auto;
-  width: 811px;
-  height: 68px;
+  width: 70%;
+  height: 100%;
   /*Display*/
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 0px;
-  gap: 40px;
   flex: none;
   order: 1;
   flex-grow: 0;
 }
-div.landingPage .navigationBar div.Frame10 button {
+div.landingPage div.navigationBar div.Frame10 ul {
+  background-color: rebeccapurple;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0%;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  color: #000000;
+  text-align: center;
+}
+div.landingPage div.navigationBar div.Frame10 ul li {
+  list-style-type: none;
+  width: 25%;
+  height: inherit;
+  margin: 2% 1% 1% 2%;
+  font-size: 3vh;
+  background-color: palevioletred;
+}
+div.landingPage div.navigationBar div.Frame10 ul button {
   /*Size*/
-  width: 231px;
-  height: 68px;
+  width: 40%;
+  height: 10vh;
   /*Style*/
   box-sizing: border-box;
   border: 1px solid #191a23;
   border-radius: 14px;
-  /*Display*/
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 20px 35px;
-  gap: 10px;
-  flex: none;
-  order: 5;
-  flex-grow: 0;
-}
-div.landingPage .navigationBar div.Frame10 button Label {
-  /*Size*/
-  width: 161px;
-  height: 28px;
-  /*Style*/
-  font-family: "Space Grotesk";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  text-align: center;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  font-size: 3vh;
 }
 div.landingPage .Header {
+  background-color: yellow;
   /*Size*/
   width: 100%;
-  height: 515px;
+  height: 40%;
   /*Display*/
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-self: start;
-  padding: 0px 100px;
-  gap: 50px;
+  align-self: flex-start;
+  gap: 10%;
   flex: none;
   order: 1;
   flex-grow: 0;
-  /*Test*/
 }
 div.landingPage .Header .Frame13 {
+  background-color: purple;
   /*Size*/
-  margin: 0 auto;
-  width: 531px;
-  height: 481px;
+  width: 35%;
+  height: 40%;
   /*Display*/
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
-  gap: 35px;
+  margin: 0% 0% 0% 5%;
+  gap: 20%;
   flex: none;
   flex-grow: 0;
   order: 0;
 }
 div.landingPage .Header .Frame13 h1 {
-  font-family: "Space Grotesk";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 60px;
-  line-height: 77px;
+  width: 100%;
+  height: 40%;
+  text-align: left;
+  font-size: 9vh;
+  line-height: 10vh;
   color: #000000;
+  margin: 0% 0% 10% 0%;
   flex: none;
   order: 0;
   flex-grow: 0;
-  width: 531px;
-  height: 231px;
 }
 div.landingPage .Header .Frame13 p {
   /*Size*/
-  width: 498px;
-  height: 112px;
+  width: 100%;
+  height: 30%;
   /*Style*/
   font-family: "Space Grotesk";
   font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 3vh;
+  line-height: 5vh;
+  margin: 0% 0% 10% 0%;
   color: #000000;
   flex: none;
   order: 1;
@@ -166,14 +142,14 @@ div.landingPage .Header .Frame13 p {
 }
 div.landingPage .Header .Frame13 button {
   /*Size*/
-  width: 264px;
-  height: 68px;
+  width: 60%;
+  height: 20%;
   /*Display*/
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  padding: 20px 35px;
-  gap: 10px;
+  align-items: center;
+  padding: 3vh 3vh 3vh 3vh;
+  gap: 1%;
   /*Style*/
   border-radius: 14px;
   background: #191a23;
@@ -183,14 +159,13 @@ div.landingPage .Header .Frame13 button {
 }
 div.landingPage .Header .Frame13 button label {
   /*Size*/
-  width: 194px;
-  height: 28px;
+  width: 100%;
+  height: 100%;
   /*Style*/
   font-family: "Space Grotesk";
   font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 3vh;
+  line-height: 3vh;
   text-align: center;
   color: white;
   flex: none;
@@ -199,36 +174,39 @@ div.landingPage .Header .Frame13 button label {
 }
 div.landingPage .Header .Illustration {
   /*Size*/
-  width: 600.46px;
-  height: 515px;
+  width: 40%;
+  height: 40%;
   /*Display*/
-  margin: auto;
+  margin: 0% 5% 0% 0%;
   flex: none;
   order: 1;
   flex-grow: 0;
 }
+div.landingPage .Header .Illustration img {
+  width: 100%;
+  height: 100%;
+}
 div.landingPage .Logotypes {
-  margin-top: 70px;
+  background-color: blanchedalmond;
   /*Size*/
-  size: 1440px;
-  height: 48px;
+  size: 100%;
+  height: 10%;
   /*Display*/
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 0px 100px;
-  gap: 95px;
+  gap: 5%;
+  margin: 4% 5% 4% 5%;
   order: none;
   order: 2;
   flex-grow: 0;
 }
 div.landingPage .Logotypes svg {
   /*Size*/
-  width: 124.11px;
-  height: 48px;
+  width: 10%;
+  height: 100%;
   /*Display*/
-  margin: 0 auto;
   mix-blend-mode: luminosity;
   flex: none;
   order: 0;
@@ -239,73 +217,58 @@ div.Services {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 0px 100px;
-  gap: 20px;
-  position: absolute;
-  width: 1440px;
-  height: 51px;
-  left: 0px;
-  top: 800px;
+  width: 100%;
+  height: 10%;
+  gap: 5%;
+  margin: 0% 5% 0% 5%;
   /*Debug*/
+  background-color: turquoise;
 }
 div.Services .Heading {
   /*Size*/
-  width: 178px;
-  height: 51px;
-  /*Display*/
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
+  width: 15%;
+  height: 100%;
   flex: none;
   order: 0;
   flex-grow: 0;
 }
 div.Services .Heading Label {
   /*Size*/
-  width: 178px;
-  height: 51px;
-  /*Display*/
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px 7px;
-  gap: 10px;
+  width: 100%;
+  height: 100%;
   /*Background*/
   background: #B9FF66;
-  border-radius: 7px;
+  border-radius: 2vh;
+  text-align: center;
   flex: none;
   order: 0;
   flex-grow: 0;
 }
 div.Services .Heading Label h2 {
   /*Size*/
-  width: 164px;
-  height: 51px;
+  width: 100%;
+  height: 100%;
   font-family: "Space Grotesk";
   font-style: normal;
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 51px;
+  font-size: 5vh;
+  line-height: 10vh;
   color: #000000;
   flex: none;
   order: 0;
   flex-grow: 0;
 }
 div.Services p {
+  background-color: rosybrown;
   /*Size*/
-  width: 580px;
-  height: 46px;
+  width: 40%;
+  height: 100%;
   /*Style*/
   font-family: "Space Grotesk";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 23px;
+  font-size: 3vh;
+  line-height: 5vh;
   color: #000000;
-  display: flex;
-  flex-direction: row;
-  align-self: flex-start;
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -315,801 +278,9 @@ div.servicesBlock {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
-  gap: 40px;
-  position: absolute;
-  width: 1440px;
-  height: 1010px;
-  left: 0px;
-  top: 950px;
-}
-div.servicesBlock div.cardSection {
-  /*Display*/
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px 100px;
-  gap: 40px;
-  /*Size*/
-  width: 1440px;
-  height: 310px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-div.servicesBlock div.cardSection div.Card1 {
-  background-color: yellow;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 50px;
-  gap: 77px;
-  width: 600px;
-  height: 310px;
-  background: #f3f3f3;
-  border: 1px solid #191a23;
-  box-shadow: 0px 5px 0px #191a23;
-  border-radius: 45px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-div.servicesBlock div.cardSection div.Card1 .headingAndLink {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 93px;
-  margin: 0 auto;
-  width: 221px;
-  height: 210px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-div.servicesBlock div.cardSection div.Card1 .headingAndLink .Heading {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  width: 221px;
-  height: 76px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-div.servicesBlock div.cardSection div.Card1 .headingAndLink .Heading h3 {
-  /*Size*/
-  width: 207px;
-  height: 38px;
-  /*Style*/
-  font-family: "Space Grotesk";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 30px;
-  line-height: 38px;
-  color: #000000;
-  background: #B9FF66;
-  border-radius: 7px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-div.servicesBlock div.cardSection div.Card1 .headingAndLink .Link {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0px;
-  gap: 15px;
-  width: 164px;
-  height: 41px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-div.servicesBlock div.cardSection div.Card1 .headingAndLink .Link svg {
-  width: 41px;
-  height: 41px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-div.servicesBlock div.cardSection div.Card1 .headingAndLink .Link p {
-  width: 108px;
-  height: 28px;
-  font-family: "Space Grotesk";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  margin-top: 20px;
-  color: #000000;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-div.servicesBlock div.cardSection div.Card1 .Illustration img {
-  margin: 0 auto;
-  width: 210px;
-  height: 170px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-div.servicesBlock div.cardSection div.Card2 {
-  /*Display*/
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 50px;
-  gap: 77px;
-  background: #B9FF66;
-  /*Dark*/
-  border: 1px solid #191a23;
-  box-shadow: 0px 5px 0px #191a23;
-  border-radius: 45px;
-  /*Size*/
-  width: 600px;
-  height: 310px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-div.servicesBlock div.cardSection div.Card2 .headingAndLink {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 93px;
-  margin: 0 auto;
-  width: 209px;
-  height: 210px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-div.servicesBlock div.cardSection div.Card2 .headingAndLink .Heading {
-  /*Display*/
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  /*Size*/
-  width: 209px;
-  height: 76px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-div.servicesBlock div.cardSection div.Card2 .headingAndLink .Heading h3 {
-  /*Display*/
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px 7px;
-  gap: 10px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  background: #FFFFFF;
-  border-radius: 7px;
-  /*Size*/
-  width: 209px;
-  height: 38px;
-}
-div.servicesBlock div.cardSection div.Card2 .headingAndLink .Link {
-  /*Display*/
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0px;
-  gap: 15px;
-  order: none;
-  order: 1;
-  flex-grow: 0;
-  /*Size*/
-  width: 164px;
-  height: 41px;
-}
-div.servicesBlock div.cardSection div.Card2 .headingAndLink .Link svg {
-  width: 41px;
-  height: 41px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-div.servicesBlock div.cardSection div.Card2 .headingAndLink .Link p {
-  width: 108px;
-  height: 28px;
-  font-family: "Space Grotesk";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  margin-top: 20px;
-  color: #000000;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-div.servicesBlock div.cardSection div.Card2 .Illustration img {
-  /*Display*/
-  margin: 0 auto;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-  /*Size*/
-  width: 210px;
-  height: 147.62px;
-}
-div.servicesBlock div.cardSection div.Card3 {
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 50px;
-  gap: 77px;
-  width: 600px;
-  height: 310px;
-  background: #191a23;
-  border: 1px solid #191a23;
-  box-shadow: 0px 5px 0px #191a23;
-  border-radius: 45px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-div.servicesBlock div.cardSection div.Card3 .headingAndLink {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 93px;
-  margin: 0 auto;
-  width: 221px;
-  height: 210px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-div.servicesBlock div.cardSection div.Card3 .headingAndLink .Heading {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  width: 221px;
-  height: 76px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-div.servicesBlock div.cardSection div.Card3 .headingAndLink .Heading h3 {
-  /*Size*/
-  width: 207px;
-  height: 38px;
-  /*Style*/
-  font-family: "Space Grotesk";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 30px;
-  line-height: 38px;
-  color: #000000;
-  background: #FFFFFF;
-  border-radius: 7px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-div.servicesBlock div.cardSection div.Card3 .headingAndLink div.Link {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0px;
-  gap: 15px;
-  width: 164px;
-  height: 41px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-div.servicesBlock div.cardSection div.Card3 .headingAndLink div.Link svg {
-  width: 41px;
-  height: 41px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-div.servicesBlock div.cardSection div.Card3 .headingAndLink div.Link p {
-  /*Size*/
-  width: 108px;
-  height: 28px;
-  /*Style*/
-  font-family: "Space Grotesk";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  color: #FFFFFF;
-  margin-top: 20px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-div.servicesBlock div.cardSection div.Card3 .Illustration img {
-  margin: 0 auto;
-  width: 210px;
-  height: 170px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-div.servicesBlock div.cardSection div.Card4 {
-  /*Display*/
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 50px;
-  gap: 77px;
-  background: #f3f3f3;
-  /*Dark*/
-  border: 1px solid #191a23;
-  box-shadow: 0px 5px 0px #191a23;
-  border-radius: 45px;
-  /*Size*/
-  width: 600px;
-  height: 310px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-div.servicesBlock div.cardSection div.Card4 .headingAndLink {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 93px;
-  margin: 0 auto;
-  width: 209px;
-  height: 210px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-div.servicesBlock div.cardSection div.Card4 .headingAndLink .Heading {
-  /*Display*/
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  /*Size*/
-  width: 209px;
-  height: 76px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-div.servicesBlock div.cardSection div.Card4 .headingAndLink .Heading h3 {
-  /*Display*/
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px 7px;
-  gap: 10px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  background: #B9FF66;
-  border-radius: 7px;
-  /*Size*/
-  width: 209px;
-  height: 38px;
-}
-div.servicesBlock div.cardSection div.Card4 .headingAndLink .Heading h3 svg {
-  width: 41px;
-  height: 41px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-div.servicesBlock div.cardSection div.Card4 .headingAndLink .Heading h3 p {
-  width: 108px;
-  height: 28px;
-  font-family: "Space Grotesk";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  color: #000000;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-div.servicesBlock div.cardSection div.Card4 .headingAndLink .Link {
-  /*Display*/
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0px;
-  gap: 15px;
-  order: none;
-  order: 1;
-  flex-grow: 0;
-  /*Size*/
-  width: 164px;
-  height: 41px;
-}
-div.servicesBlock div.cardSection div.Card4 .headingAndLink .Link svg {
-  width: 41px;
-  height: 41px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-div.servicesBlock div.cardSection div.Card4 .headingAndLink .Link p {
-  width: 108px;
-  height: 28px;
-  font-family: "Space Grotesk";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  margin-top: 20px;
-  color: #000000;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-div.servicesBlock div.cardSection div.Card4 .Illustration img {
-  /*Display*/
-  margin: 0 auto;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-  /*Size*/
-  width: 210px;
-  height: 147.62px;
-}
-div.servicesBlock div.cardSection div.Card5 {
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 50px;
-  gap: 77px;
-  width: 600px;
-  height: 310px;
-  background: #B9FF66;
-  border: 1px solid #191a23;
-  box-shadow: 0px 5px 0px #191a23;
-  border-radius: 45px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-div.servicesBlock div.cardSection div.Card5 .headingAndLink {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 93px;
-  margin: 0 auto;
-  width: 221px;
-  height: 210px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-div.servicesBlock div.cardSection div.Card5 .headingAndLink .Heading {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  width: 221px;
-  height: 76px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-div.servicesBlock div.cardSection div.Card5 .headingAndLink .Heading h3 {
-  /*Size*/
-  width: 207px;
-  height: 38px;
-  /*Style*/
-  font-family: "Space Grotesk";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 30px;
-  line-height: 38px;
-  background: #f3f3f3;
-  color: #000000;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-div.servicesBlock div.cardSection div.Card5 .headingAndLink .Link {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0px;
-  gap: 15px;
-  width: 164px;
-  height: 41px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-div.servicesBlock div.cardSection div.Card5 .headingAndLink .Link svg {
-  width: 41px;
-  height: 41px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-div.servicesBlock div.cardSection div.Card5 .headingAndLink .Link p {
-  width: 108px;
-  height: 28px;
-  font-family: "Space Grotesk";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  margin-top: 20px;
-  color: #000000;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-div.servicesBlock div.cardSection div.Card5 .Illustration img {
-  margin: 0 auto;
-  width: 210px;
-  height: 170px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-div.servicesBlock div.cardSection div.Card6 {
-  /*Display*/
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 50px;
-  gap: 77px;
-  background: #000000;
-  /*Dark*/
-  border: 1px solid #191a23;
-  box-shadow: 0px 5px 0px #191a23;
-  border-radius: 45px;
-  /*Size*/
-  width: 600px;
-  height: 310px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-div.servicesBlock div.cardSection div.Card6 .headingAndLink {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 93px;
-  margin: 0 auto;
-  width: 209px;
-  height: 210px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-div.servicesBlock div.cardSection div.Card6 .headingAndLink .Heading {
-  /*Display*/
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  /*Size*/
-  width: 209px;
-  height: 76px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-div.servicesBlock div.cardSection div.Card6 .headingAndLink .Heading h3 {
-  /*Display*/
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px 7px;
-  gap: 10px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  background: #B9FF66;
-  border-radius: 7px;
-  /*Size*/
-  width: 209px;
-  height: 38px;
-}
-div.servicesBlock div.cardSection div.Card6 .headingAndLink .Link {
-  /*Display*/
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0px;
-  gap: 15px;
-  order: none;
-  order: 1;
-  flex-grow: 0;
-  /*Size*/
-  width: 164px;
-  height: 41px;
-}
-div.servicesBlock div.cardSection div.Card6 .headingAndLink .Link svg {
-  width: 41px;
-  height: 41px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-div.servicesBlock div.cardSection div.Card6 .headingAndLink .Link p {
-  width: 108px;
-  height: 28px;
-  font-family: "Space Grotesk";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  margin-top: 20px;
-  color: #FFFFFF;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-div.servicesBlock div.cardSection div.Card6 .Illustration img {
-  /*Display*/
-  margin: 0 auto;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-  /*Size*/
-  width: 210px;
-  height: 147.62px;
-}
-
-div.ctaBlock {
-  position: absolute;
-  width: 1440px;
-  height: 394px;
-  left: 0px;
-  top: 2050px;
-}
-div.ctaBlock div.CTA {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0px 100px;
-  position: absolute;
-  width: 1440px;
-  height: 394px;
-  left: 0px;
-  top: 0px;
-}
-div.ctaBlock div.CTA .Card {
-  /* Auto layout */
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0px 60px;
-  gap: 275px;
-  width: 1240px;
-  height: 347px;
-  /* Grey */
-  background: #F3F3F3;
-  border-radius: 45px;
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 0px 10px;
-}
-div.ctaBlock div.CTA .Card .textAndButton {
-  /* Auto layout */
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 26px;
-  width: 500px;
-  height: 227px;
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-div.ctaBlock div.CTA .Card .textAndButton h3 {
-  width: 500px;
-  height: 38px;
-  /* h3 */
-  font-family: "Space Grotesk";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 30px;
-  line-height: 38px;
-  color: #000000;
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-div.ctaBlock div.CTA .Card .textAndButton p {
-  width: 500px;
-  height: 69px;
-  /* p */
-  font-family: "Space Grotesk";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 23px;
-  color: #000000;
-  /* Inside auto layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-div.ctaBlock div.CTA .Card .textAndButton button {
-  /* Auto layout */
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 20px 35px;
-  gap: 10px;
-  width: 288px;
-  height: 68px;
-  /* Dark */
-  background: #191A23;
-  border-radius: 14px;
-  /* Inside auto layout */
-  flex: none;
-  order: 2;
-  flex-grow: 0;
-}
-div.ctaBlock div.CTA .Card .textAndButton button p {
-  width: 218px;
-  height: 28px;
-  font-family: "Space Grotesk";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  /* identical to box height, or 140% */
-  text-align: center;
-  color: #FFFFFF;
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-div.ctaBlock div.CTA .Frame19 {
-  width: 494px;
-  height: 394px;
-  /* Inside auto layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-div.ctaBlock div.CTA .Frame19 .Illustration svg {
-  /* Illustration */
-  position: absolute;
-  width: 359px;
-  height: 394.27px;
-  left: 850px;
-  top: 0px;
+  gap: 5vh;
+  margin: 5% 0% 0% 5%;
+  width: 100%;
+  height: 100%;
+  background-color: burlywood;
 }/*# sourceMappingURL=header.css.map */
