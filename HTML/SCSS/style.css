@@ -1086,4 +1086,9 @@ div.servicesBlock {
   opacity: 0px;
   top: 30px;
   left: 350px;
+}
+
+.body {
+  font-family: "Space Grotesk";
+  font-weight: 400;
 }/*# sourceMappingURL=style.css.map */
