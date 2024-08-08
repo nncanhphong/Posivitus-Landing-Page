@@ -1,287 +1,204 @@
 .Content1
 {
-    border-style: solid;
-    border-color: transparent;
-    
-    .Heading
-    {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 0px;
+    width: 100%;
+    height: 5vh;
 
-        background: #B9FF66;
-        border-radius: 7px;
-        width: 227px;
-        height: 51px;
+    padding: 0% 0% 5% 5%;
 
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-
-        h2{
-            position: absolute;
-            margin: 0%;
-            width: 265px;
-            height: 51px;
-            padding: 0px 7px 0px 7px;
-            gap: 10px;
-            border-radius: 7px 0px 0px 0px;
-            opacity: 0px;
-
-            //styleName: h2;
-            width: 251px;
-            height: 51px;
-            gap: 0px;
-            opacity: 0px;
-
-            font-family: Space Grotesk;
-            font-size: 40px;
-            font-weight: 500;
-            line-height: 51.04px;
-            text-align: left;
-
-        }
-    }
-    p{
-        position: absolute;
-        left: 20%;
-        top: 0%;
-        width: 580px;
-        height: 46px;
-        gap: 0px;
-        opacity: 0px;
-
-        //styleName: p;
-        font-family: Space Grotesk;
-        font-size: 18px;
-        font-weight: 400;
-        line-height: 22.97px;
-        text-align: left;
-
-    }
-
-}
-
-
-.caseStudiesBlock{
-/* Case studies */
-
-    /* Auto layout */
+    gap: 2%;
+    margin: 0%;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 70px 60px;
-    gap: 64px;
-    margin-top: 50px;
 
-    width: 1,234px;
-    height: 326px;
-
-    /* Dark */
-    background: #191A23;
-    border-radius: 45px;
-
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-
-    .caseStudy-wrap{
-        display: table;
-        width: 100%;
-    }
-
-    .caseStudy{
-
-        /* Case study */
-        display: table-cell;
-        padding: 5%;
-        /* Auto layout */
-        
-        flex-direction: column;
-        align-items: flex-start;
-       
-        gap: 20px;
-
-        width: 600px;
-        height: 163px;
-
-        /* Inside auto layout */
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-        color: white;
-
-        /* Line 3 */
-        border: 1px solid #FFFFFF;
-        border-left-color: transparent;
-        border-top-color: transparent;
-        border-bottom-color: transparent;
-        
-        transform: rotate(0deg);
-        
-        /* Inside auto layout */
-        flex: none;
-        order: 1;
-        flex-grow: 0;
-
-        p{
-            //styleName: p;
-            font-family: Space Grotesk;
-            font-size: 18px;
-            font-weight: 400;
-            line-height: 22.97px;
-            text-align: left;
+    .Heading
+    {
+        width: 15%;
+        height: inherit;
+        text-align: center;
+        h2 
+        {
+            margin: 0%;
+            /* Auto layout */
+            font-size: 5.5vh;
+            /* Green */
+            background: #B9FF66;
+            border-radius: 1vh;
         }
+    }
+    
+    p
+    {
+        font-size: 3vh;  
+        width: 30%;
+        height: inherit;
+        margin: 0% 0% 0% 0%; 
+    }
+}
 
-        .Link{
-            /* Link */
+.caseStudiesBlock
+{
+    width: 100%;
+    height: 40vh;
+    padding: 0% 5% 8% 5%;
+    overflow: hidden;
+    
 
-                /* Auto layout */
+    .caseStudies
+    {
+        width: 100%;
+        height: 40vh;
+        border: 1px solid;
+        background-color: #000;
+        border-radius: 6vh;
+
+        border-collapse: collapse;
+        display: table;
+
+        .caseStudy
+        {   
+            display: table-cell;
+            width: 24%;
+            height: inherit;
+            padding: 0% 3% 0% 3%;
+            border: 1px solid #FFFFFF;
+            border-collapse: collapse;
+            
+            p 
+            {
+                color: #FFFFFF;
+                font-size: 3vh;
+                font-weight: 400;
+                line-height: 4vh;
+                text-align: left;
+
+            }
+            .Link
+            {
                 display: flex;
                 flex-direction: row;
                 align-items: center;
                 padding: 0px;
-                gap: 15px;
+                gap: 3%;
 
-                width: 140.32px;
-                height: 28px;
-
-
-                /* Inside auto layout */
-                flex: none;
-                order: 1;
-                flex-grow: 0;
+                p
+                {
+                    color: #B9FF66;
+                }
+                
+            }
         }
-
-
+       
     }
 }
 
-.Content2{
-    border-style: solid;
-    border-color: transparent;
+.Content2
+{
+    width: 100%;
+    height: 5vh;
 
-    .Heading{
-        /* Heading */
+    padding: 0% 0% 5% 5%;
 
-        /* Auto layout */
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 0px;
+    gap: 2%;
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
 
-        background-color: #B9FF66;
-        border-radius: 7px;
-        width: 362px;
-        height: 51px;
-        margin-top: 50px;
-
-        /* Inside auto layout */
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-
-        h2{
-            position: absolute;
+    .Heading
+    {
+        width: 25%;
+        height: inherit;
+        text-align: center;
+        h2 
+        {
             margin: 0%;
-            width: 412ppx;
-            height: 51px;
-            padding: 0px 7px 0px 7px;
-            gap: 10px;
-            border-radius: 7px 0px 0px 0px;
-            opacity: 0px;
-
-            //styleName: h2;
-            width: 398px;
-            height: 51px;
-            gap: 0px;
-            opacity: 0px;
-
-            font-family: Space Grotesk;
-            font-size: 40px;
-            font-weight: 500;
-            line-height: 51.04px;
-            text-align: left;
+            /* Auto layout */
+            font-size: 5.5vh;
+            /* Green */
+            background: #B9FF66;
+            border-radius: 1vh;
         }
     }
-    p{
-        position: absolute;
-        left: 30%;
-        top: 85%;
-        width: 292px;
-        height: 46px;
-        gap: 0px;
-        opacity: 0px;
-
-        //styleName: p;
-        font-family: Space Grotesk;
-        font-size: 18px;
-        font-weight: 400;
-        line-height: 22.97px;
-        text-align: left;
-
+    
+    p
+    {
+        font-size: 3vh;  
+        width: 20%;
+        height: inherit;
+        margin: 0% 0% 0% 0%; 
     }
 }
 
 .processBlock
 {
-    margin-top: 50px;
+    width: 100%;
+    height: 200vh;
+
+    padding: 0% 5% 0% 5%;
+    display: table;
+    flex-direction: row;
+    align-items: flex-start;
+
     .Card
     {
-        /* Card */
-
         box-sizing: border-box;
 
         /* Auto layout */
-        width: 1,234px;
-        height: 279px;
-        padding: 41px 60px 41px 60px;
-        gap: 30px;
-        border-radius: 45px 0px 0px 0px;
-        border: 1px 0px 0px 0px;
-        opacity: 0px;
+        width: 100%;
+        height: 32vh;
+        padding: 0% 5% 0% 5%;
+        
+      
 
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        margin-top: 20px;
+        margin-bottom: 2%;
 
         /* Green */
         background: #B9FF66;
         border: 1px solid #191A23;
         box-shadow: 0px 5px 0px #191A23;
-        border-radius: 45px;
+        border-radius: 6vh;
+
 
         .Content
         {
             position: absolute;
-            margin-top: -3%;
-            width: 702px;
-            height: 77px;
-            gap: 25px;
-            opacity: 0px;
+            width: 100%;
+            height: 16vh;
 
-            .Label{
-                p#number{
-                    position: absolute;
-                    margin-top: 5%;
-                    font-family: Space Grotesk;
-                    font-size: 60px;
+            .Label
+            {
+                width: 20%;
+                height: inherit;
+
+                gap: 2%;
+                margin: 0%;
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                
+                p#number
+                {
+                    width: 5%;
+                    height: inherit;
+                    text-align: center;
+                   
+                    
+                    font-size: 8vh;
                     font-weight: 500;
-                    line-height: 76.56px;
-                    text-align: left;
                 }
+
                 p#text{
-                    position: absolute;
-                    margin-top: 8%;
-                    left: 10%;
-                    font-family: Space Grotesk;
-                    font-size: 30px;
+                    width: 10%;
+                    height: inherit;
+                    text-align: center;
+                    
+                    font-size: 5vh;
                     font-weight: 500;
-                    line-height: 38.28px;
-                    text-align: left; 
+                    
                 }
     
             }
@@ -373,3 +290,8 @@
     }
 
 }
+
+
+
+
+        
