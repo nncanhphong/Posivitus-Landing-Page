@@ -310,6 +310,9 @@ div.servicesBlock div.cardSection div div.headingAndLink .Heading {
   display: flex;
   flex-direction: column;
 }
+div.servicesBlock div.cardSection div div.headingAndLink .Heading h3 span {
+  font-size: 3vh;
+}
 div.servicesBlock div.cardSection div div.headingAndLink .Link {
   width: 60%;
   height: 10%;
@@ -319,6 +322,7 @@ div.servicesBlock div.cardSection div div.headingAndLink .Link {
 div.servicesBlock div.cardSection div div.headingAndLink .Link p {
   text-align: center;
   margin: 10% 0% 0% 0%;
+  font-size: 3vh;
 }
 div.servicesBlock div.cardSection div .Illustration {
   width: 40%;
