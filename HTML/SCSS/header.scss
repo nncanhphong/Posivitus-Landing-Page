@@ -444,10 +444,16 @@ div.servicesBlock
                     flex-direction: column;
                     //margin-right: 0%;  
                     
-                    h3 span
+                    h3
                     {
-                        font-size: 3vh;
+                        margin: 0% ;
+
+                        h3 span
+                        {
+                            font-size: 3vh;
+                        }
                     }
+                    
                 }
                 
                 .Link
@@ -534,7 +540,7 @@ div.ctaBlock
         border: 1px solid #191A23;
         border-radius: 3vh;
         margin: 0% 0% 0% 5%;
-        gap: 10%;
+        gap: 20%;
 
         display: flex;
         flex-direction: row;

@@ -310,7 +310,10 @@ div.servicesBlock div.cardSection div div.headingAndLink .Heading {
   display: flex;
   flex-direction: column;
 }
-div.servicesBlock div.cardSection div div.headingAndLink .Heading h3 span {
+div.servicesBlock div.cardSection div div.headingAndLink .Heading h3 {
+  margin: 0%;
+}
+div.servicesBlock div.cardSection div div.headingAndLink .Heading h3 h3 span {
   font-size: 3vh;
 }
 div.servicesBlock div.cardSection div div.headingAndLink .Link {
@@ -369,7 +372,7 @@ div.ctaBlock .CTA {
   border: 1px solid #191A23;
   border-radius: 3vh;
   margin: 0% 0% 0% 5%;
-  gap: 10%;
+  gap: 20%;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
