@@ -13,13 +13,11 @@ div.landingPage div.navigationBar {
   gap: 10%;
   padding: 2% 5% 2% 0%;
   /*Display for test*/
-  background-color: red;
   flex: none;
   order: 0;
   flex-grow: 0;
 }
 div.landingPage div.navigationBar div.Frame9 {
-  background-color: yellow;
   /*Size*/
   width: 20%;
   height: 100%;
@@ -38,7 +36,6 @@ div.landingPage div.navigationBar div.Frame9 .Logo img {
   fill: none;
 }
 div.landingPage div.navigationBar div.Frame10 {
-  background-color: green;
   /*Size*/
   width: 70%;
   height: 100%;
@@ -52,7 +49,6 @@ div.landingPage div.navigationBar div.Frame10 {
   flex-grow: 0;
 }
 div.landingPage div.navigationBar div.Frame10 ul {
-  background-color: rebeccapurple;
   width: 100%;
   height: 100%;
   display: flex;
@@ -71,7 +67,6 @@ div.landingPage div.navigationBar div.Frame10 ul li {
   height: inherit;
   margin: 2% 1% 1% 2%;
   font-size: 3vh;
-  background-color: palevioletred;
 }
 div.landingPage div.navigationBar div.Frame10 ul button {
   /*Size*/
@@ -84,7 +79,6 @@ div.landingPage div.navigationBar div.Frame10 ul button {
   font-size: 3vh;
 }
 div.landingPage .Header {
-  background-color: yellow;
   /*Size*/
   width: 100%;
   height: 40%;
@@ -99,7 +93,6 @@ div.landingPage .Header {
   flex-grow: 0;
 }
 div.landingPage .Header .Frame13 {
-  background-color: purple;
   /*Size*/
   width: 35%;
   height: 40%;
@@ -187,7 +180,6 @@ div.landingPage .Header .Illustration img {
   height: 100%;
 }
 div.landingPage .Logotypes {
-  background-color: blanchedalmond;
   /*Size*/
   size: 100%;
   height: 10%;
@@ -204,7 +196,7 @@ div.landingPage .Logotypes {
 }
 div.landingPage .Logotypes svg {
   /*Size*/
-  width: 10%;
+  width: 10.7%;
   height: 100%;
   /*Display*/
   mix-blend-mode: luminosity;
@@ -222,7 +214,6 @@ div.Services {
   gap: 5%;
   margin: 0% 5% 0% 5%;
   /*Debug*/
-  background-color: turquoise;
 }
 div.Services .Heading {
   /*Size*/
@@ -258,7 +249,6 @@ div.Services .Heading Label h2 {
   flex-grow: 0;
 }
 div.Services p {
-  background-color: rosybrown;
   /*Size*/
   width: 40%;
   height: 100%;
@@ -278,9 +268,138 @@ div.servicesBlock {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 5vh;
-  margin: 5% 0% 0% 5%;
+  gap: 3vh;
+  margin: 5% 0% 10% 5%;
   width: 100%;
   height: 100%;
-  background-color: burlywood;
+}
+div.servicesBlock div.cardSection {
+  width: 100%;
+  height: 30%;
+  gap: 2%;
+  display: flex;
+  flex-direction: row;
+  margin: 0% 0% 0% 0%;
+}
+div.servicesBlock div.cardSection div {
+  width: 44%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  border-radius: 3vh;
+  box-shadow: 0vh 1vh 0vh #191A23;
+  margin: 0% 0% 0% 0%;
+  gap: 5%;
+}
+div.servicesBlock div.cardSection div div.headingAndLink {
+  width: 50%;
+  height: 100%;
+  margin: 7% 0% 5% 5%;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10vh;
+  box-shadow: none;
+}
+div.servicesBlock div.cardSection div div.headingAndLink .Heading {
+  border: none;
+  box-shadow: none;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+}
+div.servicesBlock div.cardSection div div.headingAndLink .Link {
+  width: 60%;
+  height: 10%;
+  border: none;
+  box-shadow: none;
+}
+div.servicesBlock div.cardSection div div.headingAndLink .Link p {
+  text-align: center;
+  margin: 10% 0% 0% 0%;
+}
+div.servicesBlock div.cardSection div .Illustration {
+  width: 40%;
+  height: 100%;
+  border: none;
+  box-shadow: none;
+  margin: 5% 5% 5% 5%;
+}
+div.servicesBlock div.cardSection div .Illustration img {
+  width: 100%;
+  height: 100%;
+}
+div.servicesBlock div.cardSection div.Card2, div.servicesBlock div.cardSection div.Card5 {
+  background-color: #B9FF66;
+}
+div.servicesBlock div.cardSection div.Card2 h3 span, div.servicesBlock div.cardSection div.Card5 h3 span {
+  background-color: #FFFFFF;
+}
+div.servicesBlock div.cardSection div.Card1, div.servicesBlock div.cardSection div.Card4 {
+  background-color: #f3f3f3;
+}
+div.servicesBlock div.cardSection div.Card1 h3 span, div.servicesBlock div.cardSection div.Card4 h3 span {
+  background-color: #B9FF66;
+}
+div.servicesBlock div.cardSection div.Card3, div.servicesBlock div.cardSection div.Card6 {
+  background-color: #191A23;
+}
+div.servicesBlock div.cardSection div.Card3 h3 span, div.servicesBlock div.cardSection div.Card6 h3 span {
+  background-color: #FFFFFF;
+}
+div.servicesBlock div.cardSection div.Card3 .Link p, div.servicesBlock div.cardSection div.Card6 .Link p {
+  color: #FFFFFF;
+}
+
+div.ctaBlock {
+  width: 100%;
+  height: 100%;
+  margin: 0% 0% 10% 0%;
+  font-size: 3vh;
+}
+div.ctaBlock .CTA {
+  width: 90%;
+  height: 70%;
+  border: 1px solid #191A23;
+  border-radius: 3vh;
+  margin: 0% 0% 0% 5%;
+  gap: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+div.ctaBlock .CTA div {
+  height: 100%;
+  width: 40%;
+}
+div.ctaBlock .CTA .Card {
+  margin: 3% 0% 2% 3%;
+}
+div.ctaBlock .CTA .Card .textAndButton {
+  width: 90%;
+}
+div.ctaBlock .CTA .Card .textAndButton button {
+  width: 50%;
+  height: 7vh;
+  border: 1px solid black;
+  border-radius: 1vh;
+  background-color: #191A23;
+}
+div.ctaBlock .CTA .Card .textAndButton button p {
+  margin: 1% 1% 1% 1%;
+  color: #FFFFFF;
+}
+div.ctaBlock .CTA .Frame19 {
+  margin: 0% 0% 0% 0%;
+}
+div.ctaBlock .CTA .Frame19 .Illustration {
+  margin: 0% 0% 0% 0%;
+  height: 100%;
+  width: 50%;
+}
+div.ctaBlock .CTA .Frame19 .Illustration img {
+  width: 100%;
+  height: 100%;
 }/*# sourceMappingURL=header.css.map */

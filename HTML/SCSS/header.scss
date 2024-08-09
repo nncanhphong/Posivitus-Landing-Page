@@ -17,7 +17,7 @@ div.landingPage
         padding: 2% 5% 2% 0%;
 
         /*Display for test*/
-        background-color: red;
+        //background-color: red;
 
         flex: none;
         order: 0;
@@ -25,7 +25,7 @@ div.landingPage
 
         div.Frame9
         {
-            background-color: yellow;   
+            //background-color: yellow;   
             /*Size*/
             width: 20%;
             height: 100%;
@@ -52,7 +52,7 @@ div.landingPage
 
         div.Frame10
         {
-            background-color: green;
+            //background-color: green;
             /*Size*/
             width: 70%;
             height: 100%;
@@ -69,7 +69,7 @@ div.landingPage
 
             ul
             {
-                background-color: rebeccapurple;
+                //background-color: rebeccapurple;
 
                 width: 100%;
                 height: 100%;
@@ -95,7 +95,7 @@ div.landingPage
 
                     font-size: 3vh;
 
-                    background-color: palevioletred;
+                    //background-color: palevioletred;
                 }
 
                 button
@@ -118,7 +118,7 @@ div.landingPage
     
     .Header
     {
-        background-color: yellow;
+        //background-color: yellow;
         /*Size*/   
         width: 100%;
         height: 40%;
@@ -137,7 +137,7 @@ div.landingPage
 
         .Frame13
         {
-            background-color: purple;
+            //background-color: purple;
 
             /*Size*/
             width: 35%;
@@ -258,7 +258,7 @@ div.landingPage
 
     .Logotypes
     {
-        background-color: blanchedalmond;
+        //background-color: blanchedalmond;
 
         /*Size*/
         size: 100%;
@@ -279,7 +279,7 @@ div.landingPage
         svg
         {
             /*Size*/
-            width: 10%;
+            width: 10.7%;
             height: 100%;
 
             /*Display*/
@@ -304,7 +304,7 @@ div.Services
     margin: 0% 5% 0% 5%;
 
     /*Debug*/
-    background-color: turquoise;
+    //background-color: turquoise;
 
     .Heading
     {
@@ -354,7 +354,7 @@ div.Services
     
     p
     {   
-        background-color: rosybrown;
+        //background-color: rosybrown;
         /*Size*/
         width: 40%;
         height: 100%;
@@ -379,13 +379,216 @@ div.servicesBlock
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 5vh;
-    margin: 5% 0% 0% 5%;
+    gap: 3vh;
+    margin: 5% 0% 10% 5%;
 
     width: 100%;
     height: 100%;
 
-    background-color: burlywood;
+    //background-color: burlywood;
+
+    div.cardSection
+    {
+        width: 100%;
+        height: 30%;
+
+        //background-color: yellow;
+
+        gap: 2%;
+        display: flex;
+        flex-direction: row;
+        margin: 0% 0% 0% 0%;
+
+
+        div
+        {
+            width: 44%;
+            height: 50%;
+            
+            display: flex;
+            flex-direction: row;
+
+            border: 1px solid black;
+            border-radius: 3vh;
+            box-shadow: 0vh 1vh 0vh #191A23;
+
+            margin: 0% 0% 0% 0%;
+
+            gap: 5%;
+
+            div.headingAndLink
+            {
+                width: 50%;
+                height: 100%;
+                
+                margin: 7% 0% 5% 5%;
+                border: none;
+                display: flex;
+                flex-direction: column;
+                gap: 10vh;
+
+                box-shadow: none;
+
+                //background-color: red;
+
+                .Heading
+                {
+                    border: none;
+                    box-shadow: none;
+
+                    width: 100%;
+                    height: 50%;
+                    display: flex;
+                    flex-direction: column;
+                    //margin-right: 0%;  
+
+                }
+                
+                .Link
+                {
+                    width: 60%;
+                    height: 10%;
+                    border: none;
+                    box-shadow: none;
+
+                    p
+                    {
+                        text-align: center;
+                        margin: 10% 0% 0% 0%;
+                    }
+                }
+
+            }
+            .Illustration
+            {
+                //background: violet;
+                width: 40%;
+                height: 100%;
+                border: none;
+                box-shadow: none;
+                margin: 5% 5% 5% 5%;
+
+                img
+                {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+
+        div.Card2, div.Card5
+        {
+            background-color: #B9FF66;
+            h3 span
+            {
+                background-color: #FFFFFF;
+            }
+        }
+        div.Card1, div.Card4
+        {
+            background-color: #f3f3f3;
+            h3 span
+            {
+                background-color: #B9FF66;
+            }
+        }
+        div.Card3, div.Card6
+        {
+            background-color: #191A23;
+            h3 span
+            {
+                background-color: #FFFFFF;
+            }
+
+            .Link p
+            {
+                color: #FFFFFF;
+            }
+        }
+    }
+}
+
+div.ctaBlock
+{
+    width: 100%;
+    height: 100%;
+
+    margin: 0% 0% 10% 0%;
+
+    font-size: 3vh;
+
+    //background-color: aquamarine;
+
+    .CTA
+    {
+        width: 90%;
+        height: 70%;
+
+        border: 1px solid #191A23;
+        border-radius: 3vh;
+        margin: 0% 0% 0% 5%;
+        gap: 10%;
+
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+
+        //background-color:green;
+
+        div
+        {
+            height: 100%;
+            width: 40%;
+            
+        }
+
+        .Card
+        {
+            //background-color: red;
+            margin: 3% 0% 2% 3%;
+
+            .textAndButton
+            {
+                //background-color: aqua;
+                width: 90%;
+
+                button
+                {
+                    width: 50%;
+                    height: 7vh;
+
+                    border: 1px solid black;
+                    border-radius: 1vh;
+                    background-color: #191A23;
+
+                    p
+                    {
+                        margin: 1% 1% 1% 1%;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+        }
+        .Frame19
+        {
+            //background-color: cadetblue;
+            margin: 0% 0% 0% 0%;
+
+            .Illustration
+            {
+                margin: 0% 0% 0% 0%;
+                height: 100%;
+                width: 50%;
+                img
+                {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            
+
+        }
+    }
 }
        
 
