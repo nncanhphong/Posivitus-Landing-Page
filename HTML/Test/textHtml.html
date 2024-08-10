@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .item {
+            background-color: #f5f5f5;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            position: relative;
+        }
+        .item h2 {
+            margin: 0;
+            font-size: 1.2rem;
+        }
+        .item p {
+            margin: 10px 0 0 0;
+            font-size: 0.9rem;
+        }
+        .button {
+            position: absolute;
+            top: 50%;
+            right: 15px;
+            transform: translateY(-50%);
+            background-color: transparent;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+        .button:hover {
+            color: #007bff;
+        }
+        .content {
+            display: none;
+        }
+        .content.show {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">
+            <h2>01 Consultation</h2>
+            <p>During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.</p>
+            <button class="button">+</button>
+        </div>
+        <div class="item">
+            <h2>02 Research and Strategy Development</h2>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quam, culpa amet beatae molestiae doloribus aspernatur aliquid reprehenderit minima, earum incidunt, molestias voluptate facere? Repellendus accusamus nihil perspiciatis modi fugiat saepe?</p>
+            </div>
+            <button class="button">+</button>
+        </div>
+        <div class="item">
+            <h2>03 Implementation</h2>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quam, culpa amet beatae molestiae doloribus aspernatur aliquid reprehenderit minima, earum incidunt, molestias voluptate facere? Repellendus accusamus nihil perspiciatis modi fugiat saepe?</p>
+            </div>
+            <button class="button">+</button>
+        </div>
+        <div class="item">
+            <h2>04 Monitoring and Optimization</h2>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quam, culpa amet beatae molestiae doloribus aspernatur aliquid reprehenderit minima, earum incidunt, molestias voluptate facere? Repellendus accusamus nihil perspiciatis modi fugiat saepe?</p>
+            </div>
+            <button class="button">+</button>
+        </div>
+        <div class="item">
+            <h2>05 Reporting and Communication</h2>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quam, culpa amet beatae molestiae doloribus aspernatur aliquid reprehenderit minima, earum incidunt, molestias voluptate facere? Repellendus accusamus nihil perspiciatis modi fugiat saepe?</p>
+            </div>
+            <button class="button">+</button>
+        </div>
+        <div class="item">
+            <h2>06 Continual Improvement</h2>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quam, culpa amet beatae molestiae doloribus aspernatur aliquid reprehenderit minima, earum incidunt, molestias voluptate facere? Repellendus accusamus nihil perspiciatis modi fugiat saepe?</p>
+            </div>
+            <button class="button">+</button>
+        </div>
+    </div>
+    <script>
+        const items = document.querySelectorAll('.item');
+        items.forEach(item => {
+            const button = item.querySelector('.button');
+            const content = item.querySelector('.content');
+            button.addEventListener('click', () => {
+                if (button.textContent === '+') {
+                    content.classList.add('show');
+                    button.textContent = '-';
+                } else {
+                    content.classList.remove('show');
+                    button.textContent = '+';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
