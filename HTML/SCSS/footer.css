@@ -1,143 +1,135 @@
 .content4 {
-  border-style: none;
-  border-color: transparent;
+  width: 100%;
+  height: 10%;
+  border: solid;
+  /* Heading & Subheading */
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0% 5%;
+  gap: 5%;
   position: absolute;
-  left: 100px;
-  width: 1440px;
-  height: 51px;
 }
-.content4 .heading {
+.content4 .heading h2 {
+  /* Heading */
+  /* Auto layout */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px 7px;
-  gap: 10px;
-  width: 255px;
-  height: 51px;
-  background: #B9FF66;
-  border-radius: 7px;
-}
-.content4 .heading h2 {
-  width: Hug 255px px;
-  height: Hug 51px px;
-  gap: 0px;
-  opacity: 0px;
-  font-family: "Space Grotesk";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 51px;
+  padding: 0;
+  border-radius: 1vh;
+  width: 100%;
+  height: 100%;
+  border: solid;
+  background-color: rgb(185, 255, 102);
+  /* Inside auto layout */
   flex: none;
   order: 0;
   flex-grow: 0;
 }
 .content4 p {
-  font-family: Space Grotesk;
-  font-size: 18px;
-  line-height: 22.97px;
-  width: 410px;
-  height: 46px;
-  gap: 0px;
-  opacity: 0px;
-  position: absolute;
-  top: 5px;
-  left: 300px;
+  border: solid;
+  /* Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services */
+  background-color: antiquewhite;
+  width: 26%;
+  height: 100%;
+  /* p */
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-size: 2vh;
+  line-height: 3vh;
+  color: #000000;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 
 .testimonialsBlock {
-  width: 1240px;
-  height: 625px;
+  width: 90%;
+  height: 100%;
+  border: solid;
+  /* Testimonials block */
   position: absolute;
-  left: 100px;
-  top: 80px;
+  left: 5%;
+  top: 20%;
+  /* Dark */
   background: #191A23;
-  border-radius: 45px;
+  border-radius: 10vh;
 }
 .testimonialsBlock .Testimonials {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0px;
-  gap: 124px;
-  background-color: #F3F3F3;
+  gap: 5%;
   position: absolute;
-  width: 1918px;
-  height: 473px;
-  left: -346px;
-  top: 130px;
-  mix-blend-mode: screen;
+  width: 100%;
+  height: 50%;
+  left: -20%;
+  top: 10%;
 }
 .testimonialsBlock .Testimonials .Cards {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 0px;
-  width: Hug 200px px;
-  height: Hug 266px px;
-  gap: 20px;
-  opacity: 0px;
+  padding: 0;
+  gap: 40%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  /* Inside auto layout */
   flex: none;
   order: 0;
   flex-grow: 0;
+  mix-blend-mode: n;
 }
-.testimonialsBlock .Testimonials .Cards .Card .Bubble {
+.testimonialsBlock .Testimonials .Cards .Card .Bubble .Rectangle {
   box-sizing: border-box;
-  background: #21241D;
-  transform: rotate(0deg);
-  /* Rectangle 55 */
-  width: 606px;
-  height: 237.95px;
-  left: 0px;
-  top: 0px;
-  background: #21241D;
+  width: 44%;
+  height: 70%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
   border: 2px solid rgb(185, 255, 102);
-  border-radius: 45px;
+  border-radius: 6vh;
+  position: absolute;
+  top: 10%;
 }
 .testimonialsBlock .Testimonials .Cards .Card .Bubble p {
+  border: #ca1ad3;
+  box-sizing: border-box;
+  width: 500%;
+  height: 100%;
   position: relative;
-  width: 502px;
-  height: 138px;
-  left: 52px;
-  top: 25px;
+  left: 40%;
+  top: 13svh;
   font-family: "Space Grotesk";
   font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22.97px;
+  font-size: 2.5vh;
+  line-height: 3vh;
   text-align: left;
   color: white;
-}
-.testimonialsBlock .Testimonials .Cards .Card .Text h4 {
-  width: 526px;
-  height: 49px;
-  gap: 0px;
-  opacity: 0px;
-  font-family: Space Grotesk;
-  font-size: 20px;
-  font-weight: 500px;
-  line-height: 25.52px;
-  text-align: left;
-  color: #B9FF66;
-}
-.testimonialsBlock .Testimonials .Cards .Card p {
-  font-family: Space Grotesk;
-  font-size: 18px;
-  font-weight: 400ps;
-  line-height: 22.97px;
-  text-align: left;
-  position: absolute;
-  top: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 .testimonialsBlock .Testimonials .Navigation {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0px;
-  gap: 189px;
-  width: 564px;
-  height: 14px;
+  padding: 0;
+  gap: 10%;
+  width: 50%;
+  height: 10%;
+  position: absolute;
+  top: 150%;
+  left: 45%;
   /* Inside auto layout */
   flex: none;
   order: 1;
@@ -149,203 +141,194 @@
 }
 
 .content5 {
-  border-style: none;
-  border-color: transparent;
+  width: 100%;
+  height: 10%;
+  border: solid;
+  /* Heading & Subheading */
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0% 5%;
+  gap: 5%;
   position: absolute;
-  left: 100px;
-  height: 51px;
-  top: 750px;
-  width: 1440px;
-  background-color: blue;
+  top: 130%;
 }
-.content5 .heading {
+.content5 .heading h2 {
+  /* Heading */
+  /* Auto layout */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px 7px;
-  gap: 10px;
-  width: 255px;
-  height: 51px;
-  background: #B9FF66;
-  border-radius: 7px;
-}
-.content5 .heading h2 {
-  width: Hug 255px px;
-  height: Hug 51px px;
-  gap: 0px;
-  opacity: 0px;
-  font-family: "Space Grotesk";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 51px;
+  padding: 0;
+  border-radius: 1vh;
+  width: 100%;
+  height: 100%;
+  border: solid;
+  background-color: rgb(185, 255, 102);
+  /* Inside auto layout */
   flex: none;
   order: 0;
   flex-grow: 0;
 }
 .content5 p {
-  font-family: Space Grotesk;
-  font-size: 18px;
-  line-height: 22.97px;
-  width: 410px;
-  height: 46px;
-  gap: 0px;
-  opacity: 0px;
-  position: absolute;
-  top: 5px;
-  left: 300px;
+  border: solid;
+  /* Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services */
+  background-color: antiquewhite;
+  width: 20%;
+  height: 100%;
+  /* p */
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-size: 2vh;
+  line-height: 3vh;
+  color: #000000;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 
 .contactBlock {
   position: absolute;
   background-color: #ca1ad3;
-  width: 1240px;
+  width: 90%;
+  height: 110%;
   position: absolute;
-  top: 850px;
-  left: 100px;
+  top: 150%;
+  left: 5%;
 }
 .contactBlock .blockWithIllustration {
   border: solid;
   background: rgb(243, 243, 243);
-  width: 1, 240px;
-  height: 773px;
-  padding: 60px 100px 80px 100px;
-  gap: 10px;
-  border-radius: 45px;
+  width: 100%;
+  height: 100%;
+  padding: 4.5% 10% 8% 10%;
+  gap: 10%;
+  border-radius: 5vh;
   opacity: 0px;
 }
 .contactBlock .blockWithIllustration .Form {
   border: solid;
-  width: 556px;
-  height: 633px;
+  width: 60%;
+  height: 114%;
 }
 .contactBlock .blockWithIllustration .Form .radioButtons {
-  border: transparent;
-  display: flex;
-  flex-direction: row;
-  align-items: start;
-  gap: 40px;
-  width: 400px;
-  height: 30px;
-}
-.contactBlock .blockWithIllustration .Form .radioButtons .sayHi {
-  border: transparent;
+  border: solid;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  gap: 10px;
-  width: 150px;
-  height: 28px;
+  gap: 0%;
+  width: 40%;
+  height: 5%;
+  position: absolute;
 }
-.contactBlock .blockWithIllustration .Form .radioButtons .getAQuote {
+.contactBlock .blockWithIllustration .Form .radioButtons .sayHi, .contactBlock .blockWithIllustration .Form .radioButtons .getAQuote {
   border: transparent;
   display: flex;
   flex-direction: row;
-  gap: 10px;
-  width: 150px;
-  height: 28px;
+  justify-content: start;
+  align-items: flex-start;
+  gap: 1%;
+  width: 50%;
+  height: 30%;
 }
-.contactBlock .blockWithIllustration .Form input[type=radio] {
-  width: 28px;
-  height: 28px;
-  gap: 0px;
-  border-radius: 29px;
+.contactBlock .blockWithIllustration .Form .radioButtons input[type=radio] {
+  width: 20%;
+  height: 4vh;
+  gap: 0;
   cursor: pointer;
-  opacity: 0px;
+  opacity: 0vh;
   color: #B9FF66;
-  vertical-align: middle;
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/check_radio_sheet.png) -38px top no-repeat;
 }
-.contactBlock .blockWithIllustration .Fields {
+.contactBlock .blockWithIllustration .Form .Fields {
   position: absolute;
-  border: transparent;
+  border: solid;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
-  gap: 25px;
-  width: 556px;
-  height: 457px;
+  padding: 0;
+  gap: 5%;
+  width: 45%;
+  height: 50vh;
   flex: none;
   order: 1;
   flex-grow: 0;
+  top: 15%;
 }
-.contactBlock .blockWithIllustration .Fields .Field {
+.contactBlock .blockWithIllustration .Form .Fields .Field {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
-  gap: 5px;
-  width: 556px;
-  height: 92px;
+  gap: 5%;
+  width: 100%;
+  height: 10vh;
   flex: none;
   order: 0;
   flex-grow: 0;
 }
-.contactBlock .blockWithIllustration .Fields .Field p {
+.contactBlock .blockWithIllustration .Form .Fields .Field p {
+  border: solid;
   position: relative;
-  top: 20px;
-  width: 44px;
-  height: 28px;
-  gap: 0px;
-  opacity: 0px;
+  top: 30%;
+  width: 30%;
+  height: 5vh;
+  gap: 0;
+  opacity: 0vh;
   font-family: Space Grotesk;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 28px;
+  font-size: 2.2vh;
+  line-height: 3vh;
   text-align: left;
 }
-.contactBlock .blockWithIllustration .Fields .Field input[id=Name], .contactBlock .blockWithIllustration .Fields .Field input[id=Email] {
-  width: 556px;
-  height: 59px;
-  padding: 18px 30px 18px 30px;
+.contactBlock .blockWithIllustration .Form .Fields .Field input[id=Name], .contactBlock .blockWithIllustration .Form .Fields .Field input[id=Email] {
+  width: 100%;
+  height: 50vh;
+  padding: 3% 5% 3% 5%;
   gap: 0px;
-  border-radius: 14px;
+  border-radius: 2vh;
   opacity: 0px;
 }
-.contactBlock .blockWithIllustration .Fields .Field input[id=Message] {
+.contactBlock .blockWithIllustration .Form .Fields .Field input[id=Message] {
   position: absolute;
-  top: 280px;
-  width: 556px;
-  height: 190px;
-  padding: 18px 30px 18px 30px;
-  gap: 10px;
-  border-radius: 14px;
-  border: 1px 0px 0px 0px;
+  top: 66%;
+  width: 100%;
+  height: 50%;
+  padding: 3% 5% 3% 5%;
+  gap: 0;
+  border-radius: 2vh;
   opacity: 0px;
 }
-.contactBlock .blockWithIllustration .Fields .Field ::-moz-placeholder {
+.contactBlock .blockWithIllustration .Form .Fields .Field ::-moz-placeholder {
   position: absolute;
-  top: 17px;
-  width: 100px;
-  height: 23px;
+  top: 2vh;
+  width: 30%;
+  height: 50%;
   font-family: Space Grotesk;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 22.97px;
+  font-size: 2.5vh;
+  line-height: 3vh;
   text-align: left;
   color: rgb(137, 137, 137);
 }
-.contactBlock .blockWithIllustration .Fields .Field ::placeholder {
+.contactBlock .blockWithIllustration .Form .Fields .Field ::placeholder {
   position: absolute;
-  top: 17px;
-  width: 100px;
-  height: 23px;
+  top: 2vh;
+  width: 30%;
+  height: 50%;
   font-family: Space Grotesk;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 22.97px;
+  font-size: 2.5vh;
+  line-height: 3vh;
   text-align: left;
   color: rgb(137, 137, 137);
 }
-.contactBlock .blockWithIllustration .Button input[type=button] {
+.contactBlock .blockWithIllustration .Form .Button input[type=button] {
   position: absolute;
-  top: 625px;
-  width: 556px;
-  height: 68px;
-  padding: 20px 35px 20px 35px;
-  gap: 10px;
-  border-radius: 14px;
+  top: 75%;
+  width: 45%;
+  height: 10%;
+  padding: 5% 7% 5% 7%;
+  gap: 5%;
+  border-radius: 2vh;
   opacity: 0px;
   background: rgb(25, 26, 35);
   text-align: center;
@@ -354,27 +337,29 @@
 .contactBlock .Illustration {
   border: solid;
   position: absolute;
-  width: 649.86px;
+  width: 45%;
   height: 635px;
   top: 70px;
-  left: 870px;
+  left: 955px;
   gap: 0px;
   opacity: 0px;
 }
 
 .footerBlock {
-  width: Hug 1, 441px px;
-  height: Hug 514px px;
+  width: 100%;
+  height: 0%;
   background-color: #B9FF66;
   padding: 0px 100px 0px 100px;
-  gap: 10px;
+  gap: 5%;
   opacity: 0px;
   position: absolute;
-  top: 1700px;
-  width: 1440px;
+  top: 270%;
+  width: 90%;
 }
 .footerBlock .Footer {
-  width: 1, 241px;
+  position: absolute;
+  top: 90%;
+  width: 90%;
   height: 514px;
   padding: 55px 60px 50px 60px;
   gap: 50px;

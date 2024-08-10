@@ -1,655 +1,650 @@
+$color:rgba(185, 255, 102, 1);
 
+.content4{
+    width: 100%;
+    height: 10%;
+    border: solid;
+    /* Heading & Subheading */
 
-.content4 {
-    border-style:none;
-    border-color: transparent;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0% 5%;
+    gap: 5%;
+
     position: absolute;
-    left: 100px;
-    width: 1440px;
-    height: 51px;
     
-    .heading {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 0px 7px;
-        gap: 10px;
-        width: 255px;
-        height: 51px;
-        background: #B9FF66;
-        border-radius: 7px;
-       
-        
+    .heading{
         h2{
-            width: Hug (255px)px;
-            height: Hug (51px)px;
-            gap: 0px;
-            opacity: 0px;
-
-            font-family: 'Space Grotesk';
-            font-style: normal;
-            font-weight: 500;
-            font-size: 40px;
-            line-height: 51px;
+            /* Heading */
+    
+            /* Auto layout */
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0;
+            border-radius: 1vh;
+            width: 100%;
+            height: 100%;
+            border: solid;
+            background-color: $color ;
+            /* Inside auto layout */
             flex: none;
             order: 0;
             flex-grow: 0;
-            }
-            
+    
+        }
     }
     p{
-        font-family: Space Grotesk;
-        font-size: 18px;
-        line-height: 22.97px;
-        width: 410px;
-        height: 46px;
-        gap: 0px;
-        opacity: 0px;
-        position: absolute;
-        top:5px;
-        left:300px;
-        
-        }
+        border: solid;
+                /* Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services */
+        background-color: antiquewhite;
+        width:26% ;
+        height: 100%;
 
+        /* p */
+        font-family: 'Space Grotesk';
+        font-style: normal;
+
+        font-size: 2vh;
+        line-height: 3vh;
+
+        color: #000000;
+
+
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+
+    }
 }
 .testimonialsBlock{
-    width: 1240px;
-    height: 625px;
+    width: 90%;
+    height: 100%;
+    border: solid;
+    /* Testimonials block */
+
     position: absolute;
-    left: 100px;
-    top: 80px;
+    left: 5%;
+    top: 20%;
+
+
+    /* Dark */
     background: #191A23;
-    border-radius: 45px;
+    border-radius: 10vh;
+
     .Testimonials{
         display: flex;
         flex-direction: column;
         align-items: center;
         padding: 0px;
-        gap: 124px;
-        background-color: #F3F3F3;
+        gap: 5%;
+      
         position: absolute;
-        width: 1918px;
-        height: 473px;
-        left: -346px;
-        top: 130px;
-        mix-blend-mode: screen;
+        width: 100%;
+        height: 50%;
+        left: -20%;
+        top: 10%;
+        
         .Cards{
             display: flex;
             flex-direction: row;
             justify-content: space-between;
             align-items: flex-start;
-            padding: 0px;
-            width: Hug (200px)px;
-            height: Hug (266px)px;
-            gap: 20px;
-            opacity: 0px;
+            padding: 0;
+            gap: 40%;
+
+            width: 100%;
+            height: 100%;
+            position: absolute;
+
+            /* Inside auto layout */
             flex: none;
             order: 0;
             flex-grow: 0;
-             .Card{
+            mix-blend-mode:n;
+            .Card{
                 .Bubble{
-                    box-sizing: border-box;
-                    background: #21241D;
-                    transform: rotate(0deg);
-                    /* Rectangle 55 */
-                    width: 606px;
-                    height: 237.95px;
-                    left: 0px;
-                    top: 0px;
-                    background: #21241D;
-                    border: 2px solid rgba(185, 255, 102, 1);
-                    border-radius: 45px;
+                    .Polygon{
+                    }
+                    .Rectangle{
+                       
+                        box-sizing: border-box;
 
+                         
+                        width: 44%;
+                        height: 70%;
+                        display: flex;
+                        flex-direction: row ;
+                        align-items: flex-start; 
+                        justify-content: space-between;
+                        border: 2px solid $color;
+                        border-radius: 6vh;
+                        position: absolute;
+                        top: 10%;
+                        
+                     
+                    }
                     p{
+                        border: #ca1ad3;
+                        box-sizing: border-box;
+                        width:500%;
+                        height: 100%;
                         position: relative;
-                        width: 502px;
-                        height: 138px;
-                        left: 52px;
-                        top: 25px;
+                        left: 40%;
+                        top: 13svh;
                         font-family: 'Space Grotesk';
                         font-style: normal;
-                        font-weight: 400;
-                        font-size: 18px;
-                        line-height: 22.97px;
+                        
+                        font-size: 2.5vh;
+                        line-height: 3vh;
                         text-align: left;
-                        color: white;
-                     }
-                }
-                .Text{
-                    h4{
-                        width: 526px;
-                        height: 49px;
-                        gap: 0px;
-                        opacity: 0px;
-                        //styleName: h4;
-                        font-family: Space Grotesk;
-                        font-size: 20px;
-                        font-weight: 500px;
-                        line-height: 25.52px;
-                        text-align: left;
-                        color: #B9FF66;}
-        
-                }
-                    p{
-                        font-family: Space Grotesk;
-                        font-size: 18px;
-                        font-weight: 400ps;
-                        line-height: 22.97px;
-                        text-align: left;
-                        position: absolute;
-                        top: 300px;
+                        color: white;   
+                        display: flex;
+                        flex-direction: row ;
+                        align-items: flex-start; 
+                        justify-content: space-between; 
                     }
-             }
-             
+
+                
         }
-        .Navigation{
+
+        
+    }
+        }
+        .Navigation {
+            
             display: flex;
             flex-direction: row;
             justify-content: space-between;
             align-items: center;
-            padding: 0px;
-            gap: 189px;
-
-            width: 564px;
-            height: 14px;
-
-
+            padding: 0;
+            gap: 10%;
+            width: 50%;
+            height: 10%;
+            position: absolute;
+            top: 150%;
+            left: 45%;
             /* Inside auto layout */
             flex: none;
             order: 1;
             flex-grow: 0;
-            button{
-               background: rgba(25, 26, 35, 1);
+
+            button {
+                background: rgba(25, 26, 35, 1);
                 border: none;
             }
-
         }
-
     }
-
 }
-.content5 {
-    border-style:none;
-    border-color: transparent;
-    position: absolute;
-    left: 100px;
-    height: 51px;
-    top: 750px;
-    width: 1440px;
-    background-color: blue;
-    .heading {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 0px 7px;
-        gap: 10px;
-        width: 255px;
-        height: 51px;
-        background: #B9FF66;
-        border-radius: 7px;
-       
-        
-        h2{
-            width: Hug (255px)px;
-            height: Hug (51px)px;
-            gap: 0px;
-            opacity: 0px;
-
-            font-family: 'Space Grotesk';
-            font-style: normal;
-            font-weight: 500;
-            font-size: 40px;
-            line-height: 51px;
-            flex: none;
-            order: 0;
-            flex-grow: 0;
-            }
-            
-    }
-    p{
-        font-family: Space Grotesk;
-        font-size: 18px;
-        line-height: 22.97px;
-        width: 410px;
-        height: 46px;
-        gap: 0px;
-        opacity: 0px;
-        position: absolute;
-        top:5px;
-        left:300px;
-        
-        }
-
-}
-.contactBlock{
- position: absolute;
- background-color: #ca1ad3;
- width: 1240px;
-
- position: absolute;
-top: 850px;
-left: 100px;
-.blockWithIllustration{
+.content5{
+    width: 100%;
+    height: 10%;
     border: solid;
-    background: rgba(243, 243, 243, 1);
-    width: 1,240px;
-    height: 773px;
-    padding: 60px 100px 80px 100px;
-    gap: 10px;
-    border-radius: 45px ;
-    opacity: 0px;
-    .Form{
-        border: solid;
-        width: 556px;
-        height: 633px;
-        .radioButtons{
-            border: transparent;
-            display: flex;
-            flex-direction: row;
-            align-items: start;
-            
-            gap: 40px;
-            
-            width: 400px;
-            height: 30px;
-            .sayHi{
-                border: transparent;
-                display: flex;
-                flex-direction: row;
-                align-items: flex-start;
-                gap: 10px;
-                width: 150px;
-                height: 28px;
-            }
-            .getAQuote{
-                border: transparent;
-                display: flex;
-                flex-direction: row;
-                gap: 10px;
-                width: 150px;
-                height: 28px;
-            }
-            
-            }
-            input[type=radio]{
-                width: 28px;
-                height: 28px;
-                gap: 0px;
-                border-radius: 29px ;
-                cursor: pointer;
-                opacity: 0px;
-                color: #B9FF66;
-                vertical-align:middle;
-                background:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/check_radio_sheet.png) -38px top no-repeat;
+    /* Heading & Subheading */
 
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0% 5%;
+    gap: 5%;
 
-            }
-        }
-        .Fields{
-            position: absolute;
-            border: transparent;
+    position: absolute;
+    top: 130%;
+    .heading{
+        h2{
+            /* Heading */
+    
+            /* Auto layout */
             display: flex;
             flex-direction: column;
             align-items: flex-start;
-            padding: 0px;
-            gap: 25px;
-            width: 556px;
-            height: 457px;
+            padding: 0;
+            border-radius: 1vh;
+            width: 100%;
+            height: 100%;
+            border: solid;
+            background-color: $color ;
+            /* Inside auto layout */
             flex: none;
-            order: 1;
+            order: 0;
             flex-grow: 0;
-            .Field{
-                
+    
+        }
+    }
+    p{
+        border: solid;
+                /* Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services */
+        background-color: antiquewhite;
+        width:20% ;
+        height: 100%;
+
+        /* p */
+        font-family: 'Space Grotesk';
+        font-style: normal;
+
+        font-size: 2vh;
+        line-height: 3vh;
+
+        color: #000000;
+
+
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+
+    }
+}
+.contactBlock {
+    position: absolute;
+    background-color: #ca1ad3;
+    width: 90%;
+    height: 110%;
+    position: absolute;
+    top: 150%;
+    left: 5%;
+
+    .blockWithIllustration {
+        border: solid;
+        background: rgba(243, 243, 243, 1);
+        width: 100%;
+        height: 100%;
+        padding: 4.5% 10% 8% 10%;
+        gap: 10%;
+        border-radius: 5vh;
+        opacity: 0px;
+
+        .Form {
+            border: solid;
+            width: 60%;
+            height: 114%;
+           
+
+            .radioButtons {
+                border: solid;
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                gap: 0%;
+                width: 40%;
+                height: 5%;
+                position: absolute;
+
+                .sayHi, .getAQuote {
+                    border: transparent;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: start;
+                    align-items: flex-start;
+                    gap: 1%;
+                    width: 50%;
+                    height: 30%;
+                }
+              
+                input[type=radio] {
+                    width: 20%;
+                    height:4vh;
+                    gap: 0;
+                    cursor: pointer;
+                    opacity: 0vh;
+                    color: #B9FF66;
+                    
+                    
+                }
+            }
+            .Fields {
+                position: absolute;
+                border: solid;
                 display: flex;
                 flex-direction: column;
                 align-items: flex-start;
-                padding: 0px;
-                gap: 5px;
-
-                width: 556px;
-                height: 92px;
+                padding: 0;
+                gap: 5%;
+                width: 45%;
+                height: 50vh;
                 flex: none;
-                order: 0;
+                order: 1;
                 flex-grow: 0;
-                p{
-                    position: relative;
-                    top: 20px;
-                    width: 44px;
+                top: 15%;
+                .Field {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    padding: 0px;
+                    gap: 5%;
+                    width: 100%;
+                    height: 10vh;
+                    flex: none;
+                    order: 0;
+                    flex-grow: 0;
+    
+                    p {
+                        border: solid;
+                        position: relative;
+                        top: 30%;
+                        width: 30%;
+                        height: 5vh;
+                        gap: 0;
+                        opacity: 0vh;
+                        font-family: Space Grotesk;
+                        font-size: 2.2vh;
+                        line-height: 3vh;
+                        text-align: left;
+                    }
+    
+                    input[id=Name], input[id=Email] {
+                        width: 100%;
+                        height: 50vh;
+                        padding: 3% 5% 3% 5%;
+                        gap: 0px;
+                        border-radius: 2vh;
+                        opacity: 0px;
+                    }
+    
+                    input[id=Message] {
+                        position: absolute;
+                        top: 66%;
+                        width:100%;
+                        height: 50%;
+                        padding: 3% 5% 3% 5%;
+                        gap: 0;
+                        border-radius: 2vh;
+                        
+                        opacity: 0px;
+                    }
+    
+                    ::placeholder {
+                        position: absolute;
+                        top: 2vh;
+                        width: 30%;
+                        height: 50%;
+                        font-family: Space Grotesk;
+                        font-size: 2.5vh;
+                        line-height: 3vh;
+                        text-align: left;
+                        color: rgba(137, 137, 137, 1);
+                    }
+                  
+                }
+            }
+            .Button {
+
+                input[type=button] {
+                    position: absolute;
+                    top:75%;
+                    width: 45%;
+                    height: 10%;
+                    padding: 5% 7% 5% 7%;
+                    gap: 5%;
+                    border-radius: 2vh;
+                    opacity: 0px;
+                    background: rgba(25, 26, 35, 1);
+                    text-align: center;
+                    color: white;
+                }
+        }
+        }
+    }
+
+    .Illustration {
+        border: solid;
+        position: absolute;
+        width: 45%;
+        height: 635px;
+        top: 70px;
+        left: 955px;
+        gap: 0px;
+        opacity: 0px;
+    }
+}
+.footerBlock {
+    width: 100%;
+    height: 0%;
+    background-color: #B9FF66;
+    padding: 0px 100px 0px 100px;
+    gap:5%;
+    opacity: 0px;
+    position: absolute;
+    top: 270%;
+        width: 90%;
+    .Footer {
+        position: absolute;
+        top: 90%;
+        width: 90%;
+        height: 514px;
+        padding: 55px 60px 50px 60px;
+        gap: 50px;
+        border-radius: 45px 45px 0px 0px;
+        opacity: 0px;
+        background: rgba(25, 26, 35, 1);
+
+        .navigationAndContacts {
+            position: relative;
+            color: white;
+            top: 0px;
+
+            .Elements {
+
+                .Logo {
+                    img {
+                        position: absolute;
+                        width: 180px;
+                        height: 29px;
+                        gap: 0px;
+                        opacity: 0px;
+                    }
+                }
+
+                .Navigation {
+                    width: 501px;
+                    height: 23px;
+                    position: absolute;
+                    left: 400px;
+                    top: 0;
+                    /* Navigation */
+                    /* Auto layout */
+                    display: flex;
+                    flex-direction: row;
+                    align-items: flex-start;
+                    padding: 0px;
+                    gap: 40px;
+                    /* Inside auto layout */
+                    flex: none;
+                    order: 1;
+                    flex-grow: 0;
+
+
+
+                    u {
+                        font-family: Space Grotesk;
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 22.97px;
+                        text-align: left;
+                        color: white;
+                    }
+                }
+
+                .socialIcons {
+
+                    .socialIcon_linkedin {
+                        width: 40px;
+                        position: absolute;
+                        left: 1000px;
+                        top: 0;
+                    }
+
+                    .socialIcon_facebook {
+                        width: 40px;
+                        position: absolute;
+                        left: 1045px;
+                        top: 0;
+                    }
+
+                    .socialIcon_twitter {
+                        width: 40px;
+                        position: absolute;
+                        left: 1090px;
+                        top: 0;
+                    }
+                }
+            }
+
+            .Frame26 {
+                position: relative;
+                top: 80px;
+                width: 1,120px;
+                height: 185px;
+                gap: 154px;
+                opacity: 0px;
+
+                .contactUs {
+                    .Heading {
+                        width: 126px;
+                        height: 26px;
+                        padding: 0px 7px 0px 7px;
+                        gap: 10px;
+                        border-radius: 7px;
+                        opacity: 0px;
+                        background: rgba(185, 255, 102, 1);
+
+                        h4 {
+                            //styleName: h4;
+                            font-family: Space Grotesk;
+                            font-size: 20px;
+                            font-weight: 500;
+                            line-height: 25.52px;
+                            text-align: left;
+                            color: #191A23;
+                        }
+                    }
+
+                    .Info {
+                        border: transparent;
+                        width: 332px;
+                        height: 132px;
+                        gap: 20px;
+                        opacity: 0px;
+                        position: relative;
+                        top: 15px;
+
+                        p {
+                            //styleName: p;
+                            font-family: Space Grotesk;
+                            font-size: 18px;
+                            font-weight: 400;
+                            line-height: 22.97px;
+                            text-align: left;
+                        }
+                    }
+                }
+
+                .subscriptionBlock {
+                    position: absolute;
+                    left: 485px;
+                    top: 0;
+                    /* Subscription block */
+                    /* Auto layout */
+                    display: flex;
+                    flex-direction: row;
+                    align-items: flex-start;
+                    padding: 58px 40px;
+                    gap: 20px;
+                    width: 634px;
+                    height: 184px;
+                    background: #292A32;
+                    border-radius: 14px;
+
+
+                    input[type=text], select {
+                        width: 285px;
+                        height: 67px;
+                        padding: 22px, 35px, 22px, 35px;
+                        margin: 8px 0;
+                        display: inline-block;
+                        border-radius: 14px;
+                        box-sizing: border-box;
+                    }
+
+                    ::placeholder {
+                        position: absolute;
+                        width: 45px;
+                        height: 23px;
+                        gap: 0px;
+                        opacity: 0px;
+                        opacity: 1;
+                        left: 40px;
+                        //styleName: p;
+                        font-family: Space Grotesk;
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 22.97px;
+                        text-align: left;
+                    }
+
+                    input[type=button] {
+                        position: absolute;
+                        width: 249px;
+                        height: 68px;
+                        padding: 20px 35px 20px 35px;
+                        gap: 10px;
+                        border-radius: 14px;
+                        opacity: 0px;
+                        left: 350px;
+                        top: 65px;
+                        background-color: #B9FF66;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+
+        .lineAndText {
+            border-top: solid white;
+            position: relative;
+            width: 1,120px;
+            height: 78px;
+            gap: 50px;
+            opacity: 0px;
+            top: 150px;
+
+            .Text {
+                position: absolute;
+                color: white;
+
+                .text1 {
+                    position: absolute;
+                    top: 30px;
+                    width: 324px;
                     height: 28px;
                     gap: 0px;
                     opacity: 0px;
                     font-family: Space Grotesk;
-                    font-size: 16px;
+                    font-size: 18px;
                     font-weight: 400;
                     line-height: 28px;
                     text-align: left;
-
                 }
-                input[id=Name],input[id=Email]{
-                    width: 556px;
-                    height: 59px;
-                    padding: 18px 30px 18px 30px;
-                    gap: 0px;
-                    border-radius: 14px ;
-                    opacity: 0px;
 
-                }
-                input[id=Message]{
+                .text2 {
                     position: absolute;
-                    top: 280px;
-                    width: 556px;
-                    height: 190px;
-                    padding: 18px 30px 18px 30px;
-                    gap: 10px;
-                    border-radius: 14px;
-                    border: 1px 0px 0px 0px;
-                    opacity: 0px;
-
-                }
-                ::placeholder{
-                    position: absolute;
-                    top: 17px;
-                    width: 100px;
-                    height: 23px;
                     font-family: Space Grotesk;
                     font-size: 18px;
                     font-weight: 400;
-                    line-height: 22.97px;
+                    line-height: 28px;
                     text-align: left;
-                    color: rgba(137, 137, 137, 1);
-
+                    width: 121px;
+                    height: 28px;
+                    gap: 0px;
+                    opacity: 0px;
+                    top: 30px;
+                    left: 350px;
                 }
-                
-
             }
         }
-        .Button{
-           
-            input[type=button]{
-                position: absolute;
-                top: 625px;
-                width: 556px;
-                height:  68px;
-                padding: 20px 35px 20px 35px;
-                gap: 10px;
-                border-radius: 14px ;
-                opacity: 0px;
-                background: rgba(25, 26, 35, 1);
-                text-align: center;
-                color: white;
-
-            }
-
-
-        }
-        
-        }
-    .Illustration{
-        border: solid;
-        position: absolute;
-        width: 649.86px;
-        height: 635px;
-        top: 70px;
-        left: 870px;
-        gap: 0px;
-        opacity: 0px;
     }
 }
-
-
-.footerBlock{
-    width: Hug (1,441px)px;
-    height: Hug (514px)px;
-    background-color: #B9FF66;
-    padding: 0px 100px 0px 100px;
-    gap: 10px;
-    opacity: 0px;
-    
-    position: absolute;
-    top:1700px;
-    width: 1440px;
-            .Footer{
-                width: 1,241px;
-                height: 514px;
-                padding: 55px 60px 50px 60px;
-                gap: 50px;
-                border-radius: 45px 45px 0px 0px;
-                opacity: 0px;
-                background: rgba(25, 26, 35, 1);
-                .navigationAndContacts{
-                    position: relative;
-                    color:white;
-                    top: 0px;
-                    .Elements{
-                        
-                        .Logo{
-                            img{
-                                position: absolute;
-                                width: 180px;
-                                height: 29px;
-                                gap: 0px;
-                                opacity: 0px;
-
-                            }
-                        }
-                        .Navigation{
-                            width: 501px;
-                            height: 23px;
-                            position: absolute;
-                           
-                            left: 400px;
-                            top: 0;
-                            /* Navigation */
-
-                            /* Auto layout */
-                            display: flex;
-                            flex-direction: row;
-                            align-items: flex-start;
-                            padding: 0px;
-                            gap: 40px;
-
-                            /* Inside auto layout */
-                            flex: none;
-                            order: 1;
-                            flex-grow: 0;
-
-
-
-                            u{
-                                font-family: Space Grotesk;
-                                font-size: 18px;
-                                font-weight: 400;
-                                line-height: 22.97px;
-                                text-align: left;
-                                color: white;
-        
-                            }
-                        }
-                        .socialIcons{
-                            
-                            .socialIcon_linkedin{
-                                
-                                width: 40px;
-                                position: absolute;
-                                left: 1000px;
-                                top: 0;
-                                
-                            }
-                            .socialIcon_facebook{
-                                
-                                width: 40px;
-                                position: absolute;
-                                left: 1045px;
-                                top: 0;
-                                
-                            }
-                            .socialIcon_twitter{
-                                
-                                width: 40px;
-                                position: absolute;
-                                left: 1090px;
-                                top: 0;
-                                
-                            }
-                        }
-                    }
-                    .Frame26{
-                        
-                        position: relative;
-                        top: 80px;
-                        width: 1,120px;
-                        height: 185px;
-                        gap: 154px;
-                        opacity: 0px;
-                        .contactUs{
-                            .Heading{
-                                width: 126px;
-                                height: 26px;
-                                padding: 0px 7px 0px 7px;
-                                gap: 10px;
-                                border-radius: 7px ;
-                                opacity: 0px;
-                                background: rgba(185, 255, 102, 1);
-                                h4{
-                                    //styleName: h4;
-                                font-family: Space Grotesk;
-                                font-size: 20px;
-                                font-weight: 500;
-                                line-height: 25.52px;
-                                text-align: left;
-                                color: #191A23;
-
-                                }
-                            }
-                            .Info{
-                                border: transparent;
-                                width: 332px;
-                                height: 132px;
-                                gap: 20px;
-                                opacity: 0px;
-                                position: relative;
-                                top: 15px;
-                                p{
-                                    //styleName: p;
-                                    font-family: Space Grotesk;
-                                    font-size: 18px;
-                                    font-weight: 400;
-                                    line-height: 22.97px;
-                                    text-align: left;
-
-                                }
-
-                            }
-
-                        }
-                        .subscriptionBlock{
-                            position: absolute;
-                            left: 485px;
-                            top: 0;
-                            /* Subscription block */
-
-                            /* Auto layout */
-                            display: flex;
-                            flex-direction: row;
-                            align-items: flex-start;
-                            
-                            padding: 58px 40px;
-                            gap: 20px;
-
-                            width: 634px;
-                            height: 184px;
-
-                            background: #292A32;
-                            border-radius: 14px;
-
-
-                            input[type=text], select {
-                                width: 285px;
-                                height: 67px;
-                                padding: 22px, 35px, 22px, 35px;
-                                margin: 8px 0;
-                                display: inline-block;
-                                
-                                border-radius: 14px;
-                                box-sizing: border-box;
-                                
-                              }
-                              ::placeholder {
-                                position: absolute;
-                                width: 45px;
-                                height: 23px;
-                                gap: 0px;
-                                opacity: 0px;
-                                 
-                                  opacity: 1;
-                                  left:40px;
-                                  //styleName: p;
-                                font-family: Space Grotesk;
-                                font-size: 18px;
-                                font-weight: 400;
-                                line-height: 22.97px;
-                                text-align: left;
-
-                                }
-                            input[type=button]{
-                                position: absolute;
-                                width: 249px;
-                                height: 68px;
-                                padding: 20px 35px 20px 35px;
-                                gap: 10px;
-                                border-radius: 14px ;
-                                opacity: 0px;
-                                left: 350px;
-                                top: 65px;
-                                background-color: #B9FF66;
-                                text-align: center;
-                            }
-                        }
-
-                    }
-                }
-                .lineAndText{
-                    border-top: solid white ;
-                    position: relative;
-                    width:1,120px;
-                    height: 78px;
-                    gap: 50px;
-                    opacity: 0px;
-                    top: 150px;
-                    .Text{
-                        position: absolute;
-                        color:white;
-                        .text1{
-                            position: absolute;
-                            top: 30px;
-                            width: 324px;
-                            height: 28px;
-                            gap: 0px;
-                            opacity: 0px;
-                            font-family: Space Grotesk;
-                            font-size: 18px;
-                            font-weight: 400;
-                            line-height: 28px;
-                            text-align: left;
-                            
-                        }
-                        .text2{
-                            position: absolute;
-                            font-family: Space Grotesk;
-                            font-size: 18px;
-                            font-weight: 400;
-                            line-height: 28px;
-                            text-align: left;
-                            width: 121px;
-                            height: 28px;
-                            gap: 0px;
-                            opacity: 0px;
-                            top: 30px;
-                            left: 350px;
-
-                        }
-                    }
-                }
-            }
-        }
-
