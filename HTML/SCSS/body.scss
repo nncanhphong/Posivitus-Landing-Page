@@ -133,162 +133,68 @@
 .processBlock
 {
     width: 100%;
-    height: 200vh;
+    height: 100%;
 
-    padding: 0% 5% 0% 5%;
-    display: table;
-    flex-direction: row;
-    align-items: flex-start;
+    background-color: aquamarine;
 
     .Card
     {
-        box-sizing: border-box;
+        width: 90%;
+        height: 20%;
 
-        /* Auto layout */
-        width: 100%;
-        height: 32vh;
-        padding: 0% 5% 0% 5%;
-        
-      
+        margin: 0% 5% 0% 5%; 
 
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        margin-bottom: 2%;
-
-        /* Green */
-        background: #B9FF66;
-        border: 1px solid #191A23;
-        box-shadow: 0px 5px 0px #191A23;
-        border-radius: 6vh;
-
+        background-color: red;
 
         .Content
         {
-            position: absolute;
             width: 100%;
-            height: 16vh;
+            height: 100%;
 
+            display: flex;
+            flex-direction: column;
+            
             .Label
             {
-                width: 20%;
-                height: inherit;
+                width: 60%;
+                height: 50%;
 
-                gap: 2%;
-                margin: 0%;
                 display: flex;
                 flex-direction: row;
-                align-items: flex-start;
-                
-                p#number
-                {
-                    width: 5%;
-                    height: inherit;
-                    text-align: center;
-                   
-                    
-                    font-size: 8vh;
-                    font-weight: 500;
-                }
 
-                p#text{
-                    width: 10%;
-                    height: inherit;
-                    text-align: center;
-                    
-                    font-size: 5vh;
-                    font-weight: 500;
-                    
-                }
-    
+                background-color: blue;
             }
-            .plusIcon
+            .expandInformation
             {
-                /* Plus icon */
-                width: 58px;
-                height: 58px;
-                margin-left: 200%;
-                margin-top: 5%;
+                width: 40%;
+                height: 50%;
 
-                button#Plus
+                display: flex;
+                flex-direction: row;
+
+                button
                 {
-                    /* + */
-                    position: absolute;
-                    left: 187.78%;
-                    right: 29.17%;
-                    top: 82%;
-                    bottom: 29.17%;
+                    cursor: pointer;
 
-                    border: none;
-                    background-color: transparent;
-
-                    z-index: -1;
+                    button:hover
+                    {
+                        background-color: yellow;
+                    }
                 }
-
-                button#Subtraction
-                {
-                    /* - */
-                    position: absolute;
-                    left: 188.22%;
-                    right: 29.17%;
-                    top: 87%;
-                    bottom: 29.17%;
-
-                    border: none;
-                    background-color: transparent;
-                    z-index: 1;
-                }
-
-                button#Frame
-                {
-                    /* o */
-                    position: absolute;
-                    left: 185.38%;
-                    right: 29.17%;
-                    top: 60%;
-                    bottom: 29.17%;
-
-                    border: none;
-                    background-color: transparent;
-                    z-index: 0;
-                }
-
-            }
-
-            hr
-            {
-                //display: none;
-                color: black;
-                background: black;
-                border: 0;
-                height: 1px;
-                size: 1%;
-                margin: 5% 0 0 0; 
-                width: 1114px;
             }
 
             p#information
             {
-                //display: none;
-                width: 1114px;
-                height: 60px;
-                margin-top: 5%;
+                padding: 20px;
 
-                /* p */
-                font-family: 'Space Grotesk';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 18px;
-                line-height: 23px;
-
-                color: #000000;
-
+                .collapsed
+                {
+                    display: none;
+                }
             }
-            
         }
 
     }
-
 }
 
 

@@ -1,0 +1,94 @@
+.processBlock {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Card {
+  width: 300px;
+  margin: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Content {
+  padding: 20px;
+}
+
+.Label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.Label #number {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.Label #text {
+  font-size: 18px;
+}
+
+.expandInformation {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.expandInformation button {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.expandInformation button svg {
+  fill: #333;
+}
+
+.expandInformation button:hover svg {
+  fill: #666;
+}
+
+.Card hr {
+  margin: 10px 0;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+.Card #information {
+  display: none;
+  padding: 20px;
+  font-size: 16px;
+  color: #666;
+}
+
+.Card.expanded #information {
+  display: block;
+}
+
+.Card.expanded .expandInformation #Plus {
+  display: none;
+}
+
+.Card.expanded .expandInformation #Subtraction {
+  display: inline-block;
+}
+
+.Card.expanded .expandInformation #Frame {
+  display: none;
+}
+
+.Card:not(.expanded) .expandInformation #Subtraction {
+  display: none;
+}
+
+.Card:not(.expanded) .expandInformation #Plus {
+  display: inline-block;
+}
+
+.Card:not(.expanded) .expandInformation #Frame {
+  display: inline-block;
+}/*# sourceMappingURL=testSCSS.css.map */
