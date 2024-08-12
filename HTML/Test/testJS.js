@@ -1,15 +1,31 @@
-const cards = document.querySelectorAll('.Card');
+const carousel = document.querySelector('.carousel');
+const cards = document.querySelectorAll('.card');
+const prevBtn = document.querySelector('#prevBtn');
+const nextBtn = document.querySelector('#nextBtn');
 
-cards.forEach((card) => {
-  const expandButton = card.querySelector('.expandInformation #Plus');
-  const collapseButton = card.querySelector('.expandInformation #Subtraction');
-  const information = card.querySelector('#information');
+let currentCard = 0;
 
-  expandButton.addEventListener('click', () => {
-    card.classList.add('expanded');
-  });
-
-  collapseButton.addEventListener('click', () => {
-    card.classList.remove('expanded');
-  });
+prevBtn.addEventListener('click', () => {
+  currentCard = (currentCard - 1 + cards.length) % cards.length;
+  updateCards();
 });
+
+nextBtn.addEventListener('click', () => {
+  currentCard = (currentCard + 1) % cards.length;
+  updateCards();
+});
+
+function updateCards() {
+  cards.forEach((card, index) => {
+    card.classList.remove('active', 'prev', 'next');
+    if (index === currentCard) {
+      card.classList.add('active');
+    } else if (index === (currentCard - 1 + cards.length) % cards.length) {
+      card.classList.add('prev');
+    } else if (index === (currentCard + 1) % cards.length) {
+      card.classList.add('next');
+    }
+  });
+}
+
+updateCards();
