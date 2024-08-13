@@ -13,13 +13,11 @@ div.landingPage div.navigationBar {
   gap: 10%;
   padding: 2% 5% 2% 0%;
   /*Display for test*/
-  background-color: red;
   flex: none;
   order: 0;
   flex-grow: 0;
 }
 div.landingPage div.navigationBar div.Frame9 {
-  background-color: yellow;
   /*Size*/
   width: 20%;
   height: 100%;
@@ -38,7 +36,6 @@ div.landingPage div.navigationBar div.Frame9 .Logo img {
   fill: none;
 }
 div.landingPage div.navigationBar div.Frame10 {
-  background-color: green;
   /*Size*/
   width: 70%;
   height: 100%;
@@ -52,7 +49,6 @@ div.landingPage div.navigationBar div.Frame10 {
   flex-grow: 0;
 }
 div.landingPage div.navigationBar div.Frame10 ul {
-  background-color: rebeccapurple;
   width: 100%;
   height: 100%;
   display: flex;
@@ -71,7 +67,6 @@ div.landingPage div.navigationBar div.Frame10 ul li {
   height: inherit;
   margin: 2% 1% 1% 2%;
   font-size: 3vh;
-  background-color: palevioletred;
 }
 div.landingPage div.navigationBar div.Frame10 ul button {
   /*Size*/
@@ -84,7 +79,6 @@ div.landingPage div.navigationBar div.Frame10 ul button {
   font-size: 3vh;
 }
 div.landingPage .Header {
-  background-color: yellow;
   /*Size*/
   width: 100%;
   height: 40%;
@@ -99,7 +93,6 @@ div.landingPage .Header {
   flex-grow: 0;
 }
 div.landingPage .Header .Frame13 {
-  background-color: purple;
   /*Size*/
   width: 35%;
   height: 40%;
@@ -187,7 +180,6 @@ div.landingPage .Header .Illustration img {
   height: 100%;
 }
 div.landingPage .Logotypes {
-  background-color: blanchedalmond;
   /*Size*/
   size: 100%;
   height: 10%;
@@ -222,7 +214,6 @@ div.Services {
   gap: 5%;
   margin: 0% 5% 0% 5%;
   /*Debug*/
-  background-color: turquoise;
 }
 div.Services .Heading {
   /*Size*/
@@ -258,7 +249,6 @@ div.Services .Heading Label h2 {
   flex-grow: 0;
 }
 div.Services p {
-  background-color: rosybrown;
   /*Size*/
   width: 40%;
   height: 100%;
@@ -282,12 +272,10 @@ div.servicesBlock {
   margin: 5% 0% 10% 5%;
   width: 100%;
   height: 100%;
-  background-color: burlywood;
 }
 div.servicesBlock div.cardSection {
   width: 100%;
   height: 30%;
-  background-color: yellow;
   gap: 2%;
   display: flex;
   flex-direction: row;
@@ -307,13 +295,12 @@ div.servicesBlock div.cardSection div {
 div.servicesBlock div.cardSection div div.headingAndLink {
   width: 50%;
   height: 100%;
-  margin: 5% 0% 5% 5%;
+  margin: 7% 0% 5% 5%;
   border: none;
   display: flex;
   flex-direction: column;
   gap: 10vh;
   box-shadow: none;
-  background-color: red;
 }
 div.servicesBlock div.cardSection div div.headingAndLink .Heading {
   border: none;
@@ -322,10 +309,12 @@ div.servicesBlock div.cardSection div div.headingAndLink .Heading {
   height: 50%;
   display: flex;
   flex-direction: column;
-  margin-right: 0%;
 }
 div.servicesBlock div.cardSection div div.headingAndLink .Heading h3 {
-  background-color: #B9FF66;
+  margin: 0%;
+}
+div.servicesBlock div.cardSection div div.headingAndLink .Heading h3 h3 span {
+  font-size: 3vh;
 }
 div.servicesBlock div.cardSection div div.headingAndLink .Link {
   width: 60%;
@@ -335,58 +324,87 @@ div.servicesBlock div.cardSection div div.headingAndLink .Link {
 }
 div.servicesBlock div.cardSection div div.headingAndLink .Link p {
   text-align: center;
-  margin: 5% 0% 0% 0%;
+  margin: 10% 0% 0% 0%;
+  font-size: 3vh;
 }
 div.servicesBlock div.cardSection div .Illustration {
-  background: violet;
   width: 40%;
   height: 100%;
-  align-items: center;
   border: none;
   box-shadow: none;
-  margin: 7% 5% 5% 0%;
+  margin: 5% 5% 5% 5%;
 }
 div.servicesBlock div.cardSection div .Illustration img {
   width: 100%;
   height: 100%;
 }
+div.servicesBlock div.cardSection div.Card2, div.servicesBlock div.cardSection div.Card5 {
+  background-color: #B9FF66;
+}
+div.servicesBlock div.cardSection div.Card2 h3 span, div.servicesBlock div.cardSection div.Card5 h3 span {
+  background-color: #FFFFFF;
+}
+div.servicesBlock div.cardSection div.Card1, div.servicesBlock div.cardSection div.Card4 {
+  background-color: #f3f3f3;
+}
+div.servicesBlock div.cardSection div.Card1 h3 span, div.servicesBlock div.cardSection div.Card4 h3 span {
+  background-color: #B9FF66;
+}
+div.servicesBlock div.cardSection div.Card3, div.servicesBlock div.cardSection div.Card6 {
+  background-color: #191A23;
+}
+div.servicesBlock div.cardSection div.Card3 h3 span, div.servicesBlock div.cardSection div.Card6 h3 span {
+  background-color: #FFFFFF;
+}
+div.servicesBlock div.cardSection div.Card3 .Link p, div.servicesBlock div.cardSection div.Card6 .Link p {
+  color: #FFFFFF;
+}
 
 div.ctaBlock {
   width: 100%;
   height: 100%;
-  margin: 0% 0% 0% 5%;
-  background-color: aquamarine;
+  margin: 0% 0% 10% 0%;
+  font-size: 3vh;
 }
 div.ctaBlock .CTA {
-  width: 100%;
+  width: 90%;
   height: 70%;
   border: 1px solid #191A23;
   border-radius: 3vh;
-  margin: 0% 5% 0% 0%;
+  margin: 0% 0% 0% 5%;
+  gap: 20%;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  background-color: green;
 }
 div.ctaBlock .CTA div {
   height: 100%;
   width: 40%;
-  margin: 2% 2% 2% 2%;
 }
 div.ctaBlock .CTA .Card {
-  background-color: red;
-  margin: 3% 1% 2% 3%;
+  margin: 3% 0% 2% 3%;
 }
 div.ctaBlock .CTA .Card .textAndButton {
-  background-color: aqua;
   width: 90%;
 }
+div.ctaBlock .CTA .Card .textAndButton button {
+  width: 50%;
+  height: 7vh;
+  border: 1px solid black;
+  border-radius: 1vh;
+  background-color: #191A23;
+}
+div.ctaBlock .CTA .Card .textAndButton button p {
+  margin: 1% 1% 1% 1%;
+  color: #FFFFFF;
+}
 div.ctaBlock .CTA .Frame19 {
-  background-color: cadetblue;
+  margin: 0% 0% 0% 0%;
 }
 div.ctaBlock .CTA .Frame19 .Illustration {
   margin: 0% 0% 0% 0%;
   height: 100%;
+  width: 50%;
 }
 div.ctaBlock .CTA .Frame19 .Illustration img {
   width: 100%;
@@ -496,704 +514,310 @@ div.ctaBlock .CTA .Frame19 .Illustration img {
 
 .processBlock {
   width: 100%;
-  height: 200vh;
+  height: 100%;
   padding: 0% 5% 0% 5%;
   display: table;
   flex-direction: row;
   align-items: flex-start;
+  background-color: aquamarine;
 }
 .processBlock .Card {
-  box-sizing: border-box;
-  /* Auto layout */
-  width: 100%;
-  height: 32vh;
+  width: 90%;
+  height: 15%;
   padding: 0% 5% 0% 5%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   margin-bottom: 2%;
   /* Green */
-  background: #B9FF66;
   border: 1px solid #191A23;
   box-shadow: 0px 5px 0px #191A23;
   border-radius: 6vh;
 }
 .processBlock .Card .Content {
-  position: absolute;
   width: 100%;
-  height: 16vh;
-}
-.processBlock .Card .Content .Label {
-  width: 20%;
-  height: inherit;
-  gap: 2%;
-  margin: 0%;
+  height: 100%;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  gap: 35%;
+}
+.processBlock .Card .Content .Label {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: left;
+  gap: 10%;
+  margin: 3% 0% 0% 0%;
+}
+.processBlock .Card .Content .Label p {
+  margin: 0% 0% 0% 0%;
 }
 .processBlock .Card .Content .Label p#number {
   width: 5%;
-  height: inherit;
-  text-align: center;
+  height: 100%;
   font-size: 8vh;
-  font-weight: 500;
 }
 .processBlock .Card .Content .Label p#text {
-  width: 10%;
-  height: inherit;
-  text-align: center;
-  font-size: 5vh;
-  font-weight: 500;
-}
-.processBlock .Card .Content .plusIcon {
-  /* Plus icon */
-  width: 58px;
-  height: 58px;
-  margin-left: 200%;
-  margin-top: 5%;
-}
-.processBlock .Card .Content .plusIcon button#Plus {
-  /* + */
-  position: absolute;
-  left: 187.78%;
-  right: 29.17%;
-  top: 82%;
-  bottom: 29.17%;
-  border: none;
-  background-color: transparent;
-  z-index: -1;
-}
-.processBlock .Card .Content .plusIcon button#Subtraction {
-  /* - */
-  position: absolute;
-  left: 188.22%;
-  right: 29.17%;
-  top: 87%;
-  bottom: 29.17%;
-  border: none;
-  background-color: transparent;
-  z-index: 1;
-}
-.processBlock .Card .Content .plusIcon button#Frame {
-  /* o */
-  position: absolute;
-  left: 185.38%;
-  right: 29.17%;
-  top: 60%;
-  bottom: 29.17%;
-  border: none;
-  background-color: transparent;
-  z-index: 0;
+  width: 55%;
+  height: 100%;
+  font-size: 4vh;
+  margin: 2% 0% 2% 0%;
 }
 .processBlock .Card .Content hr {
-  color: black;
-  background: black;
-  border: 0;
-  height: 1px;
-  size: 1%;
-  margin: 5% 0 0 0;
-  width: 1114px;
+  margin: 5% 0% 5% 0%;
 }
-.processBlock .Card .Content p#information {
-  width: 1114px;
-  height: 60px;
-  margin-top: 5%;
+.processBlock .Card .Content .expandInformation {
+  width: 8vh;
+  height: 8vh;
+  border-radius: 50%;
+  margin: 3% 0% 3% 0%;
+  border: 1px solid black;
+  background-color: #f9f9f9;
+}
+.processBlock .Card .Content .expandInformation button {
+  font-size: 8vh;
+  border: none;
+  background-color: transparent;
+}
+.processBlock .Card .Content .expandInformation button.expand-btn {
+  margin: -6% 0% 0% 12%;
+}
+.processBlock .Card .Content .expandInformation button.collapse-btn {
+  margin: -13% 0% 0% 24%;
+}
+.processBlock .Card .Content p.information {
+  padding: 20px;
+  width: 100%;
+  height: 10vh;
   /* p */
-  font-family: "Space Grotesk";
-  font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 23px;
   color: #000000;
+}
+.processBlock .Card .Content p.information .collapsed {
+  display: none;
 }
 
 .content4 {
-  border-style: none;
-  border-color: transparent;
-  position: absolute;
-  left: 100px;
-  width: 1440px;
-  height: 51px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+  margin: 0% 5% 0% 5%;
 }
 .content4 .heading {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px 7px;
-  gap: 10px;
-  width: 255px;
-  height: 51px;
-  background: #B9FF66;
-  border-radius: 7px;
+  width: 15%;
+  height: 100%;
+  margin: 2% 0% 2% 0%;
+  background-color: #b9ff66;
 }
 .content4 .heading h2 {
-  width: Hug 255px px;
-  height: Hug 51px px;
-  gap: 0px;
-  opacity: 0px;
-  font-family: "Space Grotesk";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 51px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  font-size: 5vh;
 }
 .content4 p {
-  font-family: Space Grotesk;
-  font-size: 18px;
-  line-height: 22.97px;
-  width: 410px;
-  height: 46px;
-  gap: 0px;
-  opacity: 0px;
-  position: absolute;
-  top: 5px;
-  left: 300px;
+  width: 40%;
+  height: 100%;
+  margin: 2% 0% 2% 0%;
 }
 
 .testimonialsBlock {
-  width: 1240px;
-  height: 625px;
-  position: absolute;
-  left: 100px;
-  top: 80px;
-  background: #191A23;
-  border-radius: 45px;
+  width: 90%;
+  height: 100%;
+  margin: 0% 5% 0% 5%;
+  overflow: hidden;
+  border-radius: 5vh;
+  background-color: #191a23;
 }
 .testimonialsBlock .Testimonials {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 0px;
-  gap: 124px;
-  background-color: #F3F3F3;
-  position: absolute;
-  width: 1918px;
-  height: 473px;
-  left: -346px;
-  top: 130px;
-  mix-blend-mode: screen;
+  margin: 5% 0% 5% 0%;
+  width: 120vw;
+  gap: 20vh;
 }
 .testimonialsBlock .Testimonials .Cards {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 0px;
-  width: Hug 200px px;
-  height: Hug 266px px;
-  gap: 20px;
-  opacity: 0px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  gap: 5%;
+  margin: 0% 0% 0% -25%;
+  justify-content: center;
 }
-.testimonialsBlock .Testimonials .Cards .Card .Bubble {
-  box-sizing: border-box;
-  background: #21241D;
-  transform: rotate(0deg);
-  /* Rectangle 55 */
-  width: 606px;
-  height: 237.95px;
-  left: 0px;
-  top: 0px;
-  background: #21241D;
-  border: 2px solid rgb(185, 255, 102);
-  border-radius: 45px;
+.testimonialsBlock .Testimonials .Cards .Card {
+  display: flex;
+  flex-direction: column;
 }
-.testimonialsBlock .Testimonials .Cards .Card .Bubble p {
-  position: relative;
-  width: 502px;
-  height: 138px;
-  left: 52px;
-  top: 25px;
-  font-family: "Space Grotesk";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22.97px;
-  text-align: left;
+.testimonialsBlock .Testimonials .Cards .Card div.Bubble {
+  background-color: #191a23;
+  font-size: 3vh;
+  border-radius: 3vh;
+  border: 1px solid #b9ff66;
+}
+.testimonialsBlock .Testimonials .Cards .Card div.Bubble p {
+  margin: 5% 5% 5% 5%;
   color: white;
 }
-.testimonialsBlock .Testimonials .Cards .Card .Text h4 {
-  width: 526px;
-  height: 49px;
-  gap: 0px;
-  opacity: 0px;
-  font-family: Space Grotesk;
-  font-size: 20px;
-  font-weight: 500px;
-  line-height: 25.52px;
-  text-align: left;
-  color: #B9FF66;
+.testimonialsBlock .Testimonials .Cards .Card div.Triangle {
+  width: 0;
+  height: 0;
+  border-left: 3vh solid transparent;
+  border-right: 3vh solid transparent;
+  border-top: 5vh solid #13a5bc;
+  margin: 0% 0% 0% 10%;
+  fill: none;
 }
-.testimonialsBlock .Testimonials .Cards .Card p {
-  font-family: Space Grotesk;
-  font-size: 18px;
-  font-weight: 400ps;
-  line-height: 22.97px;
-  text-align: left;
-  position: absolute;
-  top: 300px;
+.testimonialsBlock .Testimonials .Cards .Card div.Text {
+  font-size: 3vh;
+  margin: 0% 0% 0% 10%;
 }
 .testimonialsBlock .Testimonials .Navigation {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0px;
-  gap: 189px;
-  width: 564px;
-  height: 14px;
-  /* Inside auto layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-.testimonialsBlock .Testimonials .Navigation button {
-  background: rgb(25, 26, 35);
-  border: none;
 }
 
 .content5 {
-  border-style: none;
-  border-color: transparent;
-  position: absolute;
-  left: 100px;
-  height: 51px;
-  top: 750px;
-  width: 1440px;
-  background-color: blue;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+  margin: 5% 5% 5% 5%;
 }
 .content5 .heading {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px 7px;
-  gap: 10px;
-  width: 255px;
-  height: 51px;
-  background: #B9FF66;
-  border-radius: 7px;
+  width: 15%;
+  height: 100%;
+  background-color: #b9ff66;
 }
 .content5 .heading h2 {
-  width: Hug 255px px;
-  height: Hug 51px px;
-  gap: 0px;
-  opacity: 0px;
-  font-family: "Space Grotesk";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 51px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  font-size: 5vh;
 }
 .content5 p {
-  font-family: Space Grotesk;
-  font-size: 18px;
-  line-height: 22.97px;
-  width: 410px;
-  height: 46px;
-  gap: 0px;
-  opacity: 0px;
-  position: absolute;
-  top: 5px;
-  left: 300px;
+  width: 30%;
+  height: 100%;
 }
 
 .contactBlock {
-  position: absolute;
-  background-color: #ca1ad3;
-  width: 1240px;
-  position: absolute;
-  top: 850px;
-  left: 100px;
+  width: 100%;
+  height: 100%;
+  background-color: darkgreen;
 }
 .contactBlock .blockWithIllustration {
+  width: 90%;
+  height: 100%;
   border: solid;
   background: rgb(243, 243, 243);
-  width: 1, 240px;
-  height: 773px;
-  padding: 60px 100px 80px 100px;
-  gap: 10px;
-  border-radius: 45px;
-  opacity: 0px;
+  margin: 0% 5% 0% 5%;
+  border-radius: 5vh;
+  display: flex;
+  flex-direction: row;
+  gap: 15%;
 }
 .contactBlock .blockWithIllustration .Form {
-  border: solid;
-  width: 556px;
-  height: 633px;
+  width: 50%;
+  height: 100%;
+  background-color: #b9ff66;
+  margin: 5% 5% 5% 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
 }
 .contactBlock .blockWithIllustration .Form .radioButtons {
-  border: transparent;
   display: flex;
   flex-direction: row;
-  align-items: start;
-  gap: 40px;
-  width: 400px;
-  height: 30px;
+  width: 70%;
+  height: 10%;
+  background-color: antiquewhite;
 }
-.contactBlock .blockWithIllustration .Form .radioButtons .sayHi {
-  border: transparent;
+.contactBlock .blockWithIllustration .Form .radioButtons .sayHi, .contactBlock .blockWithIllustration .Form .radioButtons .getAQuote {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  gap: 10px;
-  width: 150px;
-  height: 28px;
+  gap: 5%;
+  width: 100%;
+  height: 100%;
+  font-size: 3vh;
 }
-.contactBlock .blockWithIllustration .Form .radioButtons .getAQuote {
-  border: transparent;
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  width: 150px;
-  height: 28px;
+.contactBlock .blockWithIllustration .Form .radioButtons input[type=radio] {
+  border-radius: 50%;
+  width: 20%;
+  height: 5vh;
+  accent-color: #b9ff66;
 }
-.contactBlock .blockWithIllustration .Form input[type=radio] {
-  width: 28px;
-  height: 28px;
-  gap: 0px;
-  border-radius: 29px;
-  cursor: pointer;
-  opacity: 0px;
-  color: #B9FF66;
-  vertical-align: middle;
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/check_radio_sheet.png) -38px top no-repeat;
+.contactBlock .blockWithIllustration .Form .radioButtons input[type=radio]:checked {
+  border: 1px;
 }
-.contactBlock .blockWithIllustration .Fields {
-  position: absolute;
-  border: transparent;
+.contactBlock .blockWithIllustration .Form .Fields {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
-  gap: 25px;
-  width: 556px;
-  height: 457px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+  gap: 3vh;
+  border: solid;
+  height: 70%;
+  width: 100%;
 }
-.contactBlock .blockWithIllustration .Fields .Field {
+.contactBlock .blockWithIllustration .Form .Fields .Field {
+  height: 20%;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 5px;
-  width: 556px;
-  height: 92px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  background-color: aquamarine;
+  gap: 1vh;
 }
-.contactBlock .blockWithIllustration .Fields .Field p {
-  position: relative;
-  top: 20px;
-  width: 44px;
-  height: 28px;
-  gap: 0px;
-  opacity: 0px;
-  font-family: Space Grotesk;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 28px;
+.contactBlock .blockWithIllustration .Form .Fields .Field label {
+  width: 20%;
+  background-color: darkred;
+  font-size: 3vh;
   text-align: left;
 }
-.contactBlock .blockWithIllustration .Fields .Field input[id=Name], .contactBlock .blockWithIllustration .Fields .Field input[id=Email] {
-  width: 556px;
-  height: 59px;
-  padding: 18px 30px 18px 30px;
-  gap: 0px;
-  border-radius: 14px;
-  opacity: 0px;
+.contactBlock .blockWithIllustration .Form .Fields .Field input[id=Name], .contactBlock .blockWithIllustration .Form .Fields .Field input[id=Email] {
+  width: 100%;
+  height: 90%;
+  padding: 4% 0% 4% 5%;
+  border-radius: 2vh;
 }
-.contactBlock .blockWithIllustration .Fields .Field input[id=Message] {
-  position: absolute;
-  top: 280px;
-  width: 556px;
-  height: 190px;
-  padding: 18px 30px 18px 30px;
-  gap: 10px;
-  border-radius: 14px;
-  border: 1px 0px 0px 0px;
-  opacity: 0px;
+.contactBlock .blockWithIllustration .Form .Fields .Field input[id=Message] {
+  width: 100%;
+  height: 90%;
+  padding: 3% 0% 30% 5%;
+  border-radius: 2vh;
 }
-.contactBlock .blockWithIllustration .Fields .Field ::-moz-placeholder {
-  position: absolute;
-  top: 17px;
-  width: 100px;
-  height: 23px;
-  font-family: Space Grotesk;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 22.97px;
-  text-align: left;
-  color: rgb(137, 137, 137);
+.contactBlock .blockWithIllustration .Form .Button {
+  width: 100%;
+  height: 10%;
 }
-.contactBlock .blockWithIllustration .Fields .Field ::placeholder {
-  position: absolute;
-  top: 17px;
-  width: 100px;
-  height: 23px;
-  font-family: Space Grotesk;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 22.97px;
-  text-align: left;
-  color: rgb(137, 137, 137);
-}
-.contactBlock .blockWithIllustration .Button input[type=button] {
-  position: absolute;
-  top: 625px;
-  width: 556px;
-  height: 68px;
-  padding: 20px 35px 20px 35px;
-  gap: 10px;
-  border-radius: 14px;
-  opacity: 0px;
+.contactBlock .blockWithIllustration .Form .Button input[type=button] {
+  height: 100%;
+  width: 100%;
+  border-radius: 1vh;
+  padding: 5% 0% 5% 0%;
   background: rgb(25, 26, 35);
   text-align: center;
   color: white;
 }
-.contactBlock .Illustration {
-  border: solid;
-  position: absolute;
-  width: 649.86px;
-  height: 635px;
-  top: 70px;
-  left: 870px;
-  gap: 0px;
-  opacity: 0px;
+.contactBlock .blockWithIllustration .illustration {
+  width: 35%;
+  height: 90%;
+}
+.contactBlock .blockWithIllustration .illustration img {
+  width: 100%;
+  height: 80vh;
+  mix-blend-mode: screen;
 }
 
 .footerBlock {
-  width: Hug 1, 441px px;
-  height: Hug 514px px;
-  background-color: #B9FF66;
-  padding: 0px 100px 0px 100px;
-  gap: 10px;
-  opacity: 0px;
-  position: absolute;
-  top: 1700px;
-  width: 1440px;
+  width: 100%;
+  height: 100%;
+  background-color: #b9ff66;
+  margin: 5% 0% 0% 0%;
 }
 .footerBlock .Footer {
-  width: 1, 241px;
-  height: 514px;
-  padding: 55px 60px 50px 60px;
-  gap: 50px;
-  border-radius: 45px 45px 0px 0px;
-  opacity: 0px;
-  background: rgb(25, 26, 35);
-}
-.footerBlock .Footer .navigationAndContacts {
-  position: relative;
-  color: white;
-  top: 0px;
-}
-.footerBlock .Footer .navigationAndContacts .Elements .Logo img {
-  position: absolute;
-  width: 180px;
-  height: 29px;
-  gap: 0px;
-  opacity: 0px;
-}
-.footerBlock .Footer .navigationAndContacts .Elements .Navigation {
-  width: 501px;
-  height: 23px;
-  position: absolute;
-  left: 400px;
-  top: 0;
-  /* Navigation */
-  /* Auto layout */
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 40px;
-  /* Inside auto layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-.footerBlock .Footer .navigationAndContacts .Elements .Navigation u {
-  font-family: Space Grotesk;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 22.97px;
-  text-align: left;
-  color: white;
-}
-.footerBlock .Footer .navigationAndContacts .Elements .socialIcons .socialIcon_linkedin {
-  width: 40px;
-  position: absolute;
-  left: 1000px;
-  top: 0;
-}
-.footerBlock .Footer .navigationAndContacts .Elements .socialIcons .socialIcon_facebook {
-  width: 40px;
-  position: absolute;
-  left: 1045px;
-  top: 0;
-}
-.footerBlock .Footer .navigationAndContacts .Elements .socialIcons .socialIcon_twitter {
-  width: 40px;
-  position: absolute;
-  left: 1090px;
-  top: 0;
-}
-.footerBlock .Footer .navigationAndContacts .Frame26 {
-  position: relative;
-  top: 80px;
-  width: 1, 120px;
-  height: 185px;
-  gap: 154px;
-  opacity: 0px;
-}
-.footerBlock .Footer .navigationAndContacts .Frame26 .contactUs .Heading {
-  width: 126px;
-  height: 26px;
-  padding: 0px 7px 0px 7px;
-  gap: 10px;
-  border-radius: 7px;
-  opacity: 0px;
-  background: rgb(185, 255, 102);
-}
-.footerBlock .Footer .navigationAndContacts .Frame26 .contactUs .Heading h4 {
-  font-family: Space Grotesk;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 25.52px;
-  text-align: left;
-  color: #191A23;
-}
-.footerBlock .Footer .navigationAndContacts .Frame26 .contactUs .Info {
-  border: transparent;
-  width: 332px;
-  height: 132px;
-  gap: 20px;
-  opacity: 0px;
-  position: relative;
-  top: 15px;
-}
-.footerBlock .Footer .navigationAndContacts .Frame26 .contactUs .Info p {
-  font-family: Space Grotesk;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 22.97px;
-  text-align: left;
-}
-.footerBlock .Footer .navigationAndContacts .Frame26 .subscriptionBlock {
-  position: absolute;
-  left: 485px;
-  top: 0;
-  /* Subscription block */
-  /* Auto layout */
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 58px 40px;
-  gap: 20px;
-  width: 634px;
-  height: 184px;
-  background: #292A32;
-  border-radius: 14px;
-}
-.footerBlock .Footer .navigationAndContacts .Frame26 .subscriptionBlock input[type=text], .footerBlock .Footer .navigationAndContacts .Frame26 .subscriptionBlock select {
-  width: 285px;
-  height: 67px;
-  padding: 22px, 35px, 22px, 35px;
-  margin: 8px 0;
-  display: inline-block;
-  border-radius: 14px;
-  box-sizing: border-box;
-}
-.footerBlock .Footer .navigationAndContacts .Frame26 .subscriptionBlock ::-moz-placeholder {
-  position: absolute;
-  width: 45px;
-  height: 23px;
-  gap: 0px;
-  opacity: 0px;
-  opacity: 1;
-  left: 40px;
-  font-family: Space Grotesk;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 22.97px;
-  text-align: left;
-}
-.footerBlock .Footer .navigationAndContacts .Frame26 .subscriptionBlock ::placeholder {
-  position: absolute;
-  width: 45px;
-  height: 23px;
-  gap: 0px;
-  opacity: 0px;
-  opacity: 1;
-  left: 40px;
-  font-family: Space Grotesk;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 22.97px;
-  text-align: left;
-}
-.footerBlock .Footer .navigationAndContacts .Frame26 .subscriptionBlock input[type=button] {
-  position: absolute;
-  width: 249px;
-  height: 68px;
-  padding: 20px 35px 20px 35px;
-  gap: 10px;
-  border-radius: 14px;
-  opacity: 0px;
-  left: 350px;
-  top: 65px;
-  background-color: #B9FF66;
-  text-align: center;
-}
-.footerBlock .Footer .lineAndText {
-  border-top: solid white;
-  position: relative;
-  width: 1, 120px;
-  height: 78px;
-  gap: 50px;
-  opacity: 0px;
-  top: 150px;
-}
-.footerBlock .Footer .lineAndText .Text {
-  position: absolute;
-  color: white;
-}
-.footerBlock .Footer .lineAndText .Text .text1 {
-  position: absolute;
-  top: 30px;
-  width: 324px;
-  height: 28px;
-  gap: 0px;
-  opacity: 0px;
-  font-family: Space Grotesk;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 28px;
-  text-align: left;
-}
-.footerBlock .Footer .lineAndText .Text .text2 {
-  position: absolute;
-  font-family: Space Grotesk;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 28px;
-  text-align: left;
-  width: 121px;
-  height: 28px;
-  gap: 0px;
-  opacity: 0px;
-  top: 30px;
-  left: 350px;
+  border: solid;
+  background-color: aliceblue;
+  width: 90%;
+  height: 100%;
+  margin: 0% 5% 0% 5%;
 }
 
 .body {
