@@ -59,29 +59,111 @@
     </div>
 
     <div class="processBlock">
-        <div class="Card">
-          <div class="Label">
-            <p class="number">01</p>
-            <p class="text">Consultation</p>
-          </div>
-          <div class="expandInformation">
-            <button class="expand-btn">+</button>
-            <button class="collapse-btn" style="display: none;">-</button>
-          </div>
-          <hr>
-          <p class="information" style="display: none;">During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.</p>
+        <div class="Card" style="background: #f6f6f6;">
+            <div class="Content">
+                <div class="Label">
+                    <p id="number">01</p>
+                    <p id="text">Consultation</p>
+                </div>
+                <div class="expandInformation">
+                    <button class="expand-btn">+</button>
+                    <button class="collapse-btn" style="display: none;">-</button>
+                </div>
+            </div>
+            <hr style="width: 100%; display: none;">
+            <p class="information" style="display: none;">During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.</p>
+        </div>
+
+        <div class="Card" style="background: #f6f6f6;">
+            <div class="Content">
+                <div class="Label">
+                    <p id="number">02</p>
+                    <p id="text">Research and Strategy Development</p>
+                </div>
+                <div class="expandInformation">
+                    <button class="expand-btn">+</button>
+                    <button class="collapse-btn" style="display: none;">-</button>
+                </div>
+            </div>
+            <hr style="width: 100%; display: none;">
+            <p class="information" style="display: none;">During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.</p>
+        </div>
+
+        <div class="Card" style="background: #f6f6f6;">
+            <div class="Content">
+                <div class="Label">
+                <p id="number">03</p>
+                <p id="text">Implementation</p>
+            </div>
+            <div class="expandInformation">
+                <button class="expand-btn">+</button>
+                <button class="collapse-btn" style="display: none;">-</button>
+            </div>
+            </div>
+            <hr style="width: 100%; display: none;">
+            <p class="information" style="display: none;">During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.</p>
+        </div>
+
+        <div class="Card" style="background: #f6f6f6;">
+            <div class="Content">
+                <div class="Label">
+                    <p id="number">04</p>
+                    <p id="text">Monitoring and Optimization</p>
+                </div>
+                <div class="expandInformation">
+                    <button class="expand-btn">+</button>
+                    <button class="collapse-btn" style="display: none;">-</button>
+                </div>
+            </div>
+            <hr style="width: 100%; display: none;">
+            <p class="information" style="display: none;">During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.</p>
+        </div>
+
+        <div class="Card" style="background: #f6f6f6;">
+            <div class="Content">
+                <div class="Label">
+                    <p id="number">05</p>
+                    <p id="text">Reporting and Communication</p>
+                </div>
+                <div class="expandInformation">
+                    <button class="expand-btn">+</button>
+                    <button class="collapse-btn" style="display: none;">-</button>
+                </div>
+            </div>
+            <hr style="width: 100%; display: none;">
+            <p class="information" style="display: none;">During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.</p>
+        </div>
+
+        <div class="Card" style="background: #f6f6f6;">
+            <div class="Content">
+                <div class="Label">
+                    <p id="number">06</p>
+                    <p id="text">Continual Improvement</p>
+                </div>
+                <div class="expandInformation">
+                    <button class="expand-btn">+</button>
+                    <button class="collapse-btn" style="display: none;">-</button>
+                </div>
+            </div>
+            <hr style="width: 100%; display: none;">
+            <p class="information" style="display: none;">During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.</p>
         </div>
 
         <script>
             const expandButtons = document.querySelectorAll('.expand-btn');
             const collapseButtons = document.querySelectorAll('.collapse-btn');
             const informationElements = document.querySelectorAll('.information');
-          
+            const Card = document.querySelectorAll('.Card');
+            const Line = document.querySelectorAll('hr');
+
+
             expandButtons.forEach((button, index) => {
               button.addEventListener('click', () => {
                 informationElements[index].style.display = 'block';
                 button.style.display = 'none';
+                Card[index].style.background = '#b9ff66';
                 collapseButtons[index].style.display = 'block';
+                Line[index].style.display = 'flex';
               });
             });
           
@@ -89,7 +171,9 @@
               button.addEventListener('click', () => {
                 informationElements[index].style.display = 'none';
                 button.style.display = 'none';
+                Card[index].style.background = '#f6f6f6';
                 expandButtons[index].style.display = 'block';
+                Line[index].style.display = 'none';
               });
             });
           </script>

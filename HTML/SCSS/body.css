@@ -102,42 +102,88 @@
 .processBlock {
   width: 100%;
   height: 100%;
+  padding: 0% 5% 0% 5%;
+  display: table;
+  flex-direction: row;
+  align-items: flex-start;
   background-color: aquamarine;
 }
 .processBlock .Card {
   width: 90%;
-  height: 20%;
-  margin: 0% 5% 0% 5%;
-  background-color: red;
+  height: 15%;
+  padding: 0% 5% 0% 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 2%;
+  /* Green */
+  border: 1px solid #191A23;
+  box-shadow: 0px 5px 0px #191A23;
+  border-radius: 6vh;
 }
 .processBlock .Card .Content {
   width: 100%;
   height: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 35%;
 }
 .processBlock .Card .Content .Label {
   width: 60%;
-  height: 50%;
+  height: 100%;
   display: flex;
   flex-direction: row;
-  background-color: blue;
+  align-items: flex-start;
+  justify-content: left;
+  gap: 10%;
+  margin: 3% 0% 0% 0%;
+}
+.processBlock .Card .Content .Label p {
+  margin: 0% 0% 0% 0%;
+}
+.processBlock .Card .Content .Label p#number {
+  width: 5%;
+  height: 100%;
+  font-size: 8vh;
+}
+.processBlock .Card .Content .Label p#text {
+  width: 55%;
+  height: 100%;
+  font-size: 4vh;
+  margin: 2% 0% 2% 0%;
+}
+.processBlock .Card .Content hr {
+  margin: 5% 0% 5% 0%;
 }
 .processBlock .Card .Content .expandInformation {
-  width: 40%;
-  height: 50%;
-  display: flex;
-  flex-direction: row;
+  width: 8vh;
+  height: 8vh;
+  border-radius: 50%;
+  margin: 3% 0% 3% 0%;
+  border: 1px solid black;
+  background-color: #f9f9f9;
 }
 .processBlock .Card .Content .expandInformation button {
-  cursor: pointer;
+  font-size: 8vh;
+  border: none;
+  background-color: transparent;
 }
-.processBlock .Card .Content .expandInformation button button:hover {
-  background-color: yellow;
+.processBlock .Card .Content .expandInformation button.expand-btn {
+  margin: -6% 0% 0% 12%;
 }
-.processBlock .Card .Content p#information {
+.processBlock .Card .Content .expandInformation button.collapse-btn {
+  margin: -13% 0% 0% 24%;
+}
+.processBlock .Card .Content p.information {
   padding: 20px;
+  width: 100%;
+  height: 10vh;
+  /* p */
+  font-weight: 400;
+  font-size: 18px;
+  color: #000000;
 }
-.processBlock .Card .Content p#information .collapsed {
+.processBlock .Card .Content p.information .collapsed {
   display: none;
 }/*# sourceMappingURL=body.css.map */

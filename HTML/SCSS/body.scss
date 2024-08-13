@@ -135,16 +135,32 @@
     width: 100%;
     height: 100%;
 
+    padding: 0% 5% 0% 5%;
+    display: table;
+    flex-direction: row;
+    align-items: flex-start;
+
     background-color: aquamarine;
 
     .Card
     {
         width: 90%;
-        height: 20%;
+        height: 15%;
+        padding: 0% 5% 0% 5%;
+        
+      
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 2%;
 
-        margin: 0% 5% 0% 5%; 
+        /* Green */
+       
+        border: 1px solid #191A23;
+        box-shadow: 0px 5px 0px #191A23;
+        border-radius: 6vh;
 
-        background-color: red;
+        
 
         .Content
         {
@@ -152,52 +168,102 @@
             height: 100%;
 
             display: flex;
-            flex-direction: column;
-            
+            flex-direction: row;
+            align-items: flex-start;
+            gap: 35%;
+
             .Label
             {
                 width: 60%;
-                height: 50%;
-
+                height: 100%;
                 display: flex;
                 flex-direction: row;
+                align-items: flex-start;
+                justify-content: left;
+                gap: 10%;
+                margin: 3% 0% 0% 0%;
 
-                background-color: blue;
+                //background-color: rebeccapurple;
+
+                p
+                {
+                    margin: 0% 0% 0% 0%;
+                }
+                p#number
+                {
+                    width: 5%;
+                    height: 100%;
+                    font-size: 8vh;
+                }
+
+                p#text
+                {
+                    width: 55%;
+                    height: 100%;
+                    font-size: 4vh;
+                    margin: 2% 0% 2% 0%;
+                }
+            
+            }
+
+            hr 
+            {
+                margin: 5% 0% 5% 0%;
             }
             .expandInformation
             {
-                width: 40%;
-                height: 50%;
+                width: 8vh;
+                height: 8vh;
+                border-radius: 50%;
+                margin: 3% 0% 3% 0%;  
+                border: 1px solid black;
 
-                display: flex;
-                flex-direction: row;
+                background-color: #f9f9f9;
 
                 button
                 {
-                    cursor: pointer;
-
-                    button:hover
-                    {
-                        background-color: yellow;
-                    }
+                    font-size: 8vh;
+                    
+                    border: none;
+                    background-color: transparent;
                 }
+                button.expand-btn
+                {
+                    margin: -6% 0% 0% 12%;
+                }
+                button.collapse-btn
+                {
+                    margin: -13% 0% 0% 24%;
+                }
+
             }
 
-            p#information
+
+        
+            p.information
             {
                 padding: 20px;
+                width: 100%;
+                height: 10vh;
+                
+
+                    /* p */
+                font-weight: 400;
+                font-size: 18px;
+
+                color: #000000;
+
 
                 .collapsed
                 {
                     display: none;
                 }
-            }
+            }     
+
         }
-
+        
     }
+
 }
-
-
-
 
         
