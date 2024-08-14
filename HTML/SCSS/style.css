@@ -630,11 +630,77 @@ div.ctaBlock .CTA .Frame19 .Illustration img {
 .groupOfCards {
   width: 100%;
   height: 100%;
-  padding: 0% 5% 0% 5%;
-  display: table;
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+}
+.groupOfCards .Row {
+  width: 90%;
+  height: 100%;
+  margin: 0% 5% 0% 5%;
+  display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  background: bisque;
+  justify-content: center;
+  gap: 3vh;
+}
+.groupOfCards .Row .Card {
+  border: 1px solid black;
+  border-radius: 3vh;
+  width: 29vw;
+  height: 45vh;
+  background-color: #f9f9f9;
+}
+.groupOfCards .Row .Card .Content {
+  margin: 5% 5% 5% 5%;
+  width: 90%;
+  height: 90%;
+  font-size: 2.5vh;
+}
+.groupOfCards .Row .Card .Content .Person {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+}
+.groupOfCards .Row .Card .Content .Person .pictureAndName {
+  width: 90%;
+  height: 100%;
+  margin: 1% 1% 1% 1%;
+  display: flex;
+  flex-direction: row;
+  gap: 3%;
+}
+.groupOfCards .Row .Card .Content .Person .pictureAndName .Picture {
+  width: 8vw;
+  height: 15vh;
+}
+.groupOfCards .Row .Card .Content .Person .pictureAndName .Picture img {
+  width: 100%;
+  height: 100%;
+}
+.groupOfCards .Row .Card .Content .Person .pictureAndName .Name {
+  width: 20vw;
+  height: 10vh;
+  margin: 5vh 0vh 0vh 0vh;
+  line-height: 2vh;
+  font-size: 3vh;
+}
+.groupOfCards .Row .Card .Content .Person .socialIcon {
+  height: 5vh;
+  width: 5vh;
+}
+.groupOfCards .Row .Card .Content .Person .socialIcon img {
+  width: 100%;
+  height: 100%;
+}
+.groupOfCards .Row .Card .Content p {
+  background-color: red;
+  margin: 0vh 0vh 0vh 0vh;
+  border: 1px solid black;
+}
+
+button#SeeYah {
+  background: chartreuse;
 }
 
 .content4 {
@@ -649,7 +715,10 @@ div.ctaBlock .CTA .Frame19 .Illustration img {
   width: 15%;
   height: 100%;
   margin: 2% 0% 2% 0%;
+  border-radius: 1vh;
   background-color: #b9ff66;
+  display: flex;
+  justify-content: center;
 }
 .content4 .heading h2 {
   font-size: 5vh;
@@ -759,14 +828,20 @@ div.ctaBlock .CTA .Frame19 .Illustration img {
 .content5 .heading {
   width: 15%;
   height: 100%;
+  margin: 2% 0% 2% 0%;
+  border-radius: 1vh;
   background-color: #b9ff66;
+  display: flex;
+  justify-content: center;
 }
 .content5 .heading h2 {
   font-size: 5vh;
 }
 .content5 p {
-  width: 30%;
+  width: 20%;
   height: 100%;
+  margin: 2% 0% 2% 0%;
+  font-size: 2.5vh;
 }
 
 .contactBlock {
@@ -814,9 +889,6 @@ div.ctaBlock .CTA .Frame19 .Illustration img {
   width: 20%;
   height: 5vh;
   accent-color: #b9ff66;
-}
-.contactBlock .blockWithIllustration .Form .radioButtons input[type=radio]:checked {
-  border: 1px;
 }
 .contactBlock .blockWithIllustration .Form .Fields {
   display: flex;
@@ -866,14 +938,17 @@ div.ctaBlock .CTA .Frame19 .Illustration img {
   text-align: center;
   color: white;
 }
-.contactBlock .blockWithIllustration .illustration {
+.contactBlock .blockWithIllustration .Illustration {
   width: 35%;
   height: 90%;
+  background-color: rgb(243, 243, 243);
+  box-shadow: none;
+  margin: 5% 0% 5% 0%;
 }
-.contactBlock .blockWithIllustration .illustration img {
+.contactBlock .blockWithIllustration .Illustration img {
   width: 100%;
-  height: 80vh;
-  mix-blend-mode: screen;
+  height: 100%;
+  mix-blend-mode: multiply;
 }
 
 .footerBlock {
@@ -884,8 +959,133 @@ div.ctaBlock .CTA .Frame19 .Illustration img {
 }
 .footerBlock .Footer {
   border: solid;
+  border-radius: 5vh 5vh 0vh 0vh;
   background-color: aliceblue;
   width: 90%;
   height: 100%;
-  margin: 0% 5% 0% 5%;
+  margin: 0% 0% 0% 5%;
+}
+.footerBlock .Footer .navigationAndContacts {
+  width: 93%;
+  height: 65%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 3% 0% 0% 3%;
+}
+.footerBlock .Footer .navigationAndContacts .Elements {
+  background-color: blue;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+}
+.footerBlock .Footer .navigationAndContacts .Elements .Logo {
+  background-color: antiquewhite;
+  width: 20%;
+  height: 10%;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.footerBlock .Footer .navigationAndContacts .Elements .Logo img {
+  width: 100%;
+  height: 100%;
+}
+.footerBlock .Footer .navigationAndContacts .Elements .Navigation {
+  width: 40%;
+  height: 100%;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0% 15% 0% 15%;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.footerBlock .Footer .navigationAndContacts .Elements .Navigation u {
+  font-size: 2.5vh;
+}
+.footerBlock .Footer .navigationAndContacts .Elements .socialIcons {
+  background-color: coral;
+  width: 10%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  gap: 15%;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.footerBlock .Footer .navigationAndContacts .Elements .socialIcons svg {
+  width: 100%;
+  height: 50%;
+}
+.footerBlock .Footer .navigationAndContacts .Frame26 {
+  background-color: indianred;
+  margin: 5% 0% 0% 0%;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+}
+.footerBlock .Footer .navigationAndContacts .Frame26 .contactUs {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  height: 100%;
+  margin: 0%;
+}
+.footerBlock .Footer .navigationAndContacts .Frame26 .contactUs .Heading {
+  background-color: #b9ff66;
+  width: 35%;
+  height: 5vh;
+  border-radius: 2vh;
+  display: flex;
+  justify-content: center;
+}
+.footerBlock .Footer .navigationAndContacts .Frame26 .contactUs .Info {
+  float: left;
+  width: 70%;
+  height: 80%;
+  margin: 5% 0% 0% 0%;
+  background-color: chocolate;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 0vh;
+}
+.footerBlock .Footer .navigationAndContacts .Frame26 .contactUs .Info .address {
+  line-height: 0.5vh;
+}
+.footerBlock .Footer .navigationAndContacts .Frame26 .subscriptionBlock {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 5%;
+  padding: 5% 5%;
+  width: 60%;
+  height: 100%;
+  background: #292A32;
+  border-radius: 2vh;
+}
+.footerBlock .Footer .navigationAndContacts .Frame26 .subscriptionBlock .Field {
+  border-radius: 3vh;
+  width: 20vw;
+  height: 9vh;
+  border: 3px solid white;
+  padding: 3% 3%;
+}
+.footerBlock .Footer .lineAndText {
+  width: 93%;
+  height: 30%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  margin: 3% 0% 0% 3%;
 }/*# sourceMappingURL=style.css.map */
