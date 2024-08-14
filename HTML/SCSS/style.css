@@ -351,10 +351,16 @@ div.servicesBlock div.cardSection div.Card1 h3 span, div.servicesBlock div.cardS
 div.servicesBlock div.cardSection div.Card3, div.servicesBlock div.cardSection div.Card6 {
   background-color: #191A23;
 }
-div.servicesBlock div.cardSection div.Card3 h3 span, div.servicesBlock div.cardSection div.Card6 h3 span {
+div.servicesBlock div.cardSection div.Card3 h3 span {
   background-color: #FFFFFF;
 }
-div.servicesBlock div.cardSection div.Card3 .Link p, div.servicesBlock div.cardSection div.Card6 .Link p {
+div.servicesBlock div.cardSection div.Card3 .Link p {
+  color: #FFFFFF;
+}
+div.servicesBlock div.cardSection div.Card6 h3 span {
+  background-color: #B9FF66;
+}
+div.servicesBlock div.cardSection div.Card6 .Link p {
   color: #FFFFFF;
 }
 

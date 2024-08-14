@@ -507,9 +507,26 @@ div.servicesBlock
         div.Card3, div.Card6
         {
             background-color: #191A23;
+        }
+
+        div.Card3
+        {
             h3 span
             {
                 background-color: #FFFFFF;
+            }
+
+            .Link p
+            {
+                color: #FFFFFF;
+            }
+        }
+
+        div.Card6
+        {
+            h3 span
+            {
+                background-color: #B9FF66;
             }
 
             .Link p
