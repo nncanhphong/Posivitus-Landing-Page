@@ -50,6 +50,23 @@
 .testimonialsBlock .Testimonials .Cards .Card {
   display: flex;
   flex-direction: column;
+  /*
+  div.Triangle
+  {
+      width: 0;
+      height: 0;
+      border-bottom: none;
+
+      border-left: 3vh solid #b9ff66;
+      border-right: 3vh solid #b9ff66;
+      border-top: 5vh solid #191a23;
+
+      background: none;
+
+
+      margin: 0% 0% 0% 10%;
+  }
+  */
 }
 .testimonialsBlock .Testimonials .Cards .Card div.Bubble {
   background-color: #191a23;
@@ -62,16 +79,17 @@
   color: white;
 }
 .testimonialsBlock .Testimonials .Cards .Card div.Triangle {
-  width: 0;
-  height: 0;
-  border-bottom: none;
-  border-left: 3vh solid transparent;
-  border-right: 3vh solid transparent;
-  border-top: 5vh solid #b9ff66;
-  fill: none;
-  stroke: black;
-  stroke-width: 5;
+  width: 3vw;
+  height: 5vh;
   margin: 0% 0% 0% 10%;
+}
+.testimonialsBlock .Testimonials .Cards .Card div.Triangle svg {
+  width: 5vw;
+  height: 5vh;
+  transform: rotate(180deg);
+  fill: #191a23;
+  stroke: #b9ff66;
+  stroke-width: 0.01;
 }
 .testimonialsBlock .Testimonials .Cards .Card div.Text {
   font-size: 4vh;

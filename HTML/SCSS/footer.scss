@@ -81,19 +81,44 @@
                     }
                     
                 }
-
+                /*
                 div.Triangle
                 {
                     width: 0;
                     height: 0;
                     border-bottom: none;
 
-                    border-left: 3vh solid transparent;
-                    border-right: 3vh solid transparent;
-                    border-top: 5vh solid #b9ff66;
-                    fill: none;
-                    stroke:black;stroke-width:5;
+                    border-left: 3vh solid #b9ff66;
+                    border-right: 3vh solid #b9ff66;
+                    border-top: 5vh solid #191a23;
+
+                    background: none;
+                    
+                    
                     margin: 0% 0% 0% 10%;
+                }
+                */
+
+                div.Triangle
+                {
+                    //background-color: red;
+                    width: 3vw;
+                    height: 5vh;
+                    margin: 0% 0% 0% 10%;
+
+                    svg
+                    {
+                        width: 5vw;
+                        height: 5vh;
+
+                        transform: rotate(180deg);
+
+                        fill: #191a23;
+                        
+                        stroke: #b9ff66;
+                        stroke-width: 0.01;
+
+                    }
                 }
                 div.Text
                 {
