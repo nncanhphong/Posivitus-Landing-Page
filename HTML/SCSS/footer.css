@@ -19,6 +19,7 @@
   width: 40%;
   height: 100%;
   margin: 2% 0% 2% 0%;
+  font-size: 2.5vh;
 }
 
 .testimonialsBlock {
@@ -60,19 +61,52 @@
 .testimonialsBlock .Testimonials .Cards .Card div.Triangle {
   width: 0;
   height: 0;
+  border-bottom: none;
   border-left: 3vh solid transparent;
   border-right: 3vh solid transparent;
-  border-top: 5vh solid #13a5bc;
+  border-top: 5vh solid #000000;
   margin: 0% 0% 0% 10%;
-  fill: none;
 }
 .testimonialsBlock .Testimonials .Cards .Card div.Text {
   font-size: 3vh;
   margin: 0% 0% 0% 10%;
 }
+.testimonialsBlock .Testimonials .Cards .Card div.Text h4 {
+  font-size: 3vh;
+  color: green;
+}
+.testimonialsBlock .Testimonials .Cards .Card div.Text p {
+  color: white;
+}
 .testimonialsBlock .Testimonials .Navigation {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  height: 5vh;
+  width: 150vh;
+  margin: 0vh 25vh 0vh 20vh;
+  gap: 25vh;
+}
+.testimonialsBlock .Testimonials .Navigation button#prevBtn, .testimonialsBlock .Testimonials .Navigation button#nextBtn {
+  background: none;
+  border: none;
+  width: 2vw;
+  height: 2vh;
+}
+.testimonialsBlock .Testimonials .Navigation .Stars {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 1vh;
+  gap: 2vh;
+}
+.testimonialsBlock .Testimonials .Navigation .Stars svg {
+  width: 3vh;
+  height: 3vh;
+}
+.testimonialsBlock .Testimonials .Navigation .Stars svg#Star {
+  fill: white;
 }
 
 .content5 {

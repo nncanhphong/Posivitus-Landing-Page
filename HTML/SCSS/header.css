@@ -305,16 +305,14 @@ div.servicesBlock div.cardSection div div.headingAndLink {
 div.servicesBlock div.cardSection div div.headingAndLink .Heading {
   border: none;
   box-shadow: none;
-  width: 100%;
-  height: 50%;
+  width: 20vw;
+  height: 15vh;
   display: flex;
   flex-direction: column;
 }
 div.servicesBlock div.cardSection div div.headingAndLink .Heading h3 {
   margin: 0%;
-}
-div.servicesBlock div.cardSection div div.headingAndLink .Heading h3 h3 span {
-  font-size: 3vh;
+  font-size: 4vh;
 }
 div.servicesBlock div.cardSection div div.headingAndLink .Link {
   width: 60%;
@@ -329,7 +327,7 @@ div.servicesBlock div.cardSection div div.headingAndLink .Link p {
 }
 div.servicesBlock div.cardSection div .Illustration {
   width: 40%;
-  height: 100%;
+  height: 30vh;
   border: none;
   box-shadow: none;
   margin: 5% 5% 5% 5%;
@@ -379,7 +377,7 @@ div.ctaBlock .CTA {
 }
 div.ctaBlock .CTA div {
   height: 100%;
-  width: 40%;
+  width: 50%;
 }
 div.ctaBlock .CTA .Card {
   margin: 3% 0% 2% 3%;
@@ -388,7 +386,7 @@ div.ctaBlock .CTA .Card .textAndButton {
   width: 90%;
 }
 div.ctaBlock .CTA .Card .textAndButton button {
-  width: 50%;
+  width: 20vw;
   height: 7vh;
   border: 1px solid black;
   border-radius: 1vh;

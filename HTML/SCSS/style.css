@@ -305,16 +305,14 @@ div.servicesBlock div.cardSection div div.headingAndLink {
 div.servicesBlock div.cardSection div div.headingAndLink .Heading {
   border: none;
   box-shadow: none;
-  width: 100%;
-  height: 50%;
+  width: 20vw;
+  height: 15vh;
   display: flex;
   flex-direction: column;
 }
 div.servicesBlock div.cardSection div div.headingAndLink .Heading h3 {
   margin: 0%;
-}
-div.servicesBlock div.cardSection div div.headingAndLink .Heading h3 h3 span {
-  font-size: 3vh;
+  font-size: 4vh;
 }
 div.servicesBlock div.cardSection div div.headingAndLink .Link {
   width: 60%;
@@ -329,7 +327,7 @@ div.servicesBlock div.cardSection div div.headingAndLink .Link p {
 }
 div.servicesBlock div.cardSection div .Illustration {
   width: 40%;
-  height: 100%;
+  height: 30vh;
   border: none;
   box-shadow: none;
   margin: 5% 5% 5% 5%;
@@ -379,7 +377,7 @@ div.ctaBlock .CTA {
 }
 div.ctaBlock .CTA div {
   height: 100%;
-  width: 40%;
+  width: 50%;
 }
 div.ctaBlock .CTA .Card {
   margin: 3% 0% 2% 3%;
@@ -388,7 +386,7 @@ div.ctaBlock .CTA .Card .textAndButton {
   width: 90%;
 }
 div.ctaBlock .CTA .Card .textAndButton button {
-  width: 50%;
+  width: 20vw;
   height: 7vh;
   border: 1px solid black;
   border-radius: 1vh;
@@ -622,6 +620,7 @@ div.ctaBlock .CTA .Frame19 .Illustration img {
   width: 40%;
   height: 100%;
   margin: 2% 0% 2% 0%;
+  font-size: 2.5vh;
 }
 
 .testimonialsBlock {
@@ -663,19 +662,52 @@ div.ctaBlock .CTA .Frame19 .Illustration img {
 .testimonialsBlock .Testimonials .Cards .Card div.Triangle {
   width: 0;
   height: 0;
+  border-bottom: none;
   border-left: 3vh solid transparent;
   border-right: 3vh solid transparent;
-  border-top: 5vh solid #13a5bc;
+  border-top: 5vh solid #000000;
   margin: 0% 0% 0% 10%;
-  fill: none;
 }
 .testimonialsBlock .Testimonials .Cards .Card div.Text {
   font-size: 3vh;
   margin: 0% 0% 0% 10%;
 }
+.testimonialsBlock .Testimonials .Cards .Card div.Text h4 {
+  font-size: 3vh;
+  color: green;
+}
+.testimonialsBlock .Testimonials .Cards .Card div.Text p {
+  color: white;
+}
 .testimonialsBlock .Testimonials .Navigation {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  height: 5vh;
+  width: 150vh;
+  margin: 0vh 25vh 0vh 20vh;
+  gap: 25vh;
+}
+.testimonialsBlock .Testimonials .Navigation button#prevBtn, .testimonialsBlock .Testimonials .Navigation button#nextBtn {
+  background: none;
+  border: none;
+  width: 2vw;
+  height: 2vh;
+}
+.testimonialsBlock .Testimonials .Navigation .Stars {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 1vh;
+  gap: 2vh;
+}
+.testimonialsBlock .Testimonials .Navigation .Stars svg {
+  width: 3vh;
+  height: 3vh;
+}
+.testimonialsBlock .Testimonials .Navigation .Stars svg#Star {
+  fill: white;
 }
 
 .content5 {

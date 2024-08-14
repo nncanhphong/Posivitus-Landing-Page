@@ -402,7 +402,6 @@ div.servicesBlock
 
         div
         {
-
             width: 44%;
             height: 50%;
             
@@ -420,6 +419,8 @@ div.servicesBlock
 
             div.headingAndLink
             {
+                //background-color: rebeccapurple;
+
                 width: 50%;
                 height: 100%;
                 
@@ -435,11 +436,12 @@ div.servicesBlock
 
                 .Heading
                 {
+                    //background-color: red;
                     border: none;
                     box-shadow: none;
 
-                    width: 100%;
-                    height: 50%;
+                    width: 20vw;
+                    height: 15vh;
                     display: flex;
                     flex-direction: column;
                     //margin-right: 0%;  
@@ -447,11 +449,8 @@ div.servicesBlock
                     h3
                     {
                         margin: 0% ;
+                        font-size: 4vh;
 
-                        h3 span
-                        {
-                            font-size: 3vh;
-                        }
                     }
                     
                 }
@@ -476,7 +475,7 @@ div.servicesBlock
             {
                 //background: violet;
                 width: 40%;
-                height: 100%;
+                height: 30vh;
                 border: none;
                 box-shadow: none;
                 margin: 5% 5% 5% 5%;
@@ -518,6 +517,8 @@ div.servicesBlock
                 color: #FFFFFF;
             }
         }
+
+        
     }
 }
 
@@ -551,7 +552,7 @@ div.ctaBlock
         div
         {
             height: 100%;
-            width: 40%;
+            width: 50%;
             
         }
 
@@ -567,7 +568,7 @@ div.ctaBlock
 
                 button
                 {
-                    width: 50%;
+                    width: 20vw;
                     height: 7vh;
 
                     border: 1px solid black;

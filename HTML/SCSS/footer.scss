@@ -24,6 +24,8 @@
         height: 100%;
        
         margin: 2% 0% 2% 0%;
+
+        font-size: 2.5vh;
     }
 }
 
@@ -83,11 +85,14 @@
                 {
                     width: 0;
                     height: 0;
+                    border-bottom: none;
+
                     border-left: 3vh solid transparent;
                     border-right: 3vh solid transparent;
-                    border-top: 5vh solid #13a5bc;
+                    border-top: 5vh solid #000000;
+                    
+
                     margin: 0% 0% 0% 10%;
-                    fill: none;
                 }
 
                 div.Text
@@ -95,6 +100,16 @@
                     font-size: 3vh;
 
                     margin: 0% 0% 0% 10%;
+
+                    h4
+                    {
+                        font-size: 3vh;
+                        color: green;
+                    }
+
+                    p{
+                        color: white;
+                    }
                 }
             }
         }
@@ -102,7 +117,51 @@
         {
             display: flex;
             flex-direction: row;
+            justify-content: center;
 
+            //background-color: #13a5bc;
+
+            height: 5vh;
+            width: 150vh;
+
+            margin: 0vh 25vh 0vh 20vh;
+
+            gap: 25vh;
+
+            button#prevBtn, button#nextBtn
+            {
+                background: none;
+                border: none;
+
+                width: 2vw;
+                height: 2vh;
+            }
+
+            .Stars
+            {
+
+                width: 20%;
+                //background-color: red;
+
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                margin: 1vh;
+
+                gap: 2vh;
+
+                svg
+                {
+                    width: 3vh;
+                    height: 3vh;
+                }
+
+                svg#Star
+                {
+                    fill: white;
+                }
+
+            }
         }
     }
 }
