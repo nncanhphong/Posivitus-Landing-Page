@@ -12,9 +12,10 @@
         height: 100%;
 
         margin: 2% 0% 2% 0%;
-
-        background-color:  #b9ff66;;
-;
+        border-radius: 1vh;
+        background-color:  #b9ff66;
+        display: flex;
+        justify-content: center;
         h2{
             font-size: 5vh;
         }
@@ -173,19 +174,28 @@
     flex-direction: row;
     gap: 5%;
     margin: 5% 5% 5% 5%;
+
+    //background-color: rebeccapurple;
     .heading{
         width: 15%;
         height: 100%;
-        background-color:  #b9ff66;;
-;
+
+        margin: 2% 0% 2% 0%;
+        border-radius: 1vh;
+        background-color:  #b9ff66;
+        display: flex;
+        justify-content: center;
         h2{
             font-size: 5vh;
         }
     }
     p{
-        width: 30%;
+        width: 20%;
         height: 100%;
        
+        margin: 2% 0% 2% 0%;
+
+        font-size: 2.5vh;
     }
 }
 .contactBlock{
@@ -229,18 +239,12 @@
                 }
                 input[type=radio]{
                  
-                      border-radius: 50%;
+                    border-radius: 50%;
                     width: 20%;
                     height: 5vh;
-                     accent-color:#b9ff66;
-                     
-
-
-
+                    accent-color:#b9ff66;
                 }
-                input[type="radio"]:checked {
-                   border: 1px;
-                  }
+                
             }
             .Fields{
                 display: flex;
@@ -294,15 +298,19 @@
                 }
           }
         }
-        .illustration{
+        .Illustration{
             width: 35%;
             height: 90%;
-            img{
+            background-color:rgba(243, 243, 243, 1) ;
+            box-shadow: none;
+            margin: 5% 0% 5% 0%;
+            
+            img
+            {
                 width: 100%;
-                height: 80vh;
-                mix-blend-mode: screen;
+                height: 100%;
+                mix-blend-mode: multiply
             }
-
         }
     }
     
@@ -314,9 +322,149 @@
     margin:  5% 0% 0% 0%;
     .Footer{
         border: solid;
+        border-radius: 5vh 5vh 0vh 0vh;
         background-color: aliceblue;
         width: 90%;
         height: 100%;
-        margin: 0% 5% 0% 5%;
+        margin: 0% 0% 0% 5%;
+        .navigationAndContacts{
+            
+            width: 93%;
+            height: 65%;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            
+            margin: 3% 0% 0% 3%;
+            .Elements{
+                background-color: blue;
+                width: 100%;
+                height: 10%;
+                display: flex;
+                flex-direction: row;
+                .Logo{
+                    background-color: antiquewhite;
+                    width: 20%;
+                    height: 10%;
+                   
+                    flex: none;
+                    order: 0;
+                    flex-grow: 0;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .Navigation{
+                    width: 40%;
+                    height: 100%;
+                    
+                    color: white;                    
+                    display: flex;
+                    flex-direction: row;
+                    justify-content:space-between;
+                    align-items: center;
+                    margin: 0% 15% 0% 15%;
+                    flex: none;
+                    order: 1;
+                    flex-grow: 0;
+                    u{
+                       
+                        font-size: 2.5vh;
+                        
+                    }
+                }
+                .socialIcons{
+                    background-color: coral;
+                    width: 10%;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: end;
+                    align-items: center;
+                    gap: 15%;
+
+                    flex: none;
+                    order: 1;
+                    flex-grow: 0;
+                    svg{
+                        width: 100%;
+                        height: 50%;
+                    }
+                }
+            }
+            .Frame26{
+                background-color: indianred;
+                margin: 5% 0% 0% 0%;
+                width: 100%;
+                height: 50%;
+                display: flex;
+                flex-direction: row;
+                gap: 5%;
+                .contactUs{
+                    display: flex;
+                    flex-direction: column;
+                    width: 35%;
+                    height: 100%;
+                    margin: 0%;
+                    
+                    .Heading{
+                       
+                        background-color:#b9ff66;
+                        width: 35%;
+                        height: 5vh;
+                        border-radius: 2vh;
+                        display: flex;
+                        
+                        justify-content: center;
+
+                    }
+                    .Info{
+                        float: left;
+                        width: 70%;
+                        height: 80%;
+                        margin: 5% 0% 0% 0%;
+                        background-color: chocolate;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: flex-start;
+                        gap: 0vh;
+                        .address{
+                            line-height: 0.5vh;
+                            
+                        }
+                    }
+                }
+                .subscriptionBlock{
+                  
+                    display: flex;
+                    flex-direction: row;
+                    align-items: flex-start;
+                    gap: 5%;
+                    padding: 5% 5%;
+                    width: 60%;
+                    height: 100%;
+                    background: #292A32;
+                    border-radius: 2vh;
+                    .Field{
+                        border-radius: 3vh;
+                        width: 20vw;
+                        height: 9vh;
+                        border: 3px solid white;
+                        padding: 3% 3%;
+                           
+                }
+            }
+        }
+        
+         }
+        .lineAndText{
+            width: 93%;
+            height: 30%;
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: row;
+            
+            margin: 3% 0% 0% 3%;
     }
-}
+}}
