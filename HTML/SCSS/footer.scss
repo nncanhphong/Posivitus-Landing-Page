@@ -68,11 +68,12 @@
 
                 div.Bubble
                 {
+                    position: relative;
                     background-color: #191a23;
                     font-size: 3vh;
                     border-radius: 5vh;
                     border: 1px solid #b9ff66;
-                    
+
                     p
                     {
                         margin: 5% 5% 5% 5%;
@@ -81,45 +82,23 @@
                     }
                     
                 }
-                /*
-                div.Triangle
-                {
-                    width: 0;
-                    height: 0;
-                    border-bottom: none;
 
-                    border-left: 3vh solid #b9ff66;
-                    border-right: 3vh solid #b9ff66;
-                    border-top: 5vh solid #191a23;
-
-                    background: none;
+                div.Bubble::after {
+                    position: absolute;
+                    content: "";
+                    top: 90%;
+                    left: 15%;
+                    border-width: 5vh 5vh 0 5vh;
+                    border-style: solid;
+                    border-color: #191a23;
                     
-                    
-                    margin: 0% 0% 0% 10%;
+                    border-left: 1px solid #b9ff66;
+                    border-bottom: 1px solid #b9ff66;
+                    transform: rotate(-45deg);
+
                 }
-                */
 
-                div.Triangle
-                {
-                    //background-color: red;
-                    width: 3vw;
-                    height: 5vh;
-                    margin: 0% 0% 0% 10%;
-
-                    svg
-                    {
-                        width: 5vw;
-                        height: 5vh;
-
-                        transform: rotate(180deg);
-
-                        fill: #191a23;
-                        
-                        stroke: #b9ff66;
-                        stroke-width: 0.01;
-
-                    }
-                }
+                
                 div.Text
                 {
                     font-size: 4vh;

@@ -769,25 +769,9 @@ button.End {
 .testimonialsBlock .Testimonials .Cards .Card {
   display: flex;
   flex-direction: column;
-  /*
-  div.Triangle
-  {
-      width: 0;
-      height: 0;
-      border-bottom: none;
-
-      border-left: 3vh solid #b9ff66;
-      border-right: 3vh solid #b9ff66;
-      border-top: 5vh solid #191a23;
-
-      background: none;
-
-
-      margin: 0% 0% 0% 10%;
-  }
-  */
 }
 .testimonialsBlock .Testimonials .Cards .Card div.Bubble {
+  position: relative;
   background-color: #191a23;
   font-size: 3vh;
   border-radius: 5vh;
@@ -797,18 +781,17 @@ button.End {
   margin: 5% 5% 5% 5%;
   color: white;
 }
-.testimonialsBlock .Testimonials .Cards .Card div.Triangle {
-  width: 3vw;
-  height: 5vh;
-  margin: 0% 0% 0% 10%;
-}
-.testimonialsBlock .Testimonials .Cards .Card div.Triangle svg {
-  width: 5vw;
-  height: 5vh;
-  transform: rotate(180deg);
-  fill: #191a23;
-  stroke: #b9ff66;
-  stroke-width: 0.01;
+.testimonialsBlock .Testimonials .Cards .Card div.Bubble::after {
+  position: absolute;
+  content: "";
+  top: 90%;
+  left: 15%;
+  border-width: 5vh 5vh 0 5vh;
+  border-style: solid;
+  border-color: #191a23;
+  border-left: 1px solid #b9ff66;
+  border-bottom: 1px solid #b9ff66;
+  transform: rotate(-45deg);
 }
 .testimonialsBlock .Testimonials .Cards .Card div.Text {
   font-size: 4vh;
@@ -1168,4 +1151,10 @@ button.End {
   margin: 2% 0% 2% 0%;
   color: white;
   font-size: 2.5vh;
+}
+
+body {
+  font-family: "Space Grotesk";
+  font-weight: 400;
+  font-style: normal;
 }/*# sourceMappingURL=style.css.map */
