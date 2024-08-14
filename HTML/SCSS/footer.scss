@@ -58,7 +58,7 @@
 
             gap: 5%;
 
-            margin: 0% 0% 0% -25%;
+            margin: 5% 0% 0% -25%;
             justify-content: center;
             
             .Card{
@@ -70,7 +70,7 @@
                 {
                     background-color: #191a23;
                     font-size: 3vh;
-                    border-radius: 3vh;
+                    border-radius: 5vh;
                     border: 1px solid #b9ff66;
                     
                     p
@@ -90,24 +90,21 @@
 
                     border-left: 3vh solid transparent;
                     border-right: 3vh solid transparent;
-                    border-top: 5vh solid #000000;
-                    
-
+                    border-top: 5vh solid #b9ff66;
+                    fill: none;
+                    stroke:black;stroke-width:5;
                     margin: 0% 0% 0% 10%;
                 }
-
                 div.Text
                 {
-                    font-size: 3vh;
-
-                    margin: 0% 0% 0% 10%;
+                    font-size: 4vh;
+                    margin: 4% 0% 0% 13%;
 
                     h4
                     {
-                        font-size: 3vh;
-                        color: green;
+                        font-size: 4vh;
+                        color: #b9ff66;
                     }
-
                     p{
                         color: white;
                     }
@@ -201,12 +198,11 @@
 .contactBlock{
     width: 100%;
     height: 100%;
-    background-color: darkgreen;
     
     .blockWithIllustration{
         width: 90%;
         height: 100%;
-        border: solid;
+        
         
         background: rgba(243, 243, 243, 1);
         margin: 0% 5% 0% 5%;
@@ -217,7 +213,7 @@
         .Form{
             width: 50%;
             height: 100%;
-            background-color: #b9ff66;
+            
             margin: 5% 5% 5% 5%;
             display: flex;
             flex-direction: column;
@@ -227,8 +223,6 @@
                 flex-direction: row;
                 width: 70%;
                 height: 10%;
-                
-                background-color: antiquewhite;
                 .sayHi, .getAQuote{
                     display: flex;
                     flex-direction: row;
@@ -251,7 +245,7 @@
                 flex-direction: column;
                 align-items: flex-start;
                 gap: 3vh;
-                border: solid;
+                
                 height: 70%;
                 width: 100%;
                 .Field{
@@ -259,12 +253,10 @@
                     width: 100%;
                     display: flex;
                     flex-direction: column;
-                    background-color: aquamarine;
                     gap: 1vh;
                     
                     label{
                         width: 20%;
-                        background-color: darkred;
                         font-size:3vh;
                         text-align: left;
                     }
@@ -279,6 +271,11 @@
                         height: 90%;
                         padding: 3% 0% 30% 5%;
                         border-radius: 2vh;
+                    }
+                    ::placeholder{
+                        width: 100%;
+                        height: 100%;
+                        font-size: 2.5vh;
                     }
                 }
             }
@@ -295,6 +292,7 @@
                     background: rgba(25, 26, 35, 1);
                     text-align: center;
                     color: white;
+                    font-size: 2.5vh;
                 }
           }
         }
@@ -318,12 +316,12 @@
 .footerBlock{
     width: 100%;
     height: 100%;
-    background-color: #b9ff66;
+    
     margin:  5% 0% 0% 0%;
     .Footer{
         border: solid;
         border-radius: 5vh 5vh 0vh 0vh;
-        background-color: aliceblue;
+        background-color:  rgba(25, 26, 35, 1);
         width: 90%;
         height: 100%;
         margin: 0% 0% 0% 5%;
@@ -334,16 +332,15 @@
             display: flex;
             justify-content: space-between;
             flex-direction: column;
-            
             margin: 3% 0% 0% 3%;
             .Elements{
-                background-color: blue;
+                
                 width: 100%;
                 height: 10%;
                 display: flex;
                 flex-direction: row;
                 .Logo{
-                    background-color: antiquewhite;
+                   
                     width: 20%;
                     height: 10%;
                    
@@ -353,6 +350,7 @@
                     img{
                         width: 100%;
                         height: 100%;
+                        fill: white;
                     }
                 }
                 .Navigation{
@@ -375,7 +373,7 @@
                     }
                 }
                 .socialIcons{
-                    background-color: coral;
+                    
                     width: 10%;
                     height: 100%;
                     display: flex;
@@ -394,7 +392,7 @@
                 }
             }
             .Frame26{
-                background-color: indianred;
+                
                 margin: 5% 0% 0% 0%;
                 width: 100%;
                 height: 50%;
@@ -411,12 +409,15 @@
                     .Heading{
                        
                         background-color:#b9ff66;
-                        width: 35%;
+                        width: 32%;
                         height: 5vh;
                         border-radius: 2vh;
-                        display: flex;
-                        
-                        justify-content: center;
+                        h4{
+                            font-size: 3vh;
+                            display: flex;
+                            justify-content: center;
+                            align-content: center;
+                        }
 
                     }
                     .Info{
@@ -424,11 +425,15 @@
                         width: 70%;
                         height: 80%;
                         margin: 5% 0% 0% 0%;
-                        background-color: chocolate;
+                        
                         display: flex;
                         flex-direction: column;
                         justify-content: flex-start;
                         gap: 0vh;
+                        p{
+                            font-size: 2.5vh;
+                            color: white;
+                        }
                         .address{
                             line-height: 0.5vh;
                             
@@ -439,21 +444,48 @@
                   
                     display: flex;
                     flex-direction: row;
-                    align-items: flex-start;
-                    gap: 5%;
-                    padding: 5% 5%;
+                    
+                    justify-content:flex-start;
+                   
+                    padding: 5.5%;
+                    margin: 0% 0% 0% 0%;
                     width: 60%;
                     height: 100%;
                     background: #292A32;
+
                     border-radius: 2vh;
                     .Field{
-                        border-radius: 3vh;
-                        width: 20vw;
-                        height: 9vh;
-                        border: 3px solid white;
-                        padding: 3% 3%;
-                           
-                }
+                        width: 40vw;
+                        height: 10vh;
+                        input[type=text]{
+                            width: 40vh;
+                            height: 10vh;
+                            background-color: hsl(233, 10%, 18%);
+                            border-radius: 2vh;
+                            
+                            border-color: white;
+                        }
+                        ::placeholder{
+                            color: white;
+                            width: 10vw;
+                            height: 5vh;
+                            text-align: center;
+                            font-size: 2.5vh;
+                            
+                            margin: 100vh;
+                        }
+                    }
+                    
+                    button
+                    {
+                        background-color:#b9ff66;
+                        width: 30vw;
+                        height: 10vh;
+                        font-size: 2.5vh;
+                        margin: 0% 0% 0% -11%;
+
+                        border-radius: 2vh;
+                    }
             }
         }
         
@@ -461,10 +493,21 @@
         .lineAndText{
             width: 93%;
             height: 30%;
-            display: flex;
-            justify-content: flex-start;
-            flex-direction: row;
-            
+           
             margin: 3% 0% 0% 3%;
+            border-top-style: solid;
+            
+            border-color: white;
+            .Text{
+                height: 100%;
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                gap: 5%;
+                margin: 2% 0% 2% 0%;
+                color: white;
+                font-size: 2.5vh;
+            }
     }
 }}
