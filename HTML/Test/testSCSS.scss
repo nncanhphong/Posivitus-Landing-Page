@@ -1,94 +1,386 @@
-.processBlock {
+.Content1
+{
+    width: 100%;
+    height: 5vh;
+
+    padding: 0% 0% 5% 5%;
+
+    gap: 2%;
+    margin: 0%;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .Card {
-    width: 300px;
-    margin: 20px;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .Content {
-    padding: 20px;
-  }
-  
-  .Label {
+    flex-direction: row;
+    align-items: flex-start;
+
+    .Heading
+    {
+        width: 15%;
+        height: inherit;
+        text-align: center;
+        h2 
+        {
+            margin: 0%;
+            /* Auto layout */
+            font-size: 5.5vh;
+            /* Green */
+            background: #B9FF66;
+            border-radius: 1vh;
+        }
+    }
+    
+    p
+    {
+        font-size: 3vh;  
+        width: 30%;
+        height: inherit;
+        margin: 0% 0% 0% 0%; 
+    }
+}
+
+.caseStudiesBlock
+{
+    width: 100%;
+    height: 40vh;
+    padding: 0% 5% 8% 5%;
+    overflow: hidden;
+    
+
+    .caseStudies
+    {
+        width: 100%;
+        height: 40vh;
+        border: 1px solid;
+        background-color: #000;
+        border-radius: 6vh;
+
+        border-collapse: collapse;
+        display: table;
+
+        .caseStudy
+        {   
+            display: table-cell;
+            width: 24%;
+            height: inherit;
+            padding: 0% 3% 0% 3%;
+            border: 1px solid #FFFFFF;
+            border-collapse: collapse;
+            
+            p 
+            {
+                color: #FFFFFF;
+                font-size: 3vh;
+                font-weight: 400;
+                line-height: 4vh;
+                text-align: left;
+
+            }
+            .Link
+            {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                padding: 0px;
+                gap: 3%;
+
+                p
+                {
+                    color: #B9FF66;
+                }
+                
+            }
+        }
+       
+    }
+}
+
+.Content2
+{
+    width: 100%;
+    height: 5vh;
+
+    padding: 0% 0% 5% 5%;
+
+    gap: 2%;
+    margin: 0%;
     display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-  }
-  
-  .Label #number {
-    font-size: 24px;
-    font-weight: bold;
-    margin-right: 10px;
-  }
-  
-  .Label #text {
-    font-size: 18px;
-  }
-  
-  .expandInformation {
+    flex-direction: row;
+    align-items: flex-start;
+
+    .Heading
+    {
+        width: 25%;
+        height: inherit;
+        text-align: center;
+        h2 
+        {
+            margin: 0%;
+            /* Auto layout */
+            font-size: 5.5vh;
+            /* Green */
+            background: #B9FF66;
+            border-radius: 1vh;
+        }
+    }
+    
+    p
+    {
+        font-size: 3vh;  
+        width: 20%;
+        height: inherit;
+        margin: 0% 0% 0% 0%; 
+    }
+}
+
+.processBlock
+{
+    width: 100%;
+    height: 100%;
+
+    padding: 0% 5% 0% 5%;
+    display: table;
+    flex-direction: row;
+    align-items: flex-start;
+
+    background-color: aquamarine;
+
+    .Card
+    {
+        width: 90%;
+        height: 15%;
+        padding: 0% 5% 0% 5%;
+        
+      
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 2%;
+
+        /* Green */
+       
+        border: 1px solid #191A23;
+        box-shadow: 0px 5px 0px #191A23;
+        border-radius: 6vh;
+
+        
+
+        .Content
+        {
+            width: 100%;
+            height: 100%;
+
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            gap: 35%;
+
+            .Label
+            {
+                width: 60%;
+                height: 100%;
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                justify-content: left;
+                gap: 10%;
+                margin: 3% 0% 0% 0%;
+
+                //background-color: rebeccapurple;
+
+                p
+                {
+                    margin: 0% 0% 0% 0%;
+                }
+                p#number
+                {
+                    width: 5%;
+                    height: 100%;
+                    font-size: 8vh;
+                }
+
+                p#text
+                {
+                    width: 55%;
+                    height: 100%;
+                    font-size: 4vh;
+                    margin: 2% 0% 2% 0%;
+                }
+            
+            }
+
+            hr 
+            {
+                margin: 5% 0% 5% 0%;
+            }
+            .expandInformation
+            {
+                width: 8vh;
+                height: 8vh;
+                border-radius: 50%;
+                margin: 3% 0% 3% 0%;  
+                border: 1px solid black;
+
+                background-color: #f9f9f9;
+
+                button
+                {
+                    font-size: 8vh;
+                    
+                    border: none;
+                    background-color: transparent;
+                }
+                button.expand-btn
+                {
+                    margin: -6% 0% 0% 12%;
+                }
+                button.collapse-btn
+                {
+                    margin: -13% 0% 0% 24%;
+                }
+
+            }
+
+
+        
+            p.information
+            {
+                padding: 20px;
+                width: 100%;
+                height: 10vh;
+                
+
+                    /* p */
+                font-weight: 400;
+                font-size: 18px;
+
+                color: #000000;
+
+
+                .collapsed
+                {
+                    display: none;
+                }
+            }     
+
+        }
+        
+    }
+
+}
+
+.groupOfCards
+{
+    width: 100%;
+    height: 100%;
+
+    //background-color: coral;
+
     display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-  }
-  
-  .expandInformation button {
-    margin-right: 10px;
-    cursor: pointer;
-  }
-  
-  .expandInformation button svg {
-    fill: #333;
-  }
-  
-  .expandInformation button:hover svg {
-    fill: #666;
-  }
-  
-  .Card hr {
-    margin: 10px 0;
-    border: none;
-    border-top: 1px solid #ccc;
-  }
-  
-  .Card #information {
-    display: none;
-    padding: 20px;
-    font-size: 16px;
-    color: #666;
-  }
-  
-  .Card.expanded #information {
-    display: block;
-  }
-  
-  .Card.expanded .expandInformation #Plus {
-    display: none;
-  }
-  
-  .Card.expanded .expandInformation #Subtraction {
-    display: inline-block;
-  }
-  
-  .Card.expanded .expandInformation #Frame {
-    display: none;
-  }
-  
-  .Card:not(.expanded) .expandInformation #Subtraction {
-    display: none;
-  }
-  
-  .Card:not(.expanded) .expandInformation #Plus {
-    display: inline-block;
-  }
-  
-  .Card:not(.expanded) .expandInformation #Frame {
-    display: inline-block;
-  }
+    flex-direction: column;
+    gap: 5vh;
+
+    .Row
+    {
+        width: 90%;
+        height: 100%;
+
+        margin: 0% 5% 0% 5%;
+
+        display: flex;
+        flex-direction: row;
+
+        //background-color: blue;
+
+        gap: 5vh;
+
+        .Card
+        {
+            border: 1px solid black;
+            border-radius: 3vh;
+
+            width: 30vw;
+            height: 40vh;
+
+            background-color: #f9f9f9;
+
+            .Content
+            {
+                margin: 5% 3% 5% 3%;
+                width: 94%;
+                height: 90%;
+
+                //background-color: #B9FF66;
+
+                .Person
+                {
+                    width: 100%;
+                    height: 50%;
+                    
+                    display: flex;
+                    flex-direction: row;
+
+                    .pictureAndName
+                    {
+                        width: 100%;
+                        height: 100%;
+
+                        margin: 1% 1% 1% 1%;
+                        display: flex;
+                        flex-direction: row;
+
+                        //background-color: aqua;
+                        
+                        gap: 3%;
+
+                        .Picture
+                        {
+                            //background-color: beige;
+                            width: 8vw;
+                            height: 15vh;
+
+                            img
+                            {
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+                        .Name
+                        {
+                            //background-color: violet;
+                            width: 14vw;
+                            height: 10vh;
+
+                            margin: 5vh 0vh 0vh 0vh;
+                            line-height: 5vh;
+                            overflow: hidden;
+
+                            h4, p
+                            {
+                                margin: 0% 0% 0% 0%;
+                                font-size: 3vh;
+                            }
+                        }
+                    }
+                    .socialIcon
+                    {
+                        //background-color: blueviolet;
+                        height: 5vh;
+                        width: 5vh;
+
+                        img{
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                }
+
+                p
+                {
+                    font-size: 3vh;
+                }
+                
+            }
+        }
+    }
+
+}
+
+        
