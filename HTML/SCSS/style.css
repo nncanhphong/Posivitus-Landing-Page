@@ -583,7 +583,7 @@ div.ctaBlock .CTA .Frame19 .Illustration img {
 }
 .processBlock .Card .Content .expandInformation button.expand-btn {
   width: 100%;
-  margin: -35% 0% 0% 0%;
+  margin: -40% 0% 0% 0%;
 }
 .processBlock .Card .Content .expandInformation button.collapse-btn {
   width: 100%;
@@ -711,7 +711,7 @@ div.ctaBlock .CTA .Frame19 .Illustration img {
 }
 
 button.End {
-  margin: 0% 0% 0% 79.5%;
+  margin: 0% 0% 0% 79.7%;
   /* Auto layout */
   font-size: 2.8vh;
   /* Green */
@@ -767,7 +767,7 @@ button.End {
   display: flex;
   flex-direction: row;
   gap: 5%;
-  margin: 0% 0% 0% -25%;
+  margin: 5% 0% 0% -25%;
   justify-content: center;
 }
 .testimonialsBlock .Testimonials .Cards .Card {
@@ -777,7 +777,7 @@ button.End {
 .testimonialsBlock .Testimonials .Cards .Card div.Bubble {
   background-color: #191a23;
   font-size: 3vh;
-  border-radius: 3vh;
+  border-radius: 5vh;
   border: 1px solid #b9ff66;
 }
 .testimonialsBlock .Testimonials .Cards .Card div.Bubble p {
@@ -790,16 +790,19 @@ button.End {
   border-bottom: none;
   border-left: 3vh solid transparent;
   border-right: 3vh solid transparent;
-  border-top: 5vh solid #000000;
+  border-top: 5vh solid #b9ff66;
+  fill: none;
+  stroke: black;
+  stroke-width: 5;
   margin: 0% 0% 0% 10%;
 }
 .testimonialsBlock .Testimonials .Cards .Card div.Text {
-  font-size: 3vh;
-  margin: 0% 0% 0% 10%;
+  font-size: 4vh;
+  margin: 4% 0% 0% 13%;
 }
 .testimonialsBlock .Testimonials .Cards .Card div.Text h4 {
-  font-size: 3vh;
-  color: green;
+  font-size: 4vh;
+  color: #b9ff66;
 }
 .testimonialsBlock .Testimonials .Cards .Card div.Text p {
   color: white;
@@ -865,12 +868,10 @@ button.End {
 .contactBlock {
   width: 100%;
   height: 100%;
-  background-color: darkgreen;
 }
 .contactBlock .blockWithIllustration {
   width: 90%;
   height: 100%;
-  border: solid;
   background: rgb(243, 243, 243);
   margin: 0% 5% 0% 5%;
   border-radius: 5vh;
@@ -881,7 +882,6 @@ button.End {
 .contactBlock .blockWithIllustration .Form {
   width: 50%;
   height: 100%;
-  background-color: #b9ff66;
   margin: 5% 5% 5% 5%;
   display: flex;
   flex-direction: column;
@@ -892,7 +892,6 @@ button.End {
   flex-direction: row;
   width: 70%;
   height: 10%;
-  background-color: antiquewhite;
 }
 .contactBlock .blockWithIllustration .Form .radioButtons .sayHi, .contactBlock .blockWithIllustration .Form .radioButtons .getAQuote {
   display: flex;
@@ -913,7 +912,6 @@ button.End {
   flex-direction: column;
   align-items: flex-start;
   gap: 3vh;
-  border: solid;
   height: 70%;
   width: 100%;
 }
@@ -922,12 +920,10 @@ button.End {
   width: 100%;
   display: flex;
   flex-direction: column;
-  background-color: aquamarine;
   gap: 1vh;
 }
 .contactBlock .blockWithIllustration .Form .Fields .Field label {
   width: 20%;
-  background-color: darkred;
   font-size: 3vh;
   text-align: left;
 }
@@ -943,6 +939,16 @@ button.End {
   padding: 3% 0% 30% 5%;
   border-radius: 2vh;
 }
+.contactBlock .blockWithIllustration .Form .Fields .Field ::-moz-placeholder {
+  width: 100%;
+  height: 100%;
+  font-size: 2.5vh;
+}
+.contactBlock .blockWithIllustration .Form .Fields .Field ::placeholder {
+  width: 100%;
+  height: 100%;
+  font-size: 2.5vh;
+}
 .contactBlock .blockWithIllustration .Form .Button {
   width: 100%;
   height: 10%;
@@ -955,6 +961,7 @@ button.End {
   background: rgb(25, 26, 35);
   text-align: center;
   color: white;
+  font-size: 2.5vh;
 }
 .contactBlock .blockWithIllustration .Illustration {
   width: 35%;
@@ -972,13 +979,12 @@ button.End {
 .footerBlock {
   width: 100%;
   height: 100%;
-  background-color: #b9ff66;
   margin: 5% 0% 0% 0%;
 }
 .footerBlock .Footer {
   border: solid;
   border-radius: 5vh 5vh 0vh 0vh;
-  background-color: aliceblue;
+  background-color: rgb(25, 26, 35);
   width: 90%;
   height: 100%;
   margin: 0% 0% 0% 5%;
@@ -992,14 +998,12 @@ button.End {
   margin: 3% 0% 0% 3%;
 }
 .footerBlock .Footer .navigationAndContacts .Elements {
-  background-color: blue;
   width: 100%;
   height: 10%;
   display: flex;
   flex-direction: row;
 }
 .footerBlock .Footer .navigationAndContacts .Elements .Logo {
-  background-color: antiquewhite;
   width: 20%;
   height: 10%;
   flex: none;
@@ -1009,6 +1013,7 @@ button.End {
 .footerBlock .Footer .navigationAndContacts .Elements .Logo img {
   width: 100%;
   height: 100%;
+  fill: white;
 }
 .footerBlock .Footer .navigationAndContacts .Elements .Navigation {
   width: 40%;
@@ -1027,7 +1032,6 @@ button.End {
   font-size: 2.5vh;
 }
 .footerBlock .Footer .navigationAndContacts .Elements .socialIcons {
-  background-color: coral;
   width: 10%;
   height: 100%;
   display: flex;
@@ -1044,7 +1048,6 @@ button.End {
   height: 50%;
 }
 .footerBlock .Footer .navigationAndContacts .Frame26 {
-  background-color: indianred;
   margin: 5% 0% 0% 0%;
   width: 100%;
   height: 50%;
@@ -1061,22 +1064,29 @@ button.End {
 }
 .footerBlock .Footer .navigationAndContacts .Frame26 .contactUs .Heading {
   background-color: #b9ff66;
-  width: 35%;
+  width: 32%;
   height: 5vh;
   border-radius: 2vh;
+}
+.footerBlock .Footer .navigationAndContacts .Frame26 .contactUs .Heading h4 {
+  font-size: 3vh;
   display: flex;
   justify-content: center;
+  align-content: center;
 }
 .footerBlock .Footer .navigationAndContacts .Frame26 .contactUs .Info {
   float: left;
   width: 70%;
   height: 80%;
   margin: 5% 0% 0% 0%;
-  background-color: chocolate;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   gap: 0vh;
+}
+.footerBlock .Footer .navigationAndContacts .Frame26 .contactUs .Info p {
+  font-size: 2.5vh;
+  color: white;
 }
 .footerBlock .Footer .navigationAndContacts .Frame26 .contactUs .Info .address {
   line-height: 0.5vh;
@@ -1084,26 +1094,64 @@ button.End {
 .footerBlock .Footer .navigationAndContacts .Frame26 .subscriptionBlock {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  gap: 5%;
-  padding: 5% 5%;
+  justify-content: flex-start;
+  padding: 5.5%;
+  margin: 0% 0% 0% 0%;
   width: 60%;
   height: 100%;
   background: #292A32;
   border-radius: 2vh;
 }
 .footerBlock .Footer .navigationAndContacts .Frame26 .subscriptionBlock .Field {
-  border-radius: 3vh;
-  width: 20vw;
-  height: 9vh;
-  border: 3px solid white;
-  padding: 3% 3%;
+  width: 40vw;
+  height: 10vh;
+}
+.footerBlock .Footer .navigationAndContacts .Frame26 .subscriptionBlock .Field input[type=text] {
+  width: 40vh;
+  height: 10vh;
+  background-color: hsl(233, 10%, 18%);
+  border-radius: 2vh;
+  border-color: white;
+}
+.footerBlock .Footer .navigationAndContacts .Frame26 .subscriptionBlock .Field ::-moz-placeholder {
+  color: white;
+  width: 10vw;
+  height: 5vh;
+  text-align: center;
+  font-size: 2.5vh;
+  margin: 100vh;
+}
+.footerBlock .Footer .navigationAndContacts .Frame26 .subscriptionBlock .Field ::placeholder {
+  color: white;
+  width: 10vw;
+  height: 5vh;
+  text-align: center;
+  font-size: 2.5vh;
+  margin: 100vh;
+}
+.footerBlock .Footer .navigationAndContacts .Frame26 .subscriptionBlock button {
+  background-color: #b9ff66;
+  width: 30vw;
+  height: 10vh;
+  font-size: 2.5vh;
+  margin: 0% 0% 0% -11%;
+  border-radius: 2vh;
 }
 .footerBlock .Footer .lineAndText {
   width: 93%;
   height: 30%;
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: row;
   margin: 3% 0% 0% 3%;
+  border-top-style: solid;
+  border-color: white;
+}
+.footerBlock .Footer .lineAndText .Text {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 5%;
+  margin: 2% 0% 2% 0%;
+  color: white;
+  font-size: 2.5vh;
 }/*# sourceMappingURL=style.css.map */
