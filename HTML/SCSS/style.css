@@ -209,15 +209,15 @@ div.Services {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  gap: 5%;
   width: 100%;
   height: 10%;
-  gap: 5%;
   margin: 0% 5% 0% 5%;
   /*Debug*/
 }
 div.Services .Heading {
   /*Size*/
-  width: 13%;
+  width: 30vh;
   height: 100%;
   flex: none;
   order: 0;
@@ -225,12 +225,15 @@ div.Services .Heading {
 }
 div.Services .Heading Label {
   /*Size*/
-  width: 100%;
+  width: 30vh;
   height: 100%;
   /*Background*/
   background: #B9FF66;
   border-radius: 2vh;
   text-align: center;
+  padding: 0;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -247,7 +250,7 @@ div.Services .Heading Label h2 {
 }
 div.Services p {
   /*Size*/
-  width: 40%;
+  width: 80vh;
   height: 100%;
   /*Style*/
   font-family: "Space Grotesk";
@@ -376,6 +379,7 @@ div.ctaBlock .CTA {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  background-color: #f3f3f3;
 }
 div.ctaBlock .CTA div {
   height: 100%;
@@ -389,12 +393,12 @@ div.ctaBlock .CTA .CardOfCTA .textAndButton {
 }
 div.ctaBlock .CTA .CardOfCTA .textAndButton button {
   width: 20vw;
-  height: 7vh;
   border: 1px solid black;
   border-radius: 1vh;
   background-color: #191A23;
 }
 div.ctaBlock .CTA .CardOfCTA .textAndButton button p {
+  font-size: 3vh;
   margin: 1% 1% 1% 1%;
   color: #FFFFFF;
 }
@@ -495,16 +499,17 @@ div.ctaBlock .CTA .Frame19 .Illustration img {
 .Content2 .Heading h2 {
   margin: 0%;
   /* Auto layout */
-  font-size: 5.5vh;
+  font-size: 5vh;
   /* Green */
   background: #B9FF66;
   border-radius: 1vh;
+  margin: 0%;
 }
 .Content2 p {
-  font-size: 2.2vh;
-  width: 18%;
-  height: inherit;
+  width: 25vw;
+  font-size: 3vh;
   margin: 0% 0% 0% 0%;
+  line-height: 3vh;
 }
 
 .processBlock {
@@ -552,12 +557,12 @@ div.ctaBlock .CTA .Frame19 .Illustration img {
   margin: 0% 0% 0% 0%;
 }
 .processBlock .Card .Content .Label p#number {
-  width: 5%;
+  width: 5vw;
   height: 100%;
   font-size: 8vh;
 }
 .processBlock .Card .Content .Label p#text {
-  width: 75%;
+  width: 76vw;
   height: 100%;
   font-size: 4vh;
   margin: 2.5% 0% 2% 0%;
@@ -597,6 +602,7 @@ div.ctaBlock .CTA .Frame19 .Illustration img {
 }
 
 .Content3 {
+  overflow: hidden;
   width: 100%;
   height: 100%;
   padding: 0% 5% 0% 5%;
@@ -606,23 +612,24 @@ div.ctaBlock .CTA .Frame19 .Illustration img {
   align-items: flex-start;
 }
 .Content3 .Heading {
-  width: 8%;
-  height: inherit;
+  width: 8vw;
+  height: 6vh;
   text-align: center;
 }
 .Content3 .Heading h2 {
   margin: 0%;
   /* Auto layout */
-  font-size: 5.5vh;
+  font-size: 5vh;
   /* Green */
   background: #B9FF66;
   border-radius: 1vh;
 }
 .Content3 p {
-  font-size: 2.2vh;
-  width: 30%;
-  height: inherit;
+  width: 30vw;
+  height: 6vh;
+  font-size: 3vh;
   margin: 0% 0% 0% 0%;
+  line-height: 3vh;
 }
 
 .groupOfCards {
@@ -724,24 +731,26 @@ button.End {
   flex-direction: row;
   gap: 5%;
   margin: 5% 5% 5% 5%;
+  overflow: hidden;
 }
 .content4 .heading {
-  width: 15%;
-  height: 100%;
-  margin: 2% 0% 2% 0%;
+  width: 13vw;
+  height: 6vh;
+  margin: 0% 0% 0% 0%;
   border-radius: 1vh;
   background-color: #b9ff66;
-  display: flex;
-  justify-content: center;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 .content4 .heading h2 {
   font-size: 5vh;
 }
 .content4 p {
-  width: 40%;
-  height: 100%;
-  margin: 2% 0% 2% 0%;
-  font-size: 2.5vh;
+  width: 40vw;
+  height: 6vh;
+  margin: 0% 0% 0% 0%;
+  font-size: 3vh;
+  line-height: 3vh;
 }
 
 .testimonialsBlock {
@@ -807,10 +816,9 @@ button.End {
 .testimonialsBlock .Testimonials .Navigation {
   display: flex;
   flex-direction: row;
-  justify-content: center;
   height: 5vh;
-  width: 150vh;
-  margin: 0vh 25vh 0vh 20vh;
+  width: 50vw;
+  margin: 0% 20% 0% 20%;
   gap: 25vh;
 }
 .testimonialsBlock .Testimonials .Navigation button#prevBtn, .testimonialsBlock .Testimonials .Navigation button#nextBtn {
@@ -844,9 +852,8 @@ button.End {
   margin: 5% 5% 5% 5%;
 }
 .content5 .heading {
-  width: 15%;
-  height: 100%;
-  margin: 2% 0% 2% 0%;
+  width: 15vw;
+  margin: 0% 0% 0% 0%;
   border-radius: 1vh;
   background-color: #b9ff66;
   display: flex;
@@ -856,9 +863,8 @@ button.End {
   font-size: 5vh;
 }
 .content5 p {
-  width: 20%;
-  height: 100%;
-  margin: 2% 0% 2% 0%;
+  width: 40vh;
+  margin: 0% 0% 0% 0%;
   font-size: 2.5vh;
 }
 

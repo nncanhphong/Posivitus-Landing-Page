@@ -117,19 +117,21 @@
         {
             margin: 0%;
             /* Auto layout */
-            font-size: 5.5vh;
+            font-size: 5vh;
             /* Green */
             background: #B9FF66;
             border-radius: 1vh;
+            margin: 0%; 
         }
     }
     
     p
     {
-        font-size: 2.2vh;  
-        width: 18%;
-        height: inherit;
+        width: 25vw;
+        font-size: 3vh;  
         margin: 0% 0% 0% 0%; 
+
+        line-height: 3vh;
     }
 }
 
@@ -190,14 +192,14 @@
                 }
                 p#number
                 {
-                    width: 5%;
+                    width: 5vw;
                     height: 100%;
                     font-size: 8vh;
                 }
 
                 p#text
                 {
-                    width: 75%;
+                    width: 76vw;
                     height: 100%;
                     font-size: 4vh;
                     margin: 2.5% 0% 2% 0%;
@@ -261,7 +263,8 @@
 }
 
 .Content3
-{
+{   
+    overflow: hidden;
     width: 100%;
     height: 100%;
 
@@ -274,14 +277,14 @@
 
     .Heading
     {
-        width: 8%;
-        height: inherit;
+        width: 8vw;
+        height: 6vh;
         text-align: center;
         h2 
         {
             margin: 0%;
             /* Auto layout */
-            font-size: 5.5vh;
+            font-size: 5vh;
             /* Green */
             background: #B9FF66;
             border-radius: 1vh;
@@ -290,10 +293,13 @@
     
     p
     {
-        font-size: 2.2vh;  
-        width: 30%;
-        height: inherit;
+        //background-color: red;
+
+        width: 30vw;
+        height: 6vh;
+        font-size: 3vh;  
         margin: 0% 0% 0% 0%; 
+        line-height: 3vh;
     }
 }
 
