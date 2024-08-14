@@ -379,20 +379,20 @@ div.ctaBlock .CTA div {
   height: 100%;
   width: 50%;
 }
-div.ctaBlock .CTA .Card {
+div.ctaBlock .CTA .CardOfCTA {
   margin: 3% 0% 2% 3%;
 }
-div.ctaBlock .CTA .Card .textAndButton {
+div.ctaBlock .CTA .CardOfCTA .textAndButton {
   width: 90%;
 }
-div.ctaBlock .CTA .Card .textAndButton button {
+div.ctaBlock .CTA .CardOfCTA .textAndButton button {
   width: 20vw;
   height: 7vh;
   border: 1px solid black;
   border-radius: 1vh;
   background-color: #191A23;
 }
-div.ctaBlock .CTA .Card .textAndButton button p {
+div.ctaBlock .CTA .CardOfCTA .textAndButton button p {
   margin: 1% 1% 1% 1%;
   color: #FFFFFF;
 }
@@ -694,13 +694,8 @@ div.ctaBlock .CTA .Frame19 .Illustration img {
   height: 100%;
 }
 .groupOfCards .Row .Card .Content p {
-  background-color: red;
   margin: 0vh 0vh 0vh 0vh;
-  border: 1px solid black;
-}
-
-button#SeeYah {
-  background: chartreuse;
+  border: none;
 }
 
 .content4 {

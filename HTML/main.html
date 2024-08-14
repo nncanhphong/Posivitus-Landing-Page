@@ -304,7 +304,7 @@
         
         <div class="ctaBlock">
             <div class="CTA">
-                <div class="Card">
+                <div class="CardOfCTA">
                     <div class="textAndButton">
                         <h3>Let’s make things happen</h3>
                         <p>Contact us today to learn more about how our digital marketing services can help your business grow and succeed online.</p>
@@ -468,26 +468,29 @@
                 const expandButtons = document.querySelectorAll('.expand-btn');
                 const collapseButtons = document.querySelectorAll('.collapse-btn');
                 const informationElements = document.querySelectorAll('.information');
-                const Card = document.querySelectorAll('.Card');
+                const Cards = document.querySelectorAll('.Card');
                 const Line = document.querySelectorAll('hr');
 
                 expandButtons.forEach((button, index) => {
                 button.addEventListener('click', () => {
                     informationElements[index].style.display = 'block';
                     button.style.display = 'none';
-                    Card[index].style.background = '#b9ff66';
                     collapseButtons[index].style.display = 'block';
                     Line[index].style.display = 'flex';
+
+                    Cards[index].style.background = '#b9ff66';
+
                 });
                 });
             
                 collapseButtons.forEach((button, index) => {
                 button.addEventListener('click', () => {
                     informationElements[index].style.display = 'none';
-                    button.style.display = 'none';
-                    Card[index].style.background = '#f6f6f6';
+                    button.style.display = 'none';  
                     expandButtons[index].style.display = 'block';
                     Line[index].style.display = 'none';
+
+                    Cards[index].style.background = '#f6f6f6'
                 });
                 });
             </script>
