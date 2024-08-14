@@ -417,16 +417,15 @@ div.ctaBlock .CTA .Frame19 .Illustration img {
 
 .Content1 {
   width: 100%;
-  height: 5vh;
-  padding: 0% 0% 5% 5%;
+  height: 100%;
+  padding: 0% 5% 0% 5%;
   gap: 3%;
-  margin: 0%;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
 }
 .Content1 .Heading {
-  width: 17%;
+  width: 18%;
   height: inherit;
   text-align: center;
 }
@@ -447,8 +446,8 @@ div.ctaBlock .CTA .Frame19 .Illustration img {
 
 .caseStudiesBlock {
   width: 100%;
-  height: 60vh;
-  padding: 3% 5% 10% 5%;
+  height: 100%;
+  padding: 5% 5% 10% 5%;
   overflow: hidden;
 }
 .caseStudiesBlock .caseStudies {
@@ -485,15 +484,15 @@ div.ctaBlock .CTA .Frame19 .Illustration img {
 
 .Content2 {
   width: 100%;
-  height: 5vh;
-  padding: 5% 0% 5% 5%;
+  height: 100%;
+  padding: 0% 5% 0% 5%;
   gap: 3%;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
 }
 .Content2 .Heading {
-  width: 28%;
+  width: 29%;
   height: inherit;
   text-align: center;
 }
@@ -515,11 +514,10 @@ div.ctaBlock .CTA .Frame19 .Illustration img {
 .processBlock {
   width: 100%;
   height: 100%;
-  padding: 3% 5% 10% 5%;
+  padding: 5% 5% 10% 5%;
   display: table;
   flex-direction: row;
   align-items: flex-start;
-  background-color: aquamarine;
 }
 .processBlock .Card {
   width: 100%;
@@ -531,7 +529,7 @@ div.ctaBlock .CTA .Frame19 .Illustration img {
   margin-bottom: 2%;
   /* Green */
   border: 1px solid #191A23;
-  box-shadow: 0px 5px 0px #191A23;
+  box-shadow: 0px 3px 0px #191A23;
   border-radius: 6vh;
 }
 .processBlock .Card .Content {
@@ -540,19 +538,21 @@ div.ctaBlock .CTA .Frame19 .Illustration img {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  gap: 35%;
+  gap: 15%;
 }
 .processBlock .Card .Content .Label {
-  width: 70%;
+  width: 80%;
   height: 100%;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: left;
-  gap: 6%;
+  gap: 3%;
   margin: 2% 0% 0% 0%;
 }
 .processBlock .Card .Content .Label p {
+  width: 100%;
+  height: 100%;
   margin: 0% 0% 0% 0%;
 }
 .processBlock .Card .Content .Label p#number {
@@ -561,19 +561,16 @@ div.ctaBlock .CTA .Frame19 .Illustration img {
   font-size: 8vh;
 }
 .processBlock .Card .Content .Label p#text {
-  width: 65%;
+  width: 75%;
   height: 100%;
   font-size: 4vh;
-  margin: 3% 0% 2% 0%;
-}
-.processBlock .Card .Content hr {
-  margin: 5% 0% 5% 0%;
+  margin: 2.5% 0% 2% 0%;
 }
 .processBlock .Card .Content .expandInformation {
   min-width: 8vh;
   height: 8vh;
   border-radius: 50%;
-  margin: 3% 0% 3% 0%;
+  margin: 3% 0% 3% 2%;
   border: 1px solid black;
   background-color: #f9f9f9;
 }
@@ -585,16 +582,16 @@ div.ctaBlock .CTA .Frame19 .Illustration img {
   background-color: transparent;
 }
 .processBlock .Card .Content .expandInformation button.expand-btn {
-  margin: -40% 0% 0% 0%;
+  width: 100%;
+  margin: -35% 0% 0% 0%;
 }
 .processBlock .Card .Content .expandInformation button.collapse-btn {
-  margin: -40% 0% 0% 14%;
+  width: 100%;
+  margin: -40% 0% 0% 0%;
 }
 .processBlock .Card .Content p.information {
-  padding: 20px;
   width: 100%;
   height: 10vh;
-  /* p */
   font-weight: 400;
   font-size: 2vh;
   color: #000000;
@@ -605,16 +602,15 @@ div.ctaBlock .CTA .Frame19 .Illustration img {
 
 .Content3 {
   width: 100%;
-  height: 5vh;
-  padding: 10% 0% 5% 5%;
-  gap: 2%;
-  margin: 0%;
+  height: 100%;
+  padding: 0% 5% 0% 5%;
+  gap: 3%;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
 }
 .Content3 .Heading {
-  width: 7%;
+  width: 8%;
   height: inherit;
   text-align: center;
 }
@@ -627,7 +623,7 @@ div.ctaBlock .CTA .Frame19 .Illustration img {
   border-radius: 1vh;
 }
 .Content3 p {
-  font-size: 2.6vh;
+  font-size: 2.2vh;
   width: 30%;
   height: inherit;
   margin: 0% 0% 0% 0%;
@@ -636,6 +632,7 @@ div.ctaBlock .CTA .Frame19 .Illustration img {
 .groupOfCards {
   width: 100%;
   height: 100%;
+  margin: 5% 5% 2% 5%;
   display: flex;
   flex-direction: column;
   gap: 5vh;
@@ -643,24 +640,23 @@ div.ctaBlock .CTA .Frame19 .Illustration img {
 .groupOfCards .Row {
   width: 90%;
   height: 100%;
-  margin: 0% 5% 0% 5%;
+  margin: 0% 0% 1% 0%;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  gap: 3vh;
+  gap: 5vh;
 }
 .groupOfCards .Row .Card {
-  border: 1px solid black;
-  border-radius: 3vh;
-  width: 29vw;
-  height: 45vh;
+  border: 1px solid #191A23;
+  box-shadow: 0px 3px 0px #191A23;
+  border-radius: 6vh;
+  width: 30vw;
+  height: 50vh;
   background-color: #f9f9f9;
 }
 .groupOfCards .Row .Card .Content {
-  margin: 5% 5% 5% 5%;
+  margin: 7% 5% 7% 5%;
   width: 90%;
   height: 90%;
-  font-size: 2.5vh;
 }
 .groupOfCards .Row .Card .Content .Person {
   width: 100%;
@@ -669,7 +665,7 @@ div.ctaBlock .CTA .Frame19 .Illustration img {
   flex-direction: row;
 }
 .groupOfCards .Row .Card .Content .Person .pictureAndName {
-  width: 90%;
+  width: 100%;
   height: 100%;
   margin: 1% 1% 1% 1%;
   display: flex;
@@ -685,10 +681,14 @@ div.ctaBlock .CTA .Frame19 .Illustration img {
   height: 100%;
 }
 .groupOfCards .Row .Card .Content .Person .pictureAndName .Name {
-  width: 20vw;
+  width: 14vw;
   height: 10vh;
   margin: 5vh 0vh 0vh 0vh;
-  line-height: 2vh;
+  line-height: 5vh;
+  overflow: hidden;
+}
+.groupOfCards .Row .Card .Content .Person .pictureAndName .Name h4, .groupOfCards .Row .Card .Content .Person .pictureAndName .Name p {
+  margin: 0% 0% 0% 0%;
   font-size: 3vh;
 }
 .groupOfCards .Row .Card .Content .Person .socialIcon {
@@ -699,9 +699,26 @@ div.ctaBlock .CTA .Frame19 .Illustration img {
   width: 100%;
   height: 100%;
 }
+.groupOfCards .Row .Card .Content hr {
+  width: 100%;
+  margin: 0% 0% 2% 0%;
+  background: #000000;
+  padding: 0.1vh;
+}
 .groupOfCards .Row .Card .Content p {
-  margin: 0vh 0vh 0vh 0vh;
-  border: none;
+  margin: 7% 0% 0% 0%;
+  font-size: 2.6vh;
+}
+
+button.End {
+  margin: 0% 0% 0% 79.5%;
+  /* Auto layout */
+  font-size: 2.8vh;
+  /* Green */
+  background: #000000;
+  border-radius: 2vh;
+  padding: 0.5% 4% 0.5% 4%;
+  color: white;
 }
 
 .content4 {
