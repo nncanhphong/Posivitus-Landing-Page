@@ -65,7 +65,7 @@
 .testimonialsBlock .Testimonials .Cards .Card div.Bubble::after {
   position: absolute;
   content: "";
-  top: 90%;
+  top: 92%;
   left: 15%;
   border-width: 5vh 5vh 0 5vh;
   border-style: solid;
@@ -76,7 +76,7 @@
 }
 .testimonialsBlock .Testimonials .Cards .Card div.Text {
   font-size: 4vh;
-  margin: 4% 0% 0% 13%;
+  margin: 10% 0% 0% 18%;
 }
 .testimonialsBlock .Testimonials .Cards .Card div.Text h4 {
   font-size: 4vh;
