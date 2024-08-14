@@ -456,16 +456,13 @@ div.ctaBlock .CTA .Frame19 .Illustration img {
   border: 1px solid;
   background-color: #000;
   border-radius: 6vh;
-  border-collapse: collapse;
-  display: table;
+  display: flex;
+  flex-direction: row;
 }
 .caseStudiesBlock .caseStudies .caseStudy {
-  display: table-cell;
-  width: 24%;
-  height: inherit;
-  padding: 5% 4% 0% 4%;
-  border: 1px solid #FFFFFF;
-  border-collapse: collapse;
+  width: 30%;
+  height: 30vh;
+  margin: 5% 5% 5% 5%;
 }
 .caseStudiesBlock .caseStudies .caseStudy p {
   color: #FFFFFF;
@@ -476,6 +473,9 @@ div.ctaBlock .CTA .Frame19 .Illustration img {
 .caseStudiesBlock .caseStudies .caseStudy .Link {
   display: flex;
   flex-direction: row;
+  width: 10vw;
+  height: 5vh;
+  margin: 0% 0% 0% 0%;
   gap: 4%;
 }
 .caseStudiesBlock .caseStudies .caseStudy .Link p {
@@ -492,7 +492,7 @@ div.ctaBlock .CTA .Frame19 .Illustration img {
   align-items: flex-start;
 }
 .Content2 .Heading {
-  width: 29%;
+  width: 30%;
   height: inherit;
   text-align: center;
 }
@@ -727,7 +727,7 @@ button.End {
   display: flex;
   flex-direction: row;
   gap: 5%;
-  margin: 0% 5% 0% 5%;
+  margin: 5% 5% 5% 5%;
 }
 .content4 .heading {
   width: 15%;
